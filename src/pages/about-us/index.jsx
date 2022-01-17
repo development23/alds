@@ -477,7 +477,7 @@ export default function AboutUs() {
                 </p>
                 </div>
                 <div className={` ${styles.discover} `}>
-                  <a href="/">Discover the project</a>
+                  <Link href="/">Discover the project</Link>
                   <span className={`${styles.discoverspan} `}></span>
                 </div>
               </div>

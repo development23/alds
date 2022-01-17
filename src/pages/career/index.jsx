@@ -103,9 +103,9 @@ export default function Careers() {
                 <div className="mt-8 mb-8 bg-blue-900 px-6 py-6">
                   <h5 className="text-lg font-bold text-white">
                     Apply Now :&nbsp;
-                    <a className="text-pink-500" href="/">
+                    <Link className="text-pink-500" href="/">
                       Click Here
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
