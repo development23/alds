@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+ 
+ 
+.bg-blue-custom {
+  background-color:  #133f81;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: rgb(6, 8, 99) !important;
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  /* opacity: .25; */
+  color: #024da0 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+  

@@ -1,0 +1,283 @@
+.allbanner1{
+    position: relative;
+}
+
+.allbanner2{
+    position: absolute;
+    TOP: 50%;
+    TEXT-ALIGN: center;
+    COLOR: #fff;
+}
+ 
+.allbanner2 h2{
+    font-family:'Montserrat', sans-serif;   
+    font-size: 40px;
+   color: #fff;
+   line-height: 57px;
+   font-weight: 700;
+   padding-bottom: 20px;
+ }
+ 
+ .allbanner2 p{
+    color: #fff;   
+     line-height: 36px;
+    font-size: 48px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+ }
+
+ 
+ 
+ .detail{
+  position: relative;
+  transform: translateY(-31%);
+  padding: 50px;
+  z-index: 1;
+  background: #fdfdfd;
+  height: 54vh;
+  }
+
+  .detail h2{
+    color:  #2a2a2a;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;   
+    margin-bottom: 24px;
+  }
+
+  .detail p{
+    color: #2a2a2a;
+    font-size: 16px;
+    margin-bottom: 41px;
+    text-align: center;
+  }
+
+
+  .contents p{
+    color: #2a2a2a;
+    font-size: 16px;
+    margin-bottom: 41px;
+    text-align: left;
+  }
+
+  .customlist li {
+      list-style: disc;
+      margin-left:20px;
+  }
+
+.footerbottom{
+     text-align: center;
+    padding: 46px;
+    margin-top: -159px;
+}
+   
+  
+  .footerbottom h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: #2a2a2a;
+  }
+
+  .bordern{
+    border-right: 1px dashed #e0e0e0 !important;
+    padding-right: 35px  !important;
+  }
+
+   
+.liststyle li ul{
+   list-style: disc;
+   padding-top:30px;
+   padding-bottom:20px;
+  }
+ 
+    
+.liststyle li ul li ul{
+    list-style: circle;
+    padding-top:30px;
+    padding-bottom:30px;
+   }
+  
+  
+   
+.liststyle li ul li {
+    
+ }
+
+
+.liststyle li a {
+    color: #105ab1;
+    font-size: 20px;
+    font-weight: 600;
+}
+ 
+.liststyle li p {
+    color: #2a2a2a;
+    font-size: 16px;
+     text-align: left;
+}
+
+ 
+
+
+.liststyle li a:hover {
+    color: #c5101d;
+}
+
+.liststyle .panel { 
+    margin-bottom: 0;
+     box-shadow: none;
+    background-color: transparent;
+}
+
+.liststyle>li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 33px;
+    float: left;
+    width: 100%;
+    border-left: 1px solid #cdcdcd;
+}
+
+
+.liststyle>li::before {
+    height: 18px;
+    width: 18px;
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 0px;
+    background: #c5101d;
+    border: 3px solid #a68e8e;
+    border-radius: 50%;
+    }
+
+
+    .tables{
+        border:2px solid #2a2a2a;
+        margin-bottom:40px;
+        width:100%;
+    }
+
+    .tables tr{
+        border:2px solid #2a2a2a;
+    }
+
+
+    .tables td{
+        border:2px solid #2a2a2a;
+        padding:15px;
+        color: #2a2a2a;
+    } 
+
+    .tables td strong{
+       font-weight:500;
+       font-size:15px;
+    } 
+
+    .tables td strong span{
+        font-weight:500;
+        font-size:15px;
+     } 
+
+     .contact{
+
+     }
+      
+     .contact  p {
+            color: #2a2a2a;
+            font-size: 16px;
+            margin-bottom: 18px;
+            text-align: left;
+          
+    }
+     
+    .contact h5{
+        font-size: 30px;
+        font-weight: 600;
+        color: #636161;
+        margin-bottom: 13px
+      }  
+     
+
+
+    @media only screen and (max-width: 1366px) {
+     
+        .detail{
+            transform: translateY(-25%);
+           }
+
+ .detail{
+    height: 70vh;
+  }
+
+  .footerbottom{
+    margin-top: -120px;
+}
+
+.footerbottom h2{
+    font-size: 23px;
+    
+  }
+
+ }
+
+@media only screen and (max-width: 768px) {
+  
+    .allbanner2{
+        position: relative;
+        margin-top: -127px;
+        margin-bottom: 49px;
+        
+    }
+
+
+
+    
+.allbanner2 h2{
+    font-size: 16px;
+     line-height: 23px;
+     padding-bottom: 10px;
+ }
+ 
+ .allbanner2 p{
+     line-height: 14px;
+    font-size: 12px;
+    
+ }
+
+
+
+ .footerbottom{
+      margin-top: -62px;
+}
+    .footerbottom h2 {
+      font-size: 15px;
+    }
+    
+     
+ .detail{
+     transform: translateY(-2%);
+     padding: 20px;
+     height: 100vh;
+  }
+
+  .detail h2{
+     font-size: 30px;
+      }
+    
+
+      .timeinfo .time {
+        margin-top: -20px;
+       
+    }
+
+    .healthcare .info {
+        font-size: 11px;
+        
+    }
+    
+    
+    }
+ 
