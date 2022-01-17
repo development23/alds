@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import link from "next/link";
 import styles from "./styles.module.css";
 import Sidebar from "components/sidebar";
 import { ThumbDown } from "@material-ui/icons";
