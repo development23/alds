@@ -210,6 +210,11 @@ background-image: url(../../../src/assets/images/bg/c-map.png);
 .bglightblue{
   background: #f7f7f7;
 }
+
+.bggrayimg{
+    background: #F4F8FB url(http://demo.tempload.com/beapp-1-1/assets/images/bg-top.svg) center top no-repeat;
+    background-size: contain;
+}
 .bglightgray{
   background: #ededed;
 }
@@ -241,7 +246,7 @@ background-image: url(../../../src/assets/images/bg/c-map.png);
 }
 .teambox{
    position: absolute;
-    top: 63%;
+    /* top: 60%; */
     transform: translateY(-50%);
     left: 45%;
 }
@@ -373,4 +378,68 @@ background-image: url(../../../src/assets/images/bg/c-map.png);
   margin-bottom: 50px;
   margin-top: 20px;
   color: #333;
+}
+.bggrayimg h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.count {
+  float: left;
+  width: 68px;
+  min-height: 150px;
+  background: url(http://demo.tempload.com/beapp-1-1/assets/images/features-bg.svg) center bottom no-repeat;
+}
+.count span {
+  display: block;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin: auto;
+  border: 1px solid #4886FF;
+  font-weight: 600;
+  font-size: 16px;
+  color: #4886FF;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.text {
+  float: left;
+  width: calc(100% - 68px);
+  width: -webkit-calc(100% - 68px);
+  padding-left: 20px;
+}
+.bggrayimg li {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.bggrayimg li:hover .count span {
+  background: #4886FF;
+  color: #fff;
+}
+.bggrayimg li .text .title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #3B566E;
+  margin-top: 5px;
+  margin-bottom: 24px !important;
+}
+.bggrayimg li .text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  letter-spacing: 1px;
+  line-height: 28px;
 }

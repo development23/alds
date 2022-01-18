@@ -3,6 +3,12 @@ import Link from "next/link";
 import Sidebar from "components/sidebar";
 import Image from "next/image";
 import styles from "./styles.module.css";
+import WbSunnyIcon from '@material-ui/icons/WbSunny';
+import BrushIcon from '@material-ui/icons/Brush';
+import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
+import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+import ShowChartIcon from '@material-ui/icons/ShowChart';
+import SearchIcon from '@material-ui/icons/Search';
 import GroupsIcon from "@material-ui/icons/Group";
 import WorkIcon from "@material-ui/icons/Work";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
@@ -11,12 +17,21 @@ import ComputerIcon from "@material-ui/icons/Computer";
 import ViewCompactIcon from "@material-ui/icons/ViewCompact";
 import ViewComfyIcon from "@material-ui/icons/ViewComfy";
 
+//Our Values images
+import ourvalues1 from "@/assets/images/values/1.png";
+import ourvalues2 from "@/assets/images/values/2.png";
+import ourvalues3 from "@/assets/images/values/3.png";
+import ourvalues4 from "@/assets/images/values/4.png";
+import ourvalues5 from "@/assets/images/values/5.png";
+import ourvalues6 from "@/assets/images/values/6.png";
+
 //Tabs
 import PropTypes from "prop-types";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -64,6 +79,51 @@ export default function AboutUs() {
   useEffect(() => {
     new WOW().init();
   }, []);
+  
+  const ourvalues = [
+    {
+      id: 0,
+      image: ourvalues1,
+      title: "Customer Satisfaction",
+      description:
+        "At ALDS, we are driven by an unwavering commitment to drive maximum customer satisfaction. We dont believe in awards, client satisfaction is our biggest achievement.  ",
+    },
+    {
+      id: 1,
+      image: ourvalues2,
+      title: "Passion",
+      description:
+        "We take pride in our work at ALDS. Passion is the fuel that drives us towards excellence and inspires us to deliver the best IT solutions.",
+    },
+    {
+      id: 2,
+      image: ourvalues3,
+      title: "Integrity",
+      description:
+        " We work as your true partners. We develop ownership with the assigned project and work with absolute integrity.",
+    },
+    {
+      id: 3,
+      image: ourvalues4,
+      title: "Commitment",
+      description:
+        "At ALDS we are committed to deliver 'Excellence Everytime'. We strive hard to create the best outcome of the design and development projects.",
+    },
+    {
+      id: 4,
+      image: ourvalues5,
+      title: "Teamwork",
+      description:
+        "We believe that an individual’s growth leads to the company's growth and collaborative ideas encourage opportunities - when we work together, we grow together.",
+    },
+    {
+      id: 5,
+      image: ourvalues6,
+      title: "Embracing Change",
+      description:
+        "Change is one of the most powerful tools of growth in any organization. Being a future-ready company, ALDS is always set to embrace any change",
+    },
+  ];
   return (
     <div>
       <div
@@ -345,7 +405,7 @@ export default function AboutUs() {
                   <h2 className={` ${styles.titlesubmain} `}>Our Philoshpy </h2>
                 </div>
                 <p>
-                We follow a simple and logical process of working. The ALDS team follows the D3 philosophy to outline a proper structure for the entire business project – •         
+                The ALDS team follows the D3 philosophy to outline a proper structure for the entire business project – •         
                 </p>
                 <div className="flex flex-wrap overflow-hidden ">
                   <div className={`w-full overflow-hidden`}>
@@ -368,7 +428,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className={`md:px-28 md:pt-10 md:pb-10 ${styles.bglightblue}`}>
-        <div className={`container mx-auto flex flex-wrap overflow-hidden`}>
+          <div className={`container mx-auto flex flex-wrap overflow-hidden`}>
             <div className="w-full text-center pl-2  overflow-hidden">
               <Image
                 src={require("@/assets/images/bg/pat1.png")}
@@ -378,94 +438,24 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="flex flex-wrap overflow-hidden ">
-            <div className="my-1 px-2 text-center w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 overflow-hidden">
+          {ourvalues.map((item, index) => (
+            <div className="my-1 px-2 text-center w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 overflow-hidden" key={index}>
                 <div className={`w-full overflow-hidden wow fadeInLeft ${styles.singleservices} `} data-wow-delay="0.7s">
                   <Image
-                    src={require("@/assets/images/values/1.png")}
-                    alt="Aladinn Tech"
+                    src={item.image}
+                    alt={item.title}
                   />
                   <h5 className="font-bold text-center text-gray-600 text-xl my-3">
-                  Customer Satisfaction
+                  {item.title}
+                  
                   </h5>
                   <p className="font-normal text-center text-base my-2">
-                  At ALDS, we are driven by an unwavering commitment to drive maximum customer satisfaction. We dont believe in awards, client satisfaction is our biggest achievement.  
+                  {item.description}
+                  
                   </p>
                 </div>
               </div>
-              <div className="my-1 px-2 text-center w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 overflow-hidden">
-              <div className={`w-full overflow-hidden wow fadeInLeft ${styles.singleservices} `} data-wow-delay="0.7s">
-                  <Image
-                    src={require("@/assets/images/values/2.png")}
-                    alt="Aladinn Tech"
-                   
-                  />
-                  <h5 className="font-bold text-center text-gray-600 text-xl my-3">
-                  Passion
-                  </h5>
-                  <p className="font-normal text-center text-base my-2">
-                  We take pride in our work at ALDS. Passion is the fuel that drives us towards excellence and inspires us to deliver the best IT solutions.
-                  </p>
-                </div>
-              </div>              
-              <div className="my-1 px-2 text-center w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 overflow-hidden">
-                <div className={`w-full overflow-hidden wow fadeInLeft ${styles.singleservices} `} data-wow-delay="0.7s">
-                  <Image
-                    src={require("@/assets/images/values/3.png")}
-                    alt="Aladinn Tech"
-                   
-                  />
-                  <h5 className="font-bold text-center text-gray-600 text-xl my-3">
-                  Integrity
-                  </h5>
-                  <p className="font-normal text-center text-base my-2">
-                  We work as your true partners. We develop ownership with the assigned project and work with absolute integrity.
-                  </p>
-                </div>
-              </div> 
-               
-            <div className="my-1 px-2 text-center w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 overflow-hidden">
-                <div className={`w-full overflow-hidden wow fadeInLeft ${styles.singleservices} `} data-wow-delay="0.7s">
-                  <Image
-                    src={require("@/assets/images/values/4.png")}
-                    alt="Aladinn Tech"
-                  /> 
-                  <h5 className="font-bold text-center text-gray-600 text-xl my-3">
-                  Commitment
-                  </h5>
-                  <p className="font-normal text-center text-base my-2">
-                  At ALDS we are committed to deliver &#39;Excellence Everytime&#39;. We strive hard to create the best outcome of the design and development projects.
-                  </p>
-                </div>
-              </div>
-              <div className="my-1 px-2 text-center w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 overflow-hidden">
-              <div className={`w-full overflow-hidden wow fadeInLeft ${styles.singleservices} `} data-wow-delay="0.7s">
-                  <Image
-                    src={require("@/assets/images/values/5.png")}
-                    alt="Aladinn Tech"                   
-                  />
-                  <h5 className="font-bold text-center text-gray-600 text-xl my-3">
-                  Teamwork
-                  </h5>
-                  <p className="font-normal text-center text-base my-2">
-                  We believe that an individual’s growth leads to the company&#39;s growth and collaborative ideas encourage opportunities - when we work together, we grow together.
-                  </p>
-                </div>
-              </div>    
-              <div className="my-1 px-2 text-center w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 overflow-hidden">
-                <div className={`w-full overflow-hidden wow fadeInLeft ${styles.singleservices} `} data-wow-delay="0.7s">
-                  <Image
-                    src={require("@/assets/images/values/6.png")}
-                    alt="Aladinn Tech"
-                   
-                  />
-                  <h5 className="font-bold text-center text-gray-600 text-xl my-3">
-                  Embracing Change
-                  </h5>
-                  <p className="font-normal text-center text-base my-2">
-                  Change is one of the most powerful tools of growth in any organization. Being a future-ready company, ALDS is always set to embrace any change
-                  </p>
-                </div>
-              </div>                     
+              ))}                                   
             </div>
         </div>
         <div className="flex flex-wrap overflow-hidden md:py-24 md:px-28">
@@ -582,6 +572,69 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
+        <div className={`md:px-28 md:pt-10 md:pb-20 ${styles.bggrayimg}`}>
+           <div className={`container mx-auto flex flex-wrap overflow-hidden`}>
+            <div className="w-full text-center pl-2  overflow-hidden">
+              <Image
+                src={require("@/assets/images/bg/pat1.png")}
+                alt="Aladinn Tech"
+              />
+              <h2> What Differentiates ALDS from others / Why Choose Us </h2>
+            </div>
+          </div>
+         <div className="flex flex-wrap items-center overflow-hidden ">            
+            <div className="w-full overflow-hidden md:w-2/5">
+              <div className={` ${styles.counter} `}>
+                <Image
+                  src={require("@/assets/images/about/differentiates.png")}
+                  alt="Aladinn Tech"                  
+                />
+              </div>
+            </div>
+            <div className={`w-full overflow-hidden px-2 md:px-14  md:w-3/5 `}> 
+                <ul>
+                      <li className="flex flex-wrap overflow-hidden ">
+                        <div className={` ${styles.count} `}>
+                            <span>1</span>
+                        </div>
+                        <div className={` ${styles.text} `}>
+                          <h5 className={` ${styles.title} `}>Cost-effectiveness</h5>
+                          <p>Our goal is to help our clients reach their full potential within their budget.</p>
+                        </div>
+                      </li>
+                      
+                      <li className="flex flex-wrap overflow-hidden ">
+                        <div className={` ${styles.count} `}>
+                            <span>2</span>
+                        </div>
+                        <div className={` ${styles.text} `}>
+                          <h5 className={` ${styles.title} `}>Timely delivery</h5>
+                          <p>Time is of utmost value to us, so we are very specific about the deadline. We consistently meet our deadlines.</p>
+                        </div>
+                      </li>
+
+                      <li className="flex flex-wrap overflow-hidden ">
+                        <div className={` ${styles.count} `}>
+                            <span>3</span>
+                        </div>
+                        <div className={` ${styles.text} `}>
+                          <h5 className={` ${styles.title} `}>Extensive Experience</h5>
+                          <p>We have built websites and mobile apps/website apps for entrepreneurs and companies around the world, and we are always looking for the next challenge.</p>
+                        </div>
+                      </li>
+                      <li className="flex flex-wrap overflow-hidden ">
+                        <div className={` ${styles.count} `}>
+                            <span>4</span>
+                        </div>
+                        <div className={` ${styles.text} `}>
+                          <h5 className={` ${styles.title} `}>Trusted Relationship</h5>
+                          <p>Business cannot exist without trust, so we strictly adhere to our morality of trusted relationships with our clients, irrespective of contract or technology.</p>
+                        </div>
+                      </li>
+                    </ul>
+            </div>
+          </div>
+        </div>
         <div className={`md:px-28 md:pt-10 md:pb-10 ${styles.bglightblue}`}>
         <div className={`container mx-auto flex flex-wrap overflow-hidden`}>
             <div className="w-full text-center pl-2  overflow-hidden">
@@ -609,7 +662,7 @@ export default function AboutUs() {
                     <div
                       className={` ${styles.bglightgray} bg-opacity-25 overflow-hidden text-center md:w-1/5 md:ml-4`}
                     >
-                      <GroupsIcon
+                      <WbSunnyIcon
                         style={{ color: "#1f2471", fontSize: 50 }}
                         className="m-auto"
                       />
@@ -632,7 +685,8 @@ export default function AboutUs() {
                     <div
                       className={` ${styles.bglightgray} bg-opacity-25 overflow-hidden text-center md:w-1/5 md:ml-4`}
                     >
-                      <GroupsIcon
+                   
+                      <BrushIcon
                         style={{ color: "#1f2471", fontSize: 50 }}
                         className="m-auto"
                       />
@@ -657,7 +711,7 @@ export default function AboutUs() {
                     <div
                       className={` ${styles.bglightgray} bg-opacity-25 overflow-hidden text-center md:w-1/5 md:ml-4`}
                     >
-                      <GroupsIcon
+                      <ShowChartIcon
                         style={{ color: "#1f2471", fontSize: 50 }}
                         className="m-auto"
                       />
@@ -687,7 +741,7 @@ export default function AboutUs() {
                     <div
                       className={` ${styles.bglightgray} bg-opacity-25 overflow-hidden text-center md:w-1/5 md:mr-4`}
                     >
-                      <GroupsIcon
+                      <DeveloperModeIcon
                         style={{ color: "#1f2471", fontSize: 50 }}
                         className="m-auto"
                       />
@@ -709,7 +763,7 @@ export default function AboutUs() {
                     <div
                       className={` ${styles.bglightgray} bg-opacity-25 overflow-hidden text-center md:w-1/5 md:mr-4`}
                     >
-                      <GroupsIcon
+                      <LaptopMacIcon
                         style={{ color: "#1f2471", fontSize: 50 }}
                         className="m-auto"
                       />
@@ -730,7 +784,7 @@ export default function AboutUs() {
                     <div
                       className={` ${styles.bglightgray} bg-opacity-25 overflow-hidden text-center md:w-1/5 md:mr-4`}
                     >
-                      <GroupsIcon
+                      <SearchIcon
                         style={{ color: "#1f2471", fontSize: 50 }}
                         className="m-auto"
                       />
@@ -745,6 +799,338 @@ export default function AboutUs() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap overflow-hidden md:px-28 md:py-10 px-2">
+                     
+            <div className={`w-full overflow-hidden px-4  md:w-1/2 `}>
+            <h2 className={`${styles.titleheading1} `}>
+              ALDS Technologies
+            </h2>
+            <Box
+              sx={{
+                flexGrow: 1,
+                bgcolor: "background.paper",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                height: 400,
+              }}
+            >
+              <Tabs
+                orientation="vertical"
+                variant="scrollable"
+                value={value}
+                onChange={handleChange}
+                aria-label="vertical tabs example"
+                className={`${styles.appbardesign}`}
+                sx={{ borderRight: 1, borderColor: "divider" }}
+              >
+                <Tab
+                  icon={<InstallMobileIcon style={{ fontSize: 30 }} />}
+                  label="MOBILE DEVELOPMENT"
+                  {...a11yProps(0)}
+                  className={` ${styles.depbord}`}
+                  style={{
+                    backgroundColor: value === 0 ? "#efefef " : "transparent",
+                  }}
+                />
+                <Tab
+                  icon={<ComputerIcon style={{ fontSize: 30 }} />}
+                  label="WEB DEVELOPMENT"
+                  {...a11yProps(1)}
+                  className={` ${styles.depbord}`}
+                  style={{
+                    backgroundColor: value === 1 ? "#efefef " : "transparent",
+                  }}
+                />
+                <Tab
+                  icon={<ViewCompactIcon style={{ fontSize: 30 }} />}
+                  label="CMS DEVELOPMENT"
+                  {...a11yProps(2)}
+                  className={` ${styles.depbord}`}
+                  style={{
+                    backgroundColor: value === 2 ? "#efefef " : "transparent",
+                  }}
+                />
+                <Tab
+                  icon={<ViewComfyIcon style={{ fontSize: 30 }} />}
+                  label="CUSTOMISED SOLUTIONS"
+                  {...a11yProps(3)}
+                  className={` ${styles.depbord}`}
+                  style={{
+                    backgroundColor: value === 3 ? "#efefef " : "transparent",
+                  }}
+                />
+              </Tabs>
+            </Box>
+            </div>
+            <div className={`w-full overflow-hidden px-4  md:w-1/2 `}>
+              <TabPanel value={value} index={0}>
+                <div className="flex flex-wrap items-center overflow-hidden ">
+                  <div className={`w-full overflow-hidden px-4  md:w-3/5 `}>
+                    <div className={` ${styles.titlesubcontainer} `}>
+                      <h2 className={` ${styles.titlesubmain} `}>
+                        Mobile Development
+                      </h2>
+                    </div>
+                    <p>
+                      Performance Tracking is done on a daily, weekly, and
+                      monthly basis to ensure tasks planned are done as per the
+                      schedule and further planning for future activities can be
+                      done effectively. Performance Tracking is done on a daily,
+                      weekly, and monthly basis to ensure tasks planned are done
+                      as per the schedule and further planning for future
+                      activities can be done effectively.
+                    </p>
+                    <div className="flex flex-wrap overflow-hidden ">
+                      <div className={`w-full overflow-hidden`}>
+                        <p
+                          className="flex text-xl font-medium text-blue-900 mt-4 mb-2"
+                          data-wow-delay="0.7s"
+                        >
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp;Cost effective:
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8 ">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                        <p className="flex text-xl font-medium text-blue-900 mb-2 ">
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp;Business consistency
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8 ">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                        <p className="flex text-xl font-medium text-blue-900 mb-2 ">
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp; Increase efficiency:
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </TabPanel>
+              <TabPanel value={value} index={1}>
+                <div className="flex flex-wrap items-center overflow-hidden ">
+                  <div className={`w-full overflow-hidden px-4`}>
+                    <div className={` ${styles.titlesubcontainer} `}>
+                      <h2 className={` ${styles.titlesubmain} `}>
+                        Web Development
+                      </h2>
+                    </div>
+                    <p>
+                      Performance Tracking is done on a daily, weekly, and
+                      monthly basis to ensure tasks planned are done as per the
+                      schedule and further planning for future activities can be
+                      done effectively. Performance Tracking is done on a daily,
+                      weekly, and monthly basis to ensure tasks planned are done
+                      as per the schedule and further planning for future
+                      activities can be done effectively.
+                    </p>
+                    <div className="flex flex-wrap overflow-hidden ">
+                      <div className={`w-full overflow-hidden`}>
+                        <p
+                          className="flex text-xl font-medium text-blue-900 mt-4 mb-2"
+                          data-wow-delay="0.7s"
+                        >
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp;Cost effective:
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8 ">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                        <p className="flex text-xl font-medium text-blue-900 mb-2 ">
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp;Business consistency
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8 ">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                        <p className="flex text-xl font-medium text-blue-900 mb-2 ">
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp; Increase efficiency:
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </TabPanel>
+              <TabPanel value={value} index={2}>
+                <div className="flex flex-wrap items-center overflow-hidden ">
+                  <div className={`w-full overflow-hidden px-4`}>
+                    <div className={` ${styles.titlesubcontainer} `}>
+                      <h2 className={` ${styles.titlesubmain} `}>
+                        CMS Development
+                      </h2>
+                    </div>
+                    <p>
+                      Performance Tracking is done on a daily, weekly, and
+                      monthly basis to ensure tasks planned are done as per the
+                      schedule and further planning for future activities can be
+                      done effectively. Performance Tracking is done on a daily,
+                      weekly, and monthly basis to ensure tasks planned are done
+                      as per the schedule and further planning for future
+                      activities can be done effectively.
+                    </p>
+                    <div className="flex flex-wrap overflow-hidden ">
+                      <div className={`w-full overflow-hidden`}>
+                        <p
+                          className="flex text-xl font-medium text-blue-900 mt-4 mb-2"
+                          data-wow-delay="0.7s"
+                        >
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp;Cost effective:
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8 ">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                        <p className="flex text-xl font-medium text-blue-900 mb-2 ">
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp;Business consistency
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8 ">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                        <p className="flex text-xl font-medium text-blue-900 mb-2 ">
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp; Increase efficiency:
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </TabPanel>
+              <TabPanel value={value} index={3}>
+                <div className="flex flex-wrap items-center overflow-hidden ">
+                  <div className={`w-full overflow-hidden px-4`}>
+                    <div className={` ${styles.titlesubcontainer} `}>
+                      <h2 className={` ${styles.titlesubmain} `}>
+                        Customised Solutions
+                      </h2>
+                    </div>
+                    <p>
+                      Performance Tracking is done on a daily, weekly, and
+                      monthly basis to ensure tasks planned are done as per the
+                      schedule and further planning for future activities can be
+                      done effectively. Performance Tracking is done on a daily,
+                      weekly, and monthly basis to ensure tasks planned are done
+                      as per the schedule and further planning for future
+                      activities can be done effectively.
+                    </p>
+                    <div className="flex flex-wrap overflow-hidden ">
+                      <div className={`w-full overflow-hidden`}>
+                        <p
+                          className="flex text-xl font-medium text-blue-900 mt-4 mb-2"
+                          data-wow-delay="0.7s"
+                        >
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp;Cost effective:
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8 ">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                        <p className="flex text-xl font-medium text-blue-900 mb-2 ">
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp;Business consistency
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8 ">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                        <p className="flex text-xl font-medium text-blue-900 mb-2 ">
+                          <CheckCircleIcon
+                            className="fill-current stroke-2 text-blue-900"
+                            style={{ fontSize: 30 }}
+                          />
+                          &nbsp; Increase efficiency:
+                        </p>
+                        <p className="text-base font-normal mb-4 text-gray-600 pl-8">
+                          Electronic data storage, remote analysis &amp;
+                          monitoring services and simplification of complex
+                          operations increase efficiency and significantly
+                          reduce healthcare service costs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </TabPanel>
           </div>
         </div>
 
