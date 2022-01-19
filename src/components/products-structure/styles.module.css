@@ -1,0 +1,31 @@
+.titleheading1{
+  font-family: 'Nunito Sans', sans-serif;
+  color:#283779
+}
+.sectionbg{
+    background-color: #f4f6fe;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: -155px;
+    z-index:9999;
+}
+.icontext1{
+  color: #fd766e;
+}
+
+.icontext2{
+  color: #41b8c5;
+}
+.pabsolute{
+  position: absolute;
+}
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+ .pabsolute{
+   position: relative !important;  
+ }
+ .imgsize{
+    width: 100px !important;
+    height:100px !important;
+}
+}
