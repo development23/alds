@@ -1,0 +1,367 @@
+.MuiAccordion-root.Mui-expanded {
+  margin: 1px !important;
+}
+.MuiAccordionSummary-content {
+  display: block !important;
+}
+.MuiAccordionSummary-root { 
+  display: block !important;
+}
+.heading{
+  font-weight: 600;
+  
+}
+.allbanner1 {
+    position: relative;
+  }
+  
+  .allbanner2 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .allbanner2 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 44px;
+    color: #fff;
+    line-height: 57px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+  
+  .allbanner2 p {
+    color: #fff;
+    line-height: 36px;
+    font-size: 48px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .detail {
+    position: relative;
+    transform: translateY(-8%);
+    padding: 50px 0px;
+    z-index: 1;
+    background: #fcfcfc;
+    /* height: 47vh; */
+  }
+  
+  .footerbottom {
+    text-align: center;
+    padding: 46px;
+    margin-top: -159px;
+  }
+  
+  .footerbottom h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2a2a2a;
+  }
+  
+  .bordern {
+    border-right: 1px dashed #e0e0e0 !important;
+    padding-right: 35px !important;
+  }
+  
+  .tables {
+    border: 2px solid #2a2a2a;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .tables tr {
+    border: 2px solid #2a2a2a;
+  }
+  
+  .tables td {
+    border: 2px solid #2a2a2a;
+    padding: 15px;
+    color: #2a2a2a;
+  }
+  
+  .tables td strong {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .tables td strong span {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .tabdesign {
+    /* margin-top: -77px; */
+    margin-bottom: 100px;
+  }
+  
+  .tabdesign h4 {
+    font-size: 21px;
+    color: rgb(32, 32, 32);
+    margin-bottom: 10px;
+  }
+  
+  .tabdesign h6 {
+    font-size: 18px;
+    color: rgb(32, 32, 32);
+  }
+  
+  .tabdesign p {
+    font-size: 16px;
+    color: rgb(27, 27, 27);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .tabdesign ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .tabdesign ul li {
+    list-style: disc;
+  }
+  
+  .appbardesign {
+    background-color: #f2f9ff;
+    padding-top: 5px;
+    padding-bottom: 6px;
+  }
+  
+  .videocard {
+    background-color: #efefef;
+    margin-top: -16px;
+    padding: 12px;
+    padding-bottom: 21px;
+  }
+  .videocard h3 {
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .videocard p {
+    color: #084c84;
+    font-weight: 600;
+  }
+  
+  .radius img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
+  
+  .radiusbox {
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .AwesomeUL li {
+    @apply mt-2 mb-5 tracking-wider leading-8 text-gray-700 font-bold ml-6;
+    list-style-type: disc;
+  }
+  
+  .toop li {
+    @apply mt-2 mb-5 tracking-wider leading-8 text-gray-700 font-bold;
+  }
+  
+  .toop ul {
+    @apply ml-7;
+  }
+  
+  .toop ul li {
+    list-style-type: square;
+    @apply text-gray-500 font-thin;
+  }
+  
+  @media only screen and (max-width: 1366px) {
+    .detail {
+      transform: translateY(-6%);
+    } 
+    
+  
+    .footerbottom {
+      margin-top: -140px;
+    }
+  
+    .footerbottom h2 {
+      font-size: 23px;
+    }
+  
+    .appbardesign {
+      background-color: #f2f9ff;
+      padding-top: 15px;
+      padding-bottom: 6px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .allbanner2 {
+      position: relative;
+      margin-top: -127px;
+      margin-bottom: 49px;
+    }
+  
+    .allbanner2 h2 {
+      font-size: 16px;
+      line-height: 23px;
+      padding-bottom: 10px;
+    }
+  
+    .allbanner2 p {
+      line-height: 14px;
+      font-size: 12px;
+    }
+  
+    .footerbottom {
+      margin-top: -62px;
+    }
+    .footerbottom h2 {
+      font-size: 15px;
+    }
+  
+    .detail {
+      transform: translateY(-2%);
+      padding: 20px;
+      height: 275vh;
+      margin-top: -9px;
+    }
+  
+    .detail h2 {
+      font-size: 30px;
+    }
+  }
+  
+  .btp{  
+    border-top: 5px solid #0b4577;
+    }
+      
+    .mts{
+      margin-top:-690px;
+    }
+    
+    .mtsin{
+      margin-top:787px;
+    }
+
+.innerpagecon p{
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color:  #414141;
+  font-weight:500;
+}
+
+
+.innerpagecon h6{
+  margin-bottom: 11px;
+letter-spacing: 2px;
+font-size: 22px;
+font-weight: 600;
+color: #262626;
+}
+
+.titlesubcontainer .titlesub {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 80px;
+}
+
+.titlesubcontainer .titlesub::before {
+background-color: #000;
+left: 0;
+width: 5px;
+height: 5px;
+ border-radius: 50%;
+content: "";
+position: absolute;
+display: block;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+
+.titlesubcontainer .titlesub::after {
+background-color: #bebebe;
+left: 15px;
+height: 1px;
+width: 52px;
+content: "";
+position: absolute;
+display: block;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+.titlesubcontainer  .titlemain {
+font-size:38px;
+font-weight: 800;
+line-height: 1.2;
+letter-spacing: 0.01em;
+margin-bottom: 30px;
+
+color: #0a387e;
+}
+
+.titlesubcontainer  .titlesubmain {
+font-size:28px;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: 0.01em;
+margin-bottom: 30px;
+
+color: #0a387e;
+}
+   
+
+.allbanner1{
+    position: relative;
+}
+.about h2{
+    color: #1e1e1e;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-family: Roboto, sans-serif;
+    margin-bottom:0px;
+
+  }
+  
+  
+  .about h6{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-family: Roboto, sans-serif;
+    margin-bottom:0px;
+  }
+  
+  .about p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family:  Roboto, sans-serif;
+   color:  #424242;
+    text-align: justify; 
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .mts{
+      margin-top:-255px;
+    }
+    
+    .mtsin{
+      margin-top:333px;
+    }
+  }
