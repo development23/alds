@@ -990,7 +990,7 @@ export default function Layout({ children }) {
                             <div className="w-1/2 overflow-hidden">
                               <ul className={`${styles.bottomside1} `}>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/customised-solutions/crm">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> CRM </span>
@@ -998,7 +998,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/customised-solutions/emr-ehr-pmr">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>EMR/EHR/PMR</span>
@@ -1006,7 +1006,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/customised-solutions/telemedicine">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Telemedicine</span>
@@ -1022,7 +1022,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/customised-solutions/service-portals">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Service Portals</span>
@@ -1030,7 +1030,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/customised-solutions/ai-based-solutions">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> AI Based Solutions</span>

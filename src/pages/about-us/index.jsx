@@ -423,25 +423,15 @@ export default function AboutUs() {
                 </div>
                 <p>
                   The ALDS team follows the D3 philosophy to outline a proper
-                  structure for the entire business project – •
+                  structure for the entire business project – 
                 </p>
                 <div className="flex flex-wrap overflow-hidden ">
                   <div className={`w-full overflow-hidden`}>
-                    <p className="flex text-base font-medium text-gray-600 mb-2">
-                      <CheckCircleIcon className="fill-current stroke-2 text-gray-600" />
-                      &nbsp;Discovery - of client’s requirements
-                    </p>
-                    <p className="flex text-base font-medium text-gray-600 mb-2">
-                      <CheckCircleIcon className="fill-current stroke-2 text-gray-600" />
-                      &nbsp;Design- designing and strategizing a solution
-                      tailored to their needs
-                    </p>
-                    <p className="flex text-base font-medium text-gray-600 mb-2">
-                      <CheckCircleIcon className="fill-current stroke-2 text-gray-600" />
-                      &nbsp;Development - of unmatched IT solutions to
-                      accelerate their business and reach out to the consumers
-                      in an effective manner.
-                    </p>
+                    <ul className="list-disc pl-5">
+                    <li className="text-gray-600 text-base mb-2"><strong>	Discovery - </strong> Discovery of client&#39;s requirements.</li>
+                    <li className="text-gray-600 text-base mb-2"><strong>	Design - </strong> Design designing and strategizing a solution tailored to their needs.</li>
+                    <li className="text-gray-600 text-base mb-2"><strong>	Development - </strong> Development of unmatched IT solutions to accelerate their business and reach out to the consumers in an effective manner.</li>
+                  </ul>                    
                   </div>
                 </div>
               </div> 
