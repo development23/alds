@@ -36,12 +36,18 @@
     background: #F4F8FB url(../../../../src/assets/images/bg/bg-top.png) center top no-repeat;
     background-size: contain;
   }
-  
+  .bggrayimg p{
+    font-size: 16PX;
+    padding-bottom: 30PX;
+    font-family: Roboto, sans-serif;
+    color: #0b0c11;
+    line-height: 1.5;
+}
     .bggrayimg h2 {
       font-family: 'Rajdhani', sans-serif;
       font-weight: bold;
       font-size: 48px;
-      margin-bottom: 50px;
+      margin-bottom: 5px;
       margin-top: 20px;
       color: #333;
       }
@@ -64,7 +70,18 @@
     color: #0b0c11;
       line-height: 1.5;
   }
-
+  .bggrayimg1{
+    background: #F4F8FB url(../../../../src/assets/images/bg/bg-top.png) center top no-repeat;
+    background-size: contain;
+  }
+  .bggrayimg1 h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: #333;
+    }
   .count {
     float: left;
     width: 68px;
@@ -96,15 +113,15 @@
     width: -webkit-calc(100% - 68px);
     padding-left: 20px;
   }
-  .bggrayimg li {
+  .bggrayimg1 li {
     overflow: hidden;
     margin-bottom: 30px;
   }
-  .bggrayimg li:hover .count span {
+  .bggrayimg1 li:hover .count span {
     background: #4886FF;
     color: #fff;
   }
-  .bggrayimg li .text .title {
+  .bggrayimg1 li .text .title {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -113,7 +130,7 @@
     margin-top: 5px;
     margin-bottom: 24px !important;
   }
-  .bggrayimg li .text p {
+  .bggrayimg1 li .text p {
     font-weight: 400;
     font-size: 16px;
     color: #6F8BA4;

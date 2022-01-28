@@ -742,7 +742,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/mobile-development/ionic-development">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Ionic</span>
@@ -762,7 +762,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/mobile-development/hybrid-app-development">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Hybrid</span>
@@ -770,7 +770,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/cross-platform-app-development">
+                                  <Link href="/services/mobile-development/cross-platform-app-development">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Cross-Platform</span>
@@ -794,7 +794,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/mobile-development/mobile-ui-ux">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Mobile UI/UX </span>
@@ -870,7 +870,7 @@ export default function Layout({ children }) {
                             <div className="w-1/3 overflow-hidden">
                               <ul className={`${styles.bottomside1}`}>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/web-development/laravel">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Laravel </span>
@@ -902,7 +902,7 @@ export default function Layout({ children }) {
                                   </Link>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/">
+                                  <Link href="/services/web-development/web-app">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Web App</span>
@@ -1111,7 +1111,7 @@ export default function Layout({ children }) {
                             </Link>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="/web-design-development">
+                            <Link href="/industries/real-estate-and-housing">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Real Estate & Housing </span>

@@ -15,9 +15,9 @@ export default function Eductionsector() {
         </div>
 
         <div className={`  ${styles.btp} w-full overflow-hidden    xl:w-4/5 `}>
-          <Image
-            src={require("@/assets/images/banner/education-sector.jpg")}
-            alt="Aladinn Tech"
+        <Image
+            src={require("@/assets/images/banner/real-estate.jpg")}
+            alt="Aladinn Tech real-estate"
           />
         </div>
       </div>
@@ -33,59 +33,51 @@ export default function Eductionsector() {
                 alt="Aladinn Tech"
               />
               <h2> Our Solutions</h2>
+              <p className="text-gray-600 text-base">For your real estate enterprise, we offer fully authenticated and user-friendly solutions. Our responsibility is to keep you updated on every step of development, from design to deployment. By utilizing trending technology, ALDS pushes the boundaries of apps and websites.</p>
             </div>
           </div>
           <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">            
             <div className={`w-full overflow-hidden px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4"> E-Learning Solutions</h6>
+            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Online Auctions / Property Portals</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            We develop education web portals with a high level of functionality and interactivity to bridge the learning gap between students and institutions.
+            Our company creates easy-to-use auction websites and property portals that facilitate property searches, comparisons, bookings, and purchases/rentals online.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/online-registration.png")}
-                  alt="online registration"
+                  src={require("@/assets/images/icons/filtering.png")}
+                  alt="Filtering by Property Type"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Online self-registration</p>
+                <p className="font-bold text-sm mt-4 mb-4">Filtering by Property Type</p>
               </article>
             </li>            
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/curriculums-offered-online.png")}
-                  alt="support for accreditation"
+                  src={require("@/assets/images/icons/filter-price.png")}
+                  alt="Filter for custom price ranges"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Curriculums offered online</p>
+            <p className="font-bold text-sm mt-4 mb-4">Filter for custom price ranges</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/reports-customization.png")}
-                  alt="support for accreditation"
+                  src={require("@/assets/images/icons/filter-amenities.png")}
+                  alt="Feature Filter: Amenities"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Reports With Customization</p>
+            <p className="font-bold text-sm mt-4 mb-4">Feature Filter: Amenities</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/integration.png")}
-                  alt="support for accreditation"
+                  src={require("@/assets/images/icons/listing.png")}
+                  alt="Listing"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Marketing and Brand Integration</p>
+                <p className="font-bold text-sm mt-4 mb-4">Listing</p>
               </article>
-            </li>            
-            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
-            <article className="px-4 py-4 h-40 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/support-accreditation.png")}
-                  alt="support for accreditation"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">Support for Accreditation</p>
-            </article>
             </li>
             </ul>
             </div>
@@ -104,63 +96,63 @@ export default function Eductionsector() {
                 />
             </div>
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4"> Websites for remote e-learning</h6>
+            <h6 className="text-gray-900 text-2xl font-extrabold mb-4"> Solutions for CRM and ERP</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            Online learning websites allow you to access live streaming and live chats to enhance your learning experience.
+            By taking advantage of ALDS’s CRM and ERP solutions, you can increase customer relationships and productivity.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/enrolment.png")}
-                  alt="enrolment"
+                  src={require("@/assets/images/icons/automation.png")}
+                  alt="Automation of marketing"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Admissions/enrolment in courses online</p>
+                <p className="font-bold text-sm mt-4 mb-4">	Automation of marketing</p>
               </article>
             </li>            
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/analysis.png")}
-                  alt="Analysis and reporting of data"
+                  src={require("@/assets/images/icons/live-communication.png")}
+                  alt="Live communication"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Analysis and reporting of data</p>
+            <p className="font-bold text-sm mt-4 mb-4">	Live communication</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/live-feedback.png")}
-                  alt="live-feedback"
+                  src={require("@/assets/images/icons/team-management.png")}
+                  alt="Management of contracts and deals"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Management of assessment results and live feedback.</p>
+            <p className="font-bold text-sm mt-4 mb-4">	Management of contracts and deals</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/student-information.png")}
-                  alt="Managing student information"
+                  src={require("@/assets/images/icons/global-network.png")}
+                  alt="Sales across multiple channels"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Managing student information</p>
+                <p className="font-bold text-sm mt-4 mb-4">	Sales across multiple channels</p>
               </article>
             </li>            
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/quality-content.png")}
-                  alt="High-Quality Content"
+                  src={require("@/assets/images/icons/automation-technology.png")}
+                  alt="Flow automation of documents"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">High-Quality Content</p>
+            <p className="font-bold text-sm mt-4 mb-4">	Flow automation of documents</p>
             </article>
             </li>          
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md border-black">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/users-integrated.png")}
-                  alt="Users can be integrated quickly"
+                  src={require("@/assets/images/icons/management-information.png")}
+                  alt="Management of contact information"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Users can be integrated quickly</p>
+            <p className="font-bold text-sm mt-4 mb-4">	Management of contact information</p>
             </article>
             </li>
             </ul>
@@ -168,185 +160,185 @@ export default function Eductionsector() {
           </div>
           <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">            
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Management software for institutions</h6>
+            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Developing and maintaining applications</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            With a single admin panel, we can help you manage attendance, courses, staff and payrolls all in one place.
+            Real Estate Industry transformation driven by powerful applications. Maintaining your existing apps is also a priority for us.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/customized-requirements.png")}
-                  alt="online registration"
+                  src={require("@/assets/images/icons/onboarding-customers.png")}
+                  alt="Onboarding new customers"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Customized according to requirements</p>
+                <p className="font-bold text-sm mt-4 mb-4">Onboarding new customers</p>
               </article>
             </li>            
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/software-supports.png")}
-                  alt="support for accreditation"
+                  src={require("@/assets/images/icons/database-listings.png")}
+                  alt="Database and listings"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Software that supports multiple languages</p>
+            <p className="font-bold text-sm mt-4 mb-4">Database and listings</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/attendance-tracker.png")}
-                  alt="support for accreditation"
+                  src={require("@/assets/images/icons/sorting.png")}
+                  alt="Sorting and Filtering"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Attendance tracker</p>
+            <p className="font-bold text-sm mt-4 mb-4">Sorting and Filtering</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/online-omr.png")}
-                  alt="support for accreditation"
+                  src={require("@/assets/images/icons/descriptions-properties.png")}
+                  alt="Descriptions of properties"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Connected to Addmen OMR</p>
+                <p className="font-bold text-sm mt-4 mb-4">Descriptions of properties</p>
               </article>
             </li>            
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/class-timetables.png")}
-                  alt="support for accreditation"
+                  src={require("@/assets/images/icons/lead-management.png")}
+                  alt="Interface for Lead Management"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Upload class timetables and agenda</p>
+            <p className="font-bold text-sm mt-4 mb-4">Interface for Lead Management</p>
             </article>
-            </li>          
-            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
-            <article className="px-4 py-4 h-40 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/materials-uploaded.png")}
-                  alt="support for accreditation"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">Detailed course materials uploaded</p>
-            </article>
-            </li>
-            </ul>
-            </div>
-            <div className="w-full overflow-hidden text-center md:w-2/5">
-                <Image
-                  src={require("@/assets/images/about/our-solution.png")}
-                  alt="Aladinn Tech"
-                />
-            </div>
-          </div>
-          <div className="flex flex-wrap items-center overflow-hidden md:py-10">
-            <div className="w-full overflow-hidden text-center md:w-2/5">
-                <Image
-                  src={require("@/assets/images/about/our-solution.png")}
-                  alt="Aladinn Tech"
-                />
-            </div>
-            <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Portals and Web applications</h6>
-            <p className="text-gray-600 text-md mb-4 mt-4"> 
-            Our web portal/application development services are highly customised and include many features.
-            </p>
-            <ul className="flex flex-wrap items-center overflow-hidden ">
-            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
-              <article className="px-4 py-4 h-44 min-h-full">
-              <Image
-                  src={require("@/assets/images/icons/live-feedback.png")}
-                  alt="Managing assessments and providing live feedback"
-                />
-                <p className="font-bold text-sm mt-4 mb-4">Managing assessments and providing live feedback</p>
-              </article>
-            </li>            
-            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/student-information.png")}
-                  alt="Managing student information"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">Managing student information</p>
-            </article>
-            </li>
-            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/app-development.png")}
-                  alt="Making learning more mobile and using apps"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">Making learning more mobile and using apps</p>
-            </article>
-            </li>
-            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
-              <article className="px-4 py-4 h-44 min-h-full">
-              <Image
-                  src={require("@/assets/images/icons/online-communities.png")}
-                  alt="Social engagement through online communities"
-                />
-                <p className="font-bold text-sm mt-4 mb-4">Social engagement through online communities</p>
-              </article>
             </li>           
             </ul>
             </div>
+            <div className="w-full overflow-hidden text-center md:w-2/5">
+                <Image
+                  src={require("@/assets/images/about/our-solution.png")}
+                  alt="Aladinn Tech"
+                />
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center overflow-hidden md:py-10">
+            <div className="w-full overflow-hidden text-center md:w-2/5">
+                <Image
+                  src={require("@/assets/images/about/our-solution.png")}
+                  alt="Aladinn Tech"
+                />
+            </div>
+            <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
+            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Application Frameworks / Portals</h6>
+            <p className="text-gray-600 text-md mb-4 mt-4"> 
+            Take complete control of your portal / web application by using a powerful and sophisticated portal / web application.
+            </p>
+            <ul className="flex flex-wrap items-center overflow-hidden ">
+            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
+              <article className="px-4 py-4 h-44 min-h-full">
+              <Image
+                  src={require("@/assets/images/icons/login.png")}
+                  alt="Access log-in"
+                />
+                <p className="font-bold text-sm mt-4 mb-4">Access log-in</p>
+              </article>
+            </li>            
+            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
+            <article className="px-4 py-4 h-44 min-h-full">
+            <Image
+                  src={require("@/assets/images/icons/listing.png")}
+                  alt="Listings"
+                />
+            <p className="font-bold text-sm mt-4 mb-4">Listings</p>
+            </article>
+            </li>
+            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
+            <article className="px-4 py-4 h-44 min-h-full">
+            <Image
+                  src={require("@/assets/images/icons/various-images.png")}
+                  alt="Various images"
+                />
+            <p className="font-bold text-sm mt-4 mb-4">Various images</p>
+            </article>
+            </li>
+            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
+              <article className="px-4 py-4 h-44 min-h-full">
+              <Image
+                  src={require("@/assets/images/icons/real-time-system.png")}
+                  alt="A real-time messaging system"
+                />
+                <p className="font-bold text-sm mt-4 mb-4">A real-time messaging system</p>
+              </article>
+            </li> 
+            <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
+              <article className="px-4 py-4 h-44 min-h-full">
+              <Image
+                  src={require("@/assets/images/icons/favorite.png")}
+                  alt="List of favorites"
+                />
+                <p className="font-bold text-sm mt-4 mb-4">List of favorites</p>
+              </article>
+            </li>          
+            </ul>
+            </div>
           </div>
           <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">            
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Exam Portal Online</h6>
+            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Solutions for Tenant Management</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            You can easily maintain and conduct online examinations with built-in security and advanced features.
+            With a centralized, easy-to-use portal, you can manage your tenants, rents, and agreements effortlessly.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/schedule.png")}
-                  alt="Scheduling and planning are automated."
+                  src={require("@/assets/images/icons/organize-communication.png")}
+                  alt="Organize communication"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Scheduling and planning are automated</p>
+                <p className="font-bold text-sm mt-4 mb-4">Organize communication</p>
               </article>
             </li>            
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/assessment-pattern.png")}
-                  alt="Designing the Assessment Pattern."
+                  src={require("@/assets/images/icons/rent-posting.png")}
+                  alt="Rent posting made easy"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Designing the Assessment Pattern</p>
+            <p className="font-bold text-sm mt-4 mb-4">Rent posting made easy</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/online-exam-paper.png")}
-                  alt="Efficiency to create examination paper"
+                  src={require("@/assets/images/icons/modifications-document.png")}
+                  alt="Modifications to document properties"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Efficiency to create examination paper</p>
+            <p className="font-bold text-sm mt-4 mb-4">Modifications to document properties</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/exam.png")}
-                  alt="Create different difficulty levels for exams"
+                  src={require("@/assets/images/icons/checklists.png")}
+                  alt="Checklists and Help Lists every month"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Create different difficulty levels for exams</p>
+                <p className="font-bold text-sm mt-4 mb-4">Checklists and Help Lists every month</p>
               </article>
             </li>            
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/test-taking-process.png")}
-                  alt="Options for customizing the test-taking process"
+                  src={require("@/assets/images/icons/features-detail.png")}
+                  alt="Features Described in Detail"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Options for customizing the test-taking process</p>
+            <p className="font-bold text-sm mt-4 mb-4">Features Described in Detail</p>
             </article>
             </li>          
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/management-system.png")}
-                  alt="Integration with Learning Management System"
+                  src={require("@/assets/images/icons/mobile-payment.png")}
+                  alt="Payments to Vendors of any type"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Integration with Learning Management System</p>
+            <p className="font-bold text-sm mt-4 mb-4">Payments to Vendors of any type</p>
             </article>
             </li>
             </ul>
@@ -366,45 +358,45 @@ export default function Eductionsector() {
                 />
             </div>
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Content Management Solutions</h6>
+            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Property booking online</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            We provide comprehensive content management and study material management services.
+            You can book properties online or with a mobile app that has advanced features and cutting-edge technology.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/documentation.png")}
-                  alt="Documentation and archiving"
+                  src={require("@/assets/images/icons/notifications.png")}
+                  alt="Push Notifications"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Documentation and archiving</p>
+                <p className="font-bold text-sm mt-4 mb-4">Push Notifications</p>
               </article>
             </li>            
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/music-folder.png")}
-                  alt="A backup of audio files"
+                  src={require("@/assets/images/icons/calculator.png")}
+                  alt="Real Estate Cost Calculators"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">A backup of audio files</p>
+            <p className="font-bold text-sm mt-4 mb-4">Real Estate Cost Calculators</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
-                  src={require("@/assets/images/icons/live-presentation.png")}
-                  alt="Archived live presentations"
+                  src={require("@/assets/images/icons/calling-direct-messaging.png")}
+                  alt="Calling or Direct Messaging"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Archived live presentations</p>
+            <p className="font-bold text-sm mt-4 mb-4">Calling or Direct Messaging</p>
             </article>
             </li>
             <li className="w-full overflow-hidden md:w-48 bg-white rounded-xl mx-1 mb-4 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
-                  src={require("@/assets/images/icons/cross-platform.png")}
-                  alt="Cross-platform compatibility"
+                  src={require("@/assets/images/icons/virtual-reality.png")}
+                  alt="Tour via virtual reality"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Cross-platform compatibility</p>
+                <p className="font-bold text-sm mt-4 mb-4">Tour via virtual reality</p>
               </article>
             </li>           
             </ul>
@@ -433,13 +425,27 @@ export default function Eductionsector() {
               <article className="flex px-6 py-6 h-auto ">
               <figure className="w-20 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-50 ">
                  <Image
-                  src={require("@/assets/images/icons/troubleshooting.png")}
-                  alt="online registration"
+                  src={require("@/assets/images/icons/volatility-market.png")}
+                  alt="Volatility in the market"
                 />
                 </figure> 
                 <figcaption className="w-full">                
-                <h4 className="font-bold text-lg mb-2">Troubleshooting</h4>  
-                <h5 className="text-gray-600 text-sm">Websites and applications for e-learning are often underequipped with technical components, which results in disconnections between them that disrupt the learning experience and also break the concentration of students.</h5>
+                <h4 className="font-bold text-lg mb-2">Volatility in the market</h4>  
+                <h5 className="text-gray-600 text-sm">Numerous factors affect the real estate market, causing it to fluctuate. Property values are impacted by these factors heavily.</h5>
+                </figcaption> 
+              </article>
+            </li> 
+            <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
+              <article className="flex px-6 py-6 h-auto ">
+              <figure className="w-20 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-50 ">
+                 <Image
+                  src={require("@/assets/images/icons/lead.png")}
+                  alt="lead"
+                />
+                </figure> 
+                <figcaption className="w-full">                
+                <h4 className="font-bold text-lg mb-2">Lead</h4>  
+                <h5 className="text-gray-600 text-sm">The number of agents outnumbers the number of buyers, causing the leads to be centralized. You can increase lead generation by working with Real Estate App Development Company.</h5>
                 </figcaption> 
               </article>
             </li> 
@@ -447,61 +453,32 @@ export default function Eductionsector() {
                 <article className="flex px-6 py-6 h-auto">
                 <figure className="w-20 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-50 ">
                   <Image
-                    src={require("@/assets/images/icons/switch.png")}
-                    alt="online registration"
+                    src={require("@/assets/images/icons/input-costs.png")}
+                    alt="Input Costs"
                   />
                   </figure> 
                   <figcaption className="w-full">               
-                  <h4 className="font-bold text-lg mb-2">Peer Learning</h4>  
-                  <h5 className="text-gray-600 text-sm">A well-developed mind is the result of group learning and peer interaction. e-learning does not offer ways for students to debate and expand their knowledge as it isolates them from a group.</h5>
+                  <h4 className="font-bold text-lg mb-2">Input Costs</h4>  
+                  <h5 className="text-gray-600 text-sm">As a result of high business setup costs, real estate organizations have difficulty adapting to new technologies.<br></br></h5><br></br><br></br>
                   </figcaption> 
                 </article>
-              </li>  
-            <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
-              <article className="flex px-6 py-6 h-auto ">
-              <figure className="w-20 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-50 ">
-                 <Image
-                  src={require("@/assets/images/icons/revenue.png")}
-                  alt="online registration"
-                />
-                </figure> 
-                <figcaption className="w-full">                
-                <h4 className="font-bold text-lg mb-2">Creating Revenues</h4>  
-                <h5 className="text-gray-600 text-sm">As e-Learning has difficulty generating revenue, this makes it impossible for them to survive; traditional learning methods are difficult to eradicate, so most e-learning platforms offer their services for free.</h5>
-                </figcaption> 
-              </article>
-            </li>          
+              </li>                      
                     
             </ul>
             </div>
             <div className={`w-full overflow-hidden px-2 md:px-4  md:w-1/2`}>
             <ul className="flex flex-wrap items-center overflow-hidden ">
-              <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
-                <article className="flex px-6 py-6 h-auto">
-                <figure className="w-20 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-50 ">
-                  <Image
-                    src={require("@/assets/images/icons/adaptation.png")}
-                    alt="online registration"
-                  />
-                  </figure> 
-                  <figcaption className="w-full">               
-                  <h4 className="font-bold text-lg mb-2">Challenges in Adaptability</h4>  
-                  <h5 className="text-gray-600 text-sm">Students may find it difficult to make the transition from traditional classrooms with instructor-led instruction to virtual, desktop or mobile learning. This is not as seamless and connected as attending real-time classes.</h5>
-                  </figcaption> 
-                </article>
-              </li> 
-              
-              <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
+            <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
               <article className="flex px-6 py-6 h-auto ">
               <figure className="w-20 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-50 ">
                  <Image
-                  src={require("@/assets/images/icons/feedback.png")}
-                  alt="online registration"
+                  src={require("@/assets/images/icons/informed-buyers.png")}
+                  alt="More Informed Buyers"
                 />
                 </figure> 
                 <figcaption className="w-full">                
-                <h4 className="font-bold text-lg mb-2">Providing feedback</h4>  
-                <h5 className="text-gray-600 text-sm">Physical teaching in a regular class involves teaching various open-ended questions to the students in the classroom, clearing their doubts and queries as they come-up.</h5>
+                <h4 className="font-bold text-lg mb-2">More Informed Buyers</h4>  
+                <h5 className="text-gray-600 text-sm">In the real estate industry, everyone wants a quick selling process and less stressful experience with top-tier results.</h5>
                 </figcaption> 
               </article>
             </li> 
@@ -509,13 +486,29 @@ export default function Eductionsector() {
                 <article className="flex px-6 py-6 h-auto">
                 <figure className="w-20 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-50 ">
                   <Image
-                    src={require("@/assets/images/icons/confidentiality.png")}
+                    src={require("@/assets/images/icons/lack-trust.png")}
+                    alt="Lack of trust"
+                  />
+                  </figure> 
+                  <figcaption className="w-full">               
+                  <h4 className="font-bold text-lg mb-2">Lack of trust</h4>  
+                  <h5 className="text-gray-600 text-sm">Online real estate markets have fewer qualified buyers, so customers do not have the confidence and assurance that they will receive their dream property online.</h5>
+                  </figcaption> 
+                </article>
+              </li> 
+              
+              
+              <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
+                <article className="flex px-6 py-6 h-auto">
+                <figure className="w-20 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-50 ">
+                  <Image
+                    src={require("@/assets/images/icons/innovations-in-technology.png")}
                     alt="online registration"
                   />
                   </figure> 
                   <figcaption className="w-full">               
-                  <h4 className="font-bold text-lg mb-2">Maintaining confidentiality</h4>  
-                  <h5 className="text-gray-600 text-sm">It is possible for a student to have trouble interacting openly in class about his problems. Teachers and students can interact one-on-one with the help of advanced eLearning methods. </h5><br></br>
+                  <h4 className="font-bold text-lg mb-2">Innovations in technology</h4>  
+                  <h5 className="text-gray-600 text-sm">Today, customers want to have a realistic experience of the properties they see online. In addition to demographic shifts and preferences, technological advances are affecting online real estate.</h5>
                   </figcaption> 
                 </article>
               </li>
@@ -524,7 +517,7 @@ export default function Eductionsector() {
           </div>  
         </div>
         <div
-          className={`md:px-28 mt-20  md:mt-0 md:pt-10 md:pb-20 ${styles.bggrayimg}`}
+          className={`md:px-28 mt-20  md:mt-0 md:pt-10 md:pb-20 ${styles.bggrayimg1}`}
         >
           <div className={`container mx-auto flex flex-wrap overflow-hidden`}>
             <div className="w-full text-center pl-2  overflow-hidden">
@@ -551,9 +544,9 @@ export default function Eductionsector() {
                     <span>1</span>
                   </div>
                   <div className={` ${styles.text} `}>
-                    <h5 className={` ${styles.title} `}>Better Engagement with Interactive Solutions</h5>
+                    <h5 className={` ${styles.title} `}>An integrated approach</h5>
                     <p>
-                    With our interactive solutions, we are able to increase engagement significantly. In order to make eLearning apps highly engaging and visually appealing, we use attractive graphics and material.
+                    Building compelling web and mobile application solutions for real estate companies with multiple offices, including wholly owned subsidiaries, licensees, and franchisees, we help them achieve greater results locally. Using a holistic approach to real estate site design, we help them achieve greater results.
                     </p>
                   </div>
                 </li>
@@ -563,9 +556,9 @@ export default function Eductionsector() {
                     <span>2</span>
                   </div>
                   <div className={` ${styles.text} `}>
-                    <h5 className={` ${styles.title} `}>Learning Through Collaboration</h5>
+                    <h5 className={` ${styles.title} `}>Leading-edge technology</h5>
                     <p>
-                    Students are provided with a collaborative learning experience using advanced tools & technologies. A common platform enables faculty and students to communicate and interact.
+                    Utilizing the technology of virtual reality and 3D, we create websites with advanced views of properties for sale. We provide your company with all the required tools and expertise for a successful online real estate business.
                     </p>
                   </div>
                 </li>
@@ -576,10 +569,10 @@ export default function Eductionsector() {
                   </div>
                   <div className={` ${styles.text} `}>
                     <h5 className={` ${styles.title} `}>
-                    Learning Through Practical Experience
+                    The Agile methodology
                     </h5>
                     <p>
-                    It is no secret that video based and game based training are the future. By utilizing these media, applications are better engaged, more interactive, and perform better.
+                    We integrate agile methodologies into our real estate application development. As a result, we can deliver high-end, custom-made applications on time.
                     </p>
                   </div>
                 </li>
@@ -589,10 +582,10 @@ export default function Eductionsector() {
                   </div>
                   <div className={` ${styles.text} `}>
                     <h5 className={` ${styles.title} `}>
-                    User Friendliness
+                    Support for location-based services
                     </h5>
                     <p>
-                    We provide easy-to-use solutions both for students and institutes. Using our management software is easy, and you can see an overview of your institute&#39; activities at any given moment.
+                    We add value to your real estate business by integrating advanced features like geolocation. In addition to making it easy for dealers to search for their properties, it also gives them accurate information about those properties.
                     </p>
                   </div>
                 </li>

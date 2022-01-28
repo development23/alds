@@ -620,7 +620,7 @@ export default function AboutUs() {
                 />
               </div>
             </div>
-            <div className={`w-full overflow-hidden px-2 md:px-14  md:w-3/5 `}>
+            <div className={`w-full overflow-hidden md:py-0 py-4 px-2 md:px-14  md:w-3/5 `}>
               <ul>
                 <li className="flex flex-wrap overflow-hidden ">
                   <div className={` ${styles.count} `}>
