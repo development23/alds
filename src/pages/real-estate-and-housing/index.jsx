@@ -115,13 +115,13 @@ export default function Eductionsector() {
             </div>
           </div>  
           <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">           
-          <div className="w-full overflow-hidden text-center md:w-2/5">
+          <div className="w-full overflow-hidden text-center pt-6 md:pt-0 md:w-2/5">
                 <Image
                   src={require("@/assets/images/about/our-solution.png")}
                   alt="Aladinn Tech"
                 />
             </div>           
-            <div className={`w-full overflow-hidden py-6 px-2 md:px-8  md:w-3/5 `}>
+            <div className={`w-full overflow-hidden py-6 px-2 md:px-8 md:w-3/5 `}>
             <Image
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
