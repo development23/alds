@@ -24,13 +24,13 @@
     .mtsin{
       margin-top:333px;
     }
-    .bggrayimg h2 { 
+    .bggrayimg h2 {
       font-size: 38px !important;
      }   
     
   }
   .bggrayimg{
-    background: #F4F8FB url(../../../../src/assets/images/bg/bg-top.png) center top no-repeat;
+    background: #F4F8FB url(../../../src/assets/images/bg/bg-top.png) center top no-repeat;
     background-size: contain;
   }
   .bggrayimg p{

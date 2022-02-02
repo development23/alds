@@ -112,11 +112,14 @@ color: #0a387e;
 font-weight:700;
 }
   @media only screen and (max-width: 768px) {
+    .flexdirection{
+      flex-direction: column-reverse;
+    }
     .bggrayimg h6 {
-      text-align: center;
+      /* text-align: center; */
     }
     .bggrayimg p {
-      text-align: center;
+      /* text-align: center; */
     }
     .mts{
       margin-top:-255px;

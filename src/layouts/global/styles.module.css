@@ -239,7 +239,7 @@ margin-bottom:30px;
 }
 
 .bottomside li a {
-  padding: 13px 10px;
+  padding: 7px 10px;
 }
 
 .bottomside li a span{
@@ -248,7 +248,7 @@ margin-bottom:30px;
   }
 
 .bottomside1 li a {
-  padding: 10px 0px;
+  padding: 5px 0px;
 }
 
 .bottomside1 li a span{
@@ -305,7 +305,7 @@ margin-bottom:30px;
  
 .bgs{
   
-   padding-bottom: 15px;
+   padding-bottom: 15px; 
 
 }
 @media only screen and (max-width: 1366px){ 
@@ -318,6 +318,12 @@ margin-bottom:30px;
 .actionButton p {
   font-size: 13px;
 }
+}
+@media screen and (max-width: 992px) {
+
+  .mobide{
+    display:none !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .serviceheader{
@@ -401,10 +407,11 @@ margin-bottom:30px;
 
 .mobiledropdowncontent a {
   color: black;
-  padding: 8px 16px;
+  padding: 5px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
+  border-bottom: 1px solid #ccc; 
 }
 
 .mobiledropdowncontent a:hover {background-color: #ddd;}
@@ -421,7 +428,7 @@ margin-bottom:30px;
       position: relative;
       z-index: 999999;
       text-align: left;
-      top: 22px;
+      top: 0px;
       background: #123d81;
        color: #fff;
   }

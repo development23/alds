@@ -193,6 +193,10 @@ export default function Index() {
       id: 13,
       image: require("@/assets/images/home/client/14.png"),
     },
+    {
+      id: 14,
+      image: require("@/assets/images/home/client/2.png"),
+    },
   ];
 
   const nextssettings = {

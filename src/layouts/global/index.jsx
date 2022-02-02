@@ -96,7 +96,7 @@ export default function Layout({ children }) {
       >
         <nav className=" flex items-center flex-wrap border-b-1 ">
           <div className="md:w-1/5 md:pt-2  xl:px-6 ">
-            <Link href="services/coming-soon">
+            <Link href="/">
               <a className="md:pl-4">
                 <Image src={logoImage} alt="" />
               </a>
@@ -128,8 +128,8 @@ export default function Layout({ children }) {
             } w-full lg:inline-flex lg:flex-grow lg:w-auto`}
           >
             <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full  flex flex-col lg:h-auto">
-              <Link href="#">
-                <div className="border-b px-2 py-1">
+              <a href="#">
+                <div className="border-b px-2 py-2">
                   <a
                     className={`lg:inline-flex lg:w-auto w-full rounded font-bold ${styles.mobiledropdown}`}
                   >
@@ -138,27 +138,27 @@ export default function Layout({ children }) {
                       className={`${styles.mobiledropdowncontent}`}
                       onClick={() => setActive(false)}
                     >
-                      <Link href="about-us">
-                        <a>Company Profile</a>
-                      </Link>
-                      <Link href="testimonials">
-                        <a>Testimonials</a>
-                      </Link>
+                      <a href="about-us">
+                       Company Profile
+                      </a>
+                      <a href="testimonials">
+                       Testimonials
+                      </a>
 
-                      <Link href="our-blogs">
-                        <a>Blogs</a>
-                      </Link>
+                      <a href="our-blogs">
+                        Blogs
+                      </a>
 
-                      <Link href="faqs">
-                        <a>FAQs</a>
-                      </Link>
+                      <a href="">
+                        FAQs
+                      </a>
                     </div>
                   </a>
                 </div>
-              </Link>
+              </a>
 
-              <Link href="#">
-                <div className="border-b px-2 py-1">
+              <a href="#">
+                <div className="border-b px-2 py-2">
                   <a
                     className={`lg:inline-flex lg:w-auto w-full rounded font-bold ${styles.mobiledropdown}`}
                   >
@@ -169,154 +169,150 @@ export default function Layout({ children }) {
                       onClick={() => setActive(false)}
                     >
                       <div className="flex">
-                        <div className="md:w-1/2 overflow-hidden">
-                          <Link href="services/coming-soon">
-                            <a>iOS Platform</a>
-                          </Link>
-                          <Link href="services/coming-soon">
-                            <a>Android Platform</a>
-                          </Link>
+                        <div className="w-full overflow-hidden">
+                          <a href="ios-platform">
+                           iOS Platform
+                          </a>
+                          <a href="android-platform">
+                            Android Platform
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Xamarin</a>
-                          </Link>
+                          <a href="xamarin">
+                           Xamarin
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Flutter</a>
-                          </Link>
+                          <a href="flutter">
+                           Flutter
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>React Native</a>
-                          </Link>
+                          <a href="react-native">
+                            React Native
+                          </a>
 
-                          <Link href="/services/ionic-development">
-                            <a>Ionic</a>
-                          </Link>
-                          <Link href="services/coming-soon">
-                            <a>Native </a>
-                          </Link>
+                          <a href="ionic-development">
+                           Ionic
+                          </a>                          
 
-                          <Link href="/services/hybrid-app-development">
-                            <a>Hybrid </a>
-                          </Link>
+                          <a href="hybrid-app-development">
+                            Hybrid 
+                          </a>
 
-                          <Link href="/services/cross-platform-app-development">
-                            <a>Cross-Platform</a>
-                          </Link>
+                          <a href="cross-platform-app-development">
+                            Cross-Platform
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>IOT (Internet of Things)</a>
-                          </Link>
+                          {/* <a href="">
+                            IOT (Internet of Things)
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Wearable</a>
-                          </Link>
+                          <a href="">
+                           Wearable
+                          </a> */}
 
-                          <Link href="/services/mobile-ui-ux">
-                            <a>Mobile UI/UX </a>
-                          </Link>
+                          <a href="mobile-ui-ux">
+                            Mobile UI/UX 
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>JavaScript</a>
-                          </Link>
+                          <a href="javascript">
+                            JavaScript
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Python</a>
-                          </Link>
+                          {/* <a href="">
+                           Python
+                          </a> */}
 
-                          <Link href="/services/angular-development">
-                            <a>Angular</a>
-                          </Link>
+                          <a href="angular-development">
+                            Angular
+                          </a>
 
-                          <Link href="/services/node-js">
-                            <a>Node.JS</a>
-                          </Link>
+                          <a href="node-js">
+                            Node.JS
+                          </a>
 
-                          <Link href="/services/react-development">
-                            <a>React.JS </a>
-                          </Link>
+                          <a href="react-development">
+                           React.JS
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Vue.JS</a>
-                          </Link>
-                        </div>
-                        <div className="md:w-1/2 overflow-hidden">
-                          <Link href="/services/laravel">
-                            <a>Laravel</a>
-                          </Link>
+                          {/* <a href="">
+                           Vue.JS
+                          </a> */}
+                       
+                          <a href="laravel">
+                            Laravel
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>CodeIgnitor</a>
-                          </Link>
+                          {/* <a href="">
+                            CodeIgnitor
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>MEAN Stack </a>
-                          </Link>
+                          <a href="">
+                           MEAN Stack 
+                          </a> */}
 
-                          <Link href="services/coming-soon">
-                            <a>Full Stack</a>
-                          </Link>
+                          <a href="full-stack">
+                            Full Stack
+                          </a>
 
-                          <Link href="/services/web-app">
-                            <a>Web App</a>
-                          </Link>
+                          <a href="web-app">
+                           Web App
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Website UI/UX</a>
-                          </Link>
+                          <a href="website-ui-ux">
+                           Website UI/UX
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Shopify </a>
-                          </Link>
+                          {/* <a href="">
+                           Shopify 
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Magento </a>
-                          </Link>
+                          <a href="">
+                            Magento
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Joomla </a>
-                          </Link>
+                          <a href="">
+                           Joomla 
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>WordPress </a>
-                          </Link>
+                          <a href="">
+                            WordPress 
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>Opencart </a>
-                          </Link>
+                          <a href="">
+                           Opencart
+                          </a> */}
 
-                          <Link href="/services/crm">
-                            <a>CRM</a>
-                          </Link>
+                          <a href="crm">
+                            CRM
+                          </a>
 
-                          <Link href="/services/emr-ehr-pmr">
-                            <a>EMR/EHR/PMR </a>
-                          </Link>
+                          <a href="emr-ehr-pmr">
+                           EMR/EHR/PMR 
+                          </a>
 
-                          <Link href="/services/telemedicine">
-                            <a>Telemedicine</a>
-                          </Link>
+                          <a href="telemedicine">
+                            Telemedicine
+                          </a>
 
-                          <Link href="services/coming-soon">
-                            <a>B2B, B2C Solutions</a>
-                          </Link>
+                          {/* <a href="">
+                            B2B, B2C Solutions
+                          </a> */}
 
-                          <Link href="/services/service-portals">
-                            <a>Service Portals</a>
-                          </Link>
+                          <a href="service-portals">
+                            Service Portals
+                          </a>
 
-                          <Link href="/services/ai-based-solutions">
-                            <a>AI Based Solutions</a>
-                          </Link>
+                          <a href="ai-based-solutions">
+                            AI Based Solutions
+                          </a>
                         </div>
                       </div>
                     </div>
                   </a>
                 </div>
-              </Link>
+              </a>
 
-              <Link href="#">
-                <div className="border-b px-2 py-1">
+              <a href="#">
+                <div className="border-b px-2 py-2">
                   <a
                     className={`lg:inline-flex lg:w-auto w-full rounded font-bold ${styles.mobiledropdown}`}
                   >
@@ -325,71 +321,71 @@ export default function Layout({ children }) {
                       className={`${styles.mobiledropdowncontent}`}
                       onClick={() => setActive(false)}
                     >
-                      <Link href="/">
-                        <a>Healthcare & Fitness</a>
-                      </Link>
-                      <Link href="/">
-                        <a>Banking & Finance</a>
-                      </Link>
+                      {/* <a href="">
+                        Healthcare & Fitness
+                      </a> */}
+                      <a href="banking-and-finance">
+                       Banking & Finance
+                      </a>
 
-                      <Link href="/real-estate-and-housing">
-                        <a>Real Estate & Housing</a>
-                      </Link>
+                      <a href="real-estate-and-housing">
+                        Real Estate & Housing
+                      </a>
 
-                      <Link href="/education-sector">
-                        <a>Education Sector</a>
-                      </Link>
+                      <a href="education-sector">
+                       Education Sector
+                      </a>
 
-                      <Link href="/">
-                        <a>Hospitality & Tourism</a>
-                      </Link>
+                      <a href="hospitality-and-tourism">
+                        Hospitality & Tourism
+                      </a>
 
-                      <Link href="/">
-                        <a>Fashion & Lifestyle</a>
-                      </Link>
+                      {/* <a href=" ">
+                        Fashion & Lifestyle
+                      </a> */}
 
-                      <Link href="/">
-                        <a>Events & Entertainment</a>
-                      </Link>
+                      <a href="events-and-entertainment">
+                        Events & Entertainment
+                      </a>
                     </div>
                   </a>
                 </div>
-              </Link>
+              </a>
 
-              <Link href="/casestudies">
+              <a href="casestudies">
                 <div
-                  className="border-b px-2 py-1"
+                  className="border-b px-2 py-2"
                   onClick={() => setActive(false)}
                 >
                   <a className="lg:inline-flex lg:w-auto w-full py-2 rounded font-bold">
                     Portfolio
                   </a>
                 </div>
-              </Link>
+              </a>
 
-              <Link href="/career">
+              <a href="career">
                 <div
-                  className="border-b px-2 py-1"
+                  className="border-b px-2 py-2"
                   onClick={() => setActive(false)}
                 >
                   <a className="lg:inline-flex lg:w-auto w-full py-2 rounded font-bold">
                     Career
                   </a>
                 </div>
-              </Link>
+              </a>
 
-              <Link href="services/coming-soon">
+              <a href="contact-us">
                 <div
-                  className="border-b px-2 py-1"
+                  className="border-b px-2 py-2"
                   onClick={() => setActive(false)}
                 >
                   <a className="lg:inline-flex lg:w-auto w-full py-2 rounded font-bold">
                     Get in Touch
                   </a>
                 </div>
-              </Link>
+              </a>
 
-              {/* <Link href="#">
+              {/* <a href="#">
                 <div className="border-b px-2 py-1">
                   <a
                     className={`lg:inline-flex lg:w-auto w-full rounded font-bold ${styles.mobiledropdown}`}
@@ -399,16 +395,16 @@ export default function Layout({ children }) {
                       className={`${styles.mobiledropdowncontent}`}
                       onClick={() => setActive(false)}
                     >
-                      <Link href="/contact-us">
+                      <a href="/contact-us">
                         <a>Contact Now</a>
-                      </Link>
-                      <Link href="services/coming-soon">
+                      </a>
+                      <a href="">
                         <a>Start Your Porject</a>
-                      </Link>
+                      </a>
                     </div>
                   </a>
                 </div>
-              </Link> */}
+              </a> */}
             </div>
           </div>
 
@@ -423,7 +419,7 @@ export default function Layout({ children }) {
                 className={` ${styles.mobide} lg:inline-flex list-none lg:flex-row   lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto `}
               >
                 {/* <li className={styles.dropdown}>
-                  <Link href="services/coming-soon">
+                  <a href="">
                     <a
                       className={
                         " ${styles.dropbtn} lg:inline-flex lg:w-auto w-full px-2 py-2 font-bold items-start justify-start md:items-center md:justify-center"
@@ -431,7 +427,7 @@ export default function Layout({ children }) {
                     >
                       Home
                     </a>
-                  </Link>
+                  </a>
                 </li> */}
 
                 <li className={styles.dropdown}>
@@ -452,37 +448,37 @@ export default function Layout({ children }) {
                       <div className="md:w-1/2 overflow-hidden">
                         <ul className={styles.bottomside}>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="about-us">
+                            <a href="about-us">
                               <a>
                               <ArrowRightIcon />
                                 <span> Company Profile </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="testimonials">
+                            <a href="testimonials">
                               <a>
                               <ArrowRightIcon />
                                 <span>Testimonials </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
 
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="our-blogs">
+                            <a href="our-blogs">
                               <a>
                               <ArrowRightIcon />
                                 <span> Blogs </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="/faqs">
+                            <a href="">
                               <a>
                               <ArrowRightIcon />
                                 <span> FAQs </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -511,44 +507,44 @@ export default function Layout({ children }) {
                       <div className="w-1/2 overflow-hidden">
                         <ul className={styles.bottomside}>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="/cross-platform-app-development">
+                            <a href="/cross-platform-app-development">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Cross Platform App Development </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="/customized-app-development">
+                            <a href="/customized-app-development">
                               <a>
                                 <ArrowRightIcon />
                                 <span>Customized Application Development </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="/web-design-development">
+                            <a href="/web-design-development">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Website Design & Development </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="/web-application-development">
+                            <a href="/web-application-development">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Web Application Development </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="hover:bg-gray-100">
-                            <Link href="/ai-powered-chatbots">
+                            <a href="/ai-powered-chatbots">
                               <a>
                                 <ArrowRightIcon />
                                 <span> AI Powered Chatbots </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -655,104 +651,105 @@ export default function Layout({ children }) {
                             <div className="w-1/3 overflow-hidden">
                               <ul className={`${styles.bottomside1} `}>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="ios-platform">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> iOS Platform </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="android-platform">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Android Platform</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="xamarin">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Xamarin</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="flutter">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Flutter </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="react-native">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>React Native</span>
                                     </a>
-                                  </Link>
-                                </li>
-                                <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/ionic-development">
-                                    <a>
-                                      <ArrowRightIcon />
-                                      <span>Ionic</span>
-                                    </a>
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </div>
                             <div className="w-1/3 overflow-hidden">
                               <ul className={`${styles.bottomside1} `}>
-                                <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                {/* <li className="border-b hover:bg-gray-100">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Native</span>
                                     </a>
-                                  </Link>
+                                  </a>
+                                </li> */}
+                               
+                                <li className="border-b hover:bg-gray-100">
+                                  <a href="ionic-development">
+                                    <a>
+                                      <ArrowRightIcon />
+                                      <span>Ionic</span>
+                                    </a>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/hybrid-app-development">
+                                  <a href="hybrid-app-development">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Hybrid</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/cross-platform-app-development">
+                                  <a href="cross-platform-app-development">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Cross-Platform</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
-                                <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                {/* <li className="border-b hover:bg-gray-100">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>IOT (Internet of Things)</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Wearable</span>
                                     </a>
-                                  </Link>
-                                </li>
+                                  </a>
+                                </li> */}
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/mobile-ui-ux">
+                                  <a href="mobile-ui-ux">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Mobile UI/UX </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </div>
@@ -771,104 +768,104 @@ export default function Layout({ children }) {
                             <div className="w-1/3 overflow-hidden">
                               <ul className={`${styles.bottomside1}`}>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="javascript">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> JavaScript </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
-                                <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                {/* <li className="border-b hover:bg-gray-100">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Python</span>
                                     </a>
-                                  </Link>
-                                </li>
+                                  </a>
+                                </li> */}
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/angular-development">
+                                  <a href="angular-development">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Angular</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/node-js">
+                                  <a href="node-js">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Node.JS </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/react-development">
+                                  <a href="react-development">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> React.JS </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
-                                <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                {/* <li className="border-b hover:bg-gray-100">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Vue.JS </span>
                                     </a>
-                                  </Link>
-                                </li>
+                                  </a>
+                                </li> */}
                               </ul>
                             </div>
                             <div className="w-1/3 overflow-hidden">
                               <ul className={`${styles.bottomside1}`}>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/laravel">
+                                  <a href="laravel">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Laravel </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
-                                <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                {/* <li className="border-b hover:bg-gray-100">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> CodeIgnitor </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> MEAN Stack </span>
                                     </a>
-                                  </Link>
-                                </li>
+                                  </a>
+                                </li> */}
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="full-stack">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Full Stack</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/web-app">
+                                  <a href="web-app">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Web App</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="website-ui-ux">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Website UI/UX </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </div>
@@ -882,49 +879,49 @@ export default function Layout({ children }) {
                             </div>
                           </div>
                         </TabPanel>
-                        <TabPanel value={value} index={2}>
+                        {/* <TabPanel value={value} index={2}>
                           <div className="flex flex-wrap -mx-1 overflow-hidden">
                             <div className="w-1/2 overflow-hidden">
                               <ul className={`${styles.bottomside1}`}>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Shopify Development</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Magento Development</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Joomla Development</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> WordPress Development </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Opencart Development</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </div>
@@ -937,58 +934,58 @@ export default function Layout({ children }) {
                               />
                             </div>
                           </div>
-                        </TabPanel>
+                        </TabPanel> */}
                         <TabPanel value={value} index={3}>
                           <div className="flex flex-wrap -mx-1 overflow-hidden">
                             <div className="w-1/2 overflow-hidden">
                               <ul className={`${styles.bottomside1} `}>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/crm">
+                                  <a href="crm">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> CRM </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/emr-ehr-pmr">
+                                  <a href="emr-ehr-pmr">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>EMR/EHR/PMR</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/telemedicine">
+                                  <a href="telemedicine">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Telemedicine</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
-                                <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                {/* <li className="border-b hover:bg-gray-100">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> B2B, B2C Solutions</span>
                                     </a>
-                                  </Link>
-                                </li>
+                                  </a>
+                                </li> */}
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/service-portals">
+                                  <a href="service-portals">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Service Portals</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="/services/ai-based-solutions">
+                                  <a href="ai-based-solutions">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> AI Based Solutions</span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </div>
@@ -1008,12 +1005,12 @@ export default function Layout({ children }) {
                             <div className="w-1/2 overflow-hidden">
                               <ul className={`${styles.bottomside1} `}>
                                 <li className="border-b hover:bg-gray-100">
-                                  <Link href="services/coming-soon">
+                                  <a href="">
                                     <a>
                                       <ArrowRightIcon />
                                       <span> Chatbots </span>
                                     </a>
-                                  </Link>
+                                  </a>
                                 </li>
                               </ul>
                             </div>
@@ -1047,61 +1044,61 @@ export default function Layout({ children }) {
                     >
                       <div className="w-1/2 overflow-hidden">
                         <ul className={styles.bottomside}>
-                          <li className="border-b hover:bg-gray-100">
-                            <Link href="/">
+                          {/* <li className="border-b hover:bg-gray-100">
+                            <a href="">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Healthcare & Fitness </span>
                               </a>
-                            </Link>
-                          </li>
+                            </a>
+                          </li> */}
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="">
+                            <a href="banking-and-finance">
                               <a>
                                 <ArrowRightIcon />
                                 <span>Banking & Finance </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="/real-estate-and-housing">
+                            <a href="real-estate-and-housing">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Real Estate & Housing </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="/education-sector">
+                            <a href="education-sector">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Education Sector </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="">
+                            <a href="hospitality-and-tourism">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Hospitality & Tourism </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
-                          <li className="border-b hover:bg-gray-100">
-                            <Link href="">
+                          {/* <li className="border-b hover:bg-gray-100">
+                            <a href="">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Fashion & Lifestyle </span>
                               </a>
-                            </Link>
-                          </li>
+                            </a>
+                          </li> */}
                           <li className="hover:bg-gray-100">
-                            <Link href="">
+                            <a href="events-and-entertainment">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Events & Entertainment </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -1119,7 +1116,7 @@ export default function Layout({ children }) {
                 </li>
 
                 <li className={styles.dropdown}>
-                  <Link href="casestudies">
+                  <a href="casestudies">
                     <a
                       className={
                         " ${styles.dropbtn} lg:inline-flex lg:w-auto w-full px-2 py-2 font-bold items-start justify-start md:items-center md:justify-center"
@@ -1127,10 +1124,10 @@ export default function Layout({ children }) {
                     >
                       Portfolio
                     </a>
-                  </Link>
+                  </a>
                 </li>
                 <li className={styles.dropdown}>
-                  <Link href="career">
+                  <a href="career">
                     <a
                       className={
                         " ${styles.dropbtn} lg:inline-flex lg:w-auto w-full px-2 py-2 font-bold items-start justify-start md:items-center md:justify-center"
@@ -1138,10 +1135,10 @@ export default function Layout({ children }) {
                     >
                       Career
                     </a>
-                  </Link>
+                  </a>
                 </li>
                 <li className={styles.dropdown}>
-                  <Link href="contact-us">
+                  <a href="contact-us">
                     <a
                       className={
                         " ${styles.dropbtn} lg:inline-flex lg:w-auto w-full px-2 py-2 font-bold items-start justify-start md:items-center md:justify-center"
@@ -1149,7 +1146,7 @@ export default function Layout({ children }) {
                     >
                       Get in Touch
                     </a>
-                  </Link>
+                  </a>
                 </li>
 
                 {/* <li className={styles.dropdown}>
@@ -1168,28 +1165,28 @@ export default function Layout({ children }) {
                       <div className="w-1/2 overflow-hidden">
                         <ul className={styles.bottomside}>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="contact-us">
+                            <a href="contact-us">
                               <a>
                                 <ArrowRightIcon />
                                 <span> Contact Now </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="services/coming-soon">
+                            <a href="">
                               <a>
                                 <ArrowRightIcon />
                                 <span>Start Your Porject </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                           <li className="border-b hover:bg-gray-100">
-                            <Link href="services/coming-soon">
+                            <a href="">
                               <a>
                                 <ArrowRightIcon />
                                 <span>Apply Now </span>
                               </a>
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -1206,22 +1203,22 @@ export default function Layout({ children }) {
                 </li> */}
 
                 <li className={styles.dropdown}>
-                  <Link href="faqs">
+                  <a href="faqs">
                     <a
                       className={`${styles.dropbtn} ${styles.deskhide} lg:inline-flex lg:w-auto w-full px-2 py-2 font-bold items-start justify-start md:items-center md:justify-center `}
                     >
                       Contact Us
                     </a>
-                  </Link>
+                  </a>
                 </li>
 
-                <Link href="contact-us">
+                <a href="contact-us">
                   <a
                     className={`${styles.mobide}  ${styles.deskhide} ${styles.actionButton}`}
                   >
                     <p className="flex flex-col text-center">Get In Touch</p>
                   </a>
-                </Link>
+                </a>
               </div>
             </div>
             <div className={` ${styles.mobide} md:w-1/5`}>
@@ -1239,7 +1236,7 @@ export default function Layout({ children }) {
                 rel="noreferrer"
                 className={`${styles.newicon}`}
               >
-                <LinkedInIcon />
+                <aedInIcon />
               </a>
               <a
                 href="https://www.instagram.com/aldsaladinn/?hl=en"
@@ -1312,7 +1309,7 @@ export default function Layout({ children }) {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <LinkedInIcon style={{ color: "#fff", fontSize: 36 }} />
+                      <aedInIcon style={{ color: "#fff", fontSize: 36 }} />
                     </a>
                   </div>
                 </div>
@@ -1327,65 +1324,65 @@ export default function Layout({ children }) {
               <div className="my-3 px-3 overflow-hidden w-full">
                 <ul>
                   <li className="pb-4">
-                    <Link href="about-us">
+                    <a href="about-us">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
                         />
                         About Us
                       </a>
-                    </Link>
+                    </a>
                   </li>
 
                   <li className="pb-4">
-                    <Link href="about-us">
+                    <a href="about-us">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
                         />
                         Website Design & Development
                       </a>
-                    </Link>
+                    </a>
                   </li>
                   <li className="pb-4">
-                    <Link href="other-centers">
+                    <a href="other-centers">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
                         />{" "}
                         Web Application Development
                       </a>
-                    </Link>
+                    </a>
                   </li>
                   <li className="pb-4">
-                    <Link href="faq-s">
+                    <a href="faq-s">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
                         />{" "}
                         Cross Platform Apps
                       </a>
-                    </Link>
+                    </a>
                   </li>
                   <li className="pb-4">
-                    <Link href="/about-us">
+                    <a href="about-us">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
                         />{" "}
                         AI Powered Chatbots
                       </a>
-                    </Link>
+                    </a>
                   </li>
                   <li className="pb-4">
-                    <Link href="privacy-policy">
+                    <a href="privacy-policy">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
                         />{" "}
                         Customized Application Development
                       </a>
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -1399,15 +1396,15 @@ export default function Layout({ children }) {
                 <div className="my-3 px-3 overflow-hidden w-full">
                   <ul>
                     <li>
-                      <Link href="">
+                      <a href="">
                         <a>
                           <CallIcon style={{ color: "#fff", fontSize: 20 }} />{" "}
                           &nbsp; 0141 4001852
                         </a>
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link href="">
+                      <a href="">
                         <a>
                           <div className="flex flex-wrap overflow-hidden  ">
                             <div className="  overflow-hidden   xl:w-1/12">
@@ -1422,19 +1419,19 @@ export default function Layout({ children }) {
                             </div>
                           </div>
                         </a>
-                      </Link>
+                      </a>
                     </li>
 
                     <li>
-                      <Link href="">
+                      <a href="">
                         <a>
                           <EmailIcon style={{ color: "#fff", fontSize: 20 }} />{" "}
                           &nbsp; development@aladinntech.in
                         </a>
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link href="">
+                      <a href="">
                         <a>
                           <div className="flex flex-wrap overflow-hidden  ">
                             <div className="  overflow-hidden    w-1/12">
@@ -1450,10 +1447,10 @@ export default function Layout({ children }) {
                             </div>
                           </div>
                         </a>
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link href="">
+                      <a href="">
                         <a>
                           <div className="flex flex-wrap overflow-hidden  ">
                             <div className="  overflow-hidden    w-1/12">
@@ -1470,7 +1467,7 @@ export default function Layout({ children }) {
                             </div>
                           </div>
                         </a>
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>

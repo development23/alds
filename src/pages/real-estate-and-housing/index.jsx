@@ -38,20 +38,20 @@ export default function Realestate() {
           </div>
         </div>
       <div
-          className={`md:px-28 mt-20  md:mt-0 md:pb-20 ${styles.bggrayimg}`}
+          className={`md:px-28 pt-0 pb-10 ${styles.bggrayimg}`}
         > 
-        <div className="flex flex-wrap items-center overflow-hidden md:py-10">            
-            <div className={`w-full overflow-hidden py-6 px-2 md:px-8  md:w-3/5 `}>
+        <div className="flex flex-wrap items-center overflow-hidden md:py-10 py-4">            
+            <div className={`w-full overflow-hidden px-2 md:text-left md:px-8  md:w-3/5 `}>
             <Image
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
               /> 
             <h6> <span>Solutions</span> for CRM and ERP</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            By taking advantage of ALDS’s CRM and ERP solutions, you can increase customer relationships and productivity.
+            By taking advantage of ALDS&#39;s CRM and ERP solutions, you can increase customer relationships and productivity.
             </p>
-            <ul className="flex flex-wrap items-center overflow-hidden ">
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <ul className="flex flex-wrap items-center overflow-hidden">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/automation.png")}
@@ -60,7 +60,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">	Automation of marketing</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/live-communication.png")}
@@ -69,7 +69,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">	Live communication</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/team-management.png")}
@@ -78,7 +78,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">	Management of contracts and deals</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/global-network.png")}
@@ -87,7 +87,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">	Sales across multiple channels</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/automation-technology.png")}
@@ -96,7 +96,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">	Flow automation of documents</p>
             </article>
             </li>          
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md border-black">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/management-information.png")}
@@ -114,14 +114,14 @@ export default function Realestate() {
                 />
             </div>
           </div>  
-          <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">           
-          <div className="w-full overflow-hidden text-center pt-6 md:pt-0 md:w-2/5">
+          <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
+            <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
                   src={require("@/assets/images/about/our-solution.png")}
                   alt="Aladinn Tech"
                 />
             </div>           
-            <div className={`w-full overflow-hidden py-6 px-2 md:px-8 md:w-3/5 `}>
+            <div className={`w-full overflow-hidden px-2 md:text-left md:px-8 md:w-3/5 `}>
             <Image
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
@@ -131,7 +131,7 @@ export default function Realestate() {
             With a centralized, easy-to-use portal, you can manage your tenants, rents, and agreements effortlessly.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 md:h-[190px] min-h-full">
               <Image
                   src={require("@/assets/images/icons/organize-communication.png")}
@@ -140,7 +140,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">Organize communication</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 md:h-[190px] min-h-full">
             <Image
                   src={require("@/assets/images/icons/rent-posting.png")}
@@ -149,7 +149,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Rent posting made easy</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 md:h-[190px] min-h-full">
             <Image
                   src={require("@/assets/images/icons/modifications-document.png")}
@@ -158,7 +158,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Modifications to document properties</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 md:h-[190px] min-h-full">
               <Image
                   src={require("@/assets/images/icons/checklists.png")}
@@ -167,7 +167,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">Checklists and Help Lists every month</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 md:h-[190px] min-h-full">
             <Image
                   src={require("@/assets/images/icons/features-detail.png")}
@@ -176,7 +176,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Features Described in Detail</p>
             </article>
             </li>          
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 md:h-[190px] min-h-full">
             <Image
                   src={require("@/assets/images/icons/mobile-payment.png")}
@@ -188,8 +188,8 @@ export default function Realestate() {
             </ul>
             </div>
           </div>  
-          <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">            
-            <div className={`w-full overflow-hidden py-6 px-2 md:px-8  md:w-3/5 `}>
+          <div className="flex flex-wrap items-center py-4 md:py-10 overflow-hidden ">            
+            <div className={`w-full overflow-hidden md:text-left px-2 md:px-8  md:w-3/5 `}>
             <Image
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
@@ -199,7 +199,7 @@ export default function Realestate() {
             Real Estate Industry transformation driven by powerful applications. Maintaining your existing apps is also a priority for us.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
                   src={require("@/assets/images/icons/onboarding-customers.png")}
@@ -208,7 +208,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">Onboarding new customers</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
                   src={require("@/assets/images/icons/database-listings.png")}
@@ -217,7 +217,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Database and listings</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
                   src={require("@/assets/images/icons/sorting.png")}
@@ -226,7 +226,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Sorting and Filtering</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
                   src={require("@/assets/images/icons/descriptions-properties.png")}
@@ -235,7 +235,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">Descriptions of properties</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
                   src={require("@/assets/images/icons/lead-management.png")}
@@ -253,14 +253,14 @@ export default function Realestate() {
                 />
             </div>
           </div>   
-          <div className="flex flex-wrap items-center overflow-hidden md:py-10">
-            <div className="w-full overflow-hidden text-center pt-6 md:pt-0 md:w-2/5">
+          <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
+            <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
                   src={require("@/assets/images/about/our-solution.png")}
                   alt="Aladinn Tech"
                 />
             </div>
-            <div className={`w-full overflow-hidden py-6 px-2 md:px-8  md:w-3/5 `}>
+            <div className={`w-full overflow-hidden md:text-left px-2 md:px-8  md:w-3/5 `}>
             <Image
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
@@ -270,7 +270,7 @@ export default function Realestate() {
             Take complete control of your portal / web application by using a powerful and sophisticated portal / web application.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/login.png")}
@@ -279,7 +279,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">Access log-in</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/listing.png")}
@@ -288,7 +288,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Listings</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/various-images.png")}
@@ -297,7 +297,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Various images</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/real-time-system.png")}
@@ -306,7 +306,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">A real-time messaging system</p>
               </article>
             </li> 
-            <li className="w-full overflow-hidden md:w-44 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/favorite.png")}
@@ -318,8 +318,8 @@ export default function Realestate() {
             </ul>
             </div>
           </div>  
-          <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">            
-            <div className={`w-full overflow-hidden px-2 md:px-8  md:w-3/5 `}>
+          <div className="flex flex-wrap items-center py-4 md:py-10 overflow-hidden ">            
+            <div className={`w-full overflow-hidden md:text-left px-2 md:px-8  md:w-3/5 `}>
             <Image
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
@@ -329,7 +329,7 @@ export default function Realestate() {
             Our company creates easy-to-use auction websites and property portals that facilitate property searches, comparisons, bookings, and purchases/rentals online.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
-            <li className="w-full overflow-hidden md:w-52 bg-white rounded-xl mr-6 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
                   src={require("@/assets/images/icons/filtering.png")}
@@ -338,7 +338,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">Filtering by Property Type</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-52 bg-white rounded-xl mr-6 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
                   src={require("@/assets/images/icons/filter-price.png")}
@@ -347,7 +347,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Filter for custom price ranges</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-52 bg-white rounded-xl mr-6 mb-2 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-40 min-h-full">
             <Image
                   src={require("@/assets/images/icons/filter-amenities.png")}
@@ -356,7 +356,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Feature Filter: Amenities</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-52 bg-white rounded-xl mr-6 mb-2 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-40 min-h-full">
               <Image
                   src={require("@/assets/images/icons/listing.png")}
@@ -367,24 +367,23 @@ export default function Realestate() {
             </li>
             </ul>
             </div>
-            <div className="w-full overflow-hidden text-center md:w-2/5">
+            <div className="w-full overflow-hidden text-center pt-10 md:w-2/5">
                 <Image
                   src={require("@/assets/images/about/our-solution.png")}
                   alt="Aladinn Tech"
                 />
             </div>
-          </div>          
+          </div>        
           
           
-          
-          <div className="flex flex-wrap items-center overflow-hidden md:pt-10">
-            <div className="w-full overflow-hidden text-center pt-6 md:pt-0 md:w-2/5">
+          <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
+            <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
                   src={require("@/assets/images/about/our-solution.png")}
                   alt="Aladinn Tech"
                 />
             </div>
-            <div className={`w-full overflow-hidden py-6 px-2 md:px-8  md:w-3/5 `}>
+            <div className={`w-full overflow-hidden md:text-left px-2 md:px-8  md:w-3/5 `}>
             <Image
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
@@ -394,7 +393,7 @@ export default function Realestate() {
             You can book properties online or with a mobile app that has advanced features and cutting-edge technology.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
-            <li className="w-full overflow-hidden md:w-60 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/notifications.png")}
@@ -403,7 +402,7 @@ export default function Realestate() {
                 <p className="font-bold text-sm mt-4 mb-4">Push Notifications</p>
               </article>
             </li>            
-            <li className="w-full overflow-hidden md:w-60 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/calculator.png")}
@@ -412,7 +411,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Real Estate Cost Calculators</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-60 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/calling-direct-messaging.png")}
@@ -421,7 +420,7 @@ export default function Realestate() {
             <p className="font-bold text-sm mt-4 mb-4">Calling or Direct Messaging</p>
             </article>
             </li>
-            <li className="w-full overflow-hidden md:w-60 bg-white rounded-xl mr-4 mb-6 text-center shadow-md">
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/virtual-reality.png")}
@@ -434,12 +433,10 @@ export default function Realestate() {
             </div>
           </div>
         </div>
-        <div
-          className={`md:px-28 mt-20  md:mt-0 md:pt-10 md:pb-20 ${styles.bggray}`}
-        >
+        <div className={`md:px-28  py-10 md:py-20 ${styles.bggray}`}>
         <div className="flex flex-wrap md:px-38  overflow-hidden ">
             <div
-              className={` ${styles.innerpagecon} w-full  pt-6 pl-8 pr-6 overflow-hidden md:w-full `}
+              className={` ${styles.innerpagecon} w-full pl-8 pr-6 overflow-hidden md:w-full `}
             >
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}>  Challenges </p>
@@ -548,9 +545,9 @@ export default function Realestate() {
           </div>  
         </div>
         <div
-          className={`md:px-28 mt-20  md:mt-0 md:pt-10 md:pb-20 ${styles.bggrayimg1}`}
+          className={`md:px-28  py-10 md:py-20 ${styles.bggrayimg1}`}
         >                
-          <div className="flex flex-wrap items-center overflow-hidden ">
+          <div className={`flex flex-wrap items-center overflow-hidden  ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden md:w-2/5">
               <div className={` ${styles.counter} `}>
                 <Image
@@ -559,11 +556,11 @@ export default function Realestate() {
                 />
               </div>
             </div>
-            <div className={`w-full overflow-hidden md:py-0 py-4 px-2 md:px-14  md:w-3/5 `}>
+          <div className={`w-full overflow-hidden md:py-0 py-4 px-2 md:px-14  md:w-3/5 `}>
             <div className="flex flex-wrap md:px-38  overflow-hidden ">
-            <div
-              className={` ${styles.innerpagecon} w-full  pt-6 pl-8 pr-6 overflow-hidden md:w-full `}
-            >
+              <div
+                className={` ${styles.innerpagecon} w-full  pt-6 pl-8 pr-6 overflow-hidden md:w-full `}
+              >
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}>  What Value We Deliver </p>
 
