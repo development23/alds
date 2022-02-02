@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 
 
-export default function Eductionsector() { 
+export default function Realestate() { 
   return (
     <div>
       <div
@@ -254,7 +254,7 @@ export default function Eductionsector() {
             </div>
           </div>   
           <div className="flex flex-wrap items-center overflow-hidden md:py-10">
-            <div className="w-full overflow-hidden text-center md:w-2/5">
+            <div className="w-full overflow-hidden text-center pt-6 md:pt-0 md:w-2/5">
                 <Image
                   src={require("@/assets/images/about/our-solution.png")}
                   alt="Aladinn Tech"
@@ -378,7 +378,7 @@ export default function Eductionsector() {
           
           
           <div className="flex flex-wrap items-center overflow-hidden md:pt-10">
-            <div className="w-full overflow-hidden text-center md:w-2/5">
+            <div className="w-full overflow-hidden text-center pt-6 md:pt-0 md:w-2/5">
                 <Image
                   src={require("@/assets/images/about/our-solution.png")}
                   alt="Aladinn Tech"
@@ -481,7 +481,7 @@ export default function Eductionsector() {
               </article>
             </li> 
             <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
-                <article className="flex px-6 py-6 h-auto md:h-58">
+                <article className="flex px-6 py-6 h-auto md:h-44">
                 <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
                   <Image
                     src={require("@/assets/images/icons/input-costs.png")}
@@ -530,7 +530,7 @@ export default function Eductionsector() {
               
               
               <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
-                <article className="flex px-6 py-6 h-auto md:h-58">
+                <article className="flex px-6 py-6 h-auto md:h-44">
                 <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
                   <Image
                     src={require("@/assets/images/icons/innovations-in-technology.png")}

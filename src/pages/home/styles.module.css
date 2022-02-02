@@ -432,6 +432,8 @@ font-weight:700;
 }
 
 @media screen and (max-width: 768px) {
+  
+  
   .factBox {
     border-bottom: 3px solid #eee;
   }
@@ -568,11 +570,11 @@ font-weight:700;
     }
 
   .mts{
-    margin-top:-205px;
+    margin-top:-560px;
   }
   
   .mtsin{
-    margin-top:300px;
+    margin-top:650PX;
   }
 
   

@@ -562,7 +562,7 @@ export default function Index() {
       </div>
 
       <div className={` ${styles.mtsin}  relative bg-white `}>
-        <div className={` ${styles.about}   `}>
+        <div className={` ${styles.about}  ${styles.mhide} `}>
           <div className="  relative container mx-auto flex flex-wrap overflow-hidden ">
             <div className="w-full pl-2  overflow-hidden">
               <h2> About Us </h2>

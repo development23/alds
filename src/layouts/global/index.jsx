@@ -165,7 +165,7 @@ export default function Layout({ children }) {
                     Services
                     <ArrowDownIcon className="right-0 absolute" />
                     <div
-                      className={`${styles.mobiledropdowncontent}`}
+                      className={`${styles.mobiledropdowncontent}  ${styles.serviceheader}`}
                       onClick={() => setActive(false)}
                     >
                       <div className="flex">

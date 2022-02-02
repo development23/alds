@@ -23,21 +23,29 @@ export default function Eductionsector() {
       </div>
 
       <div className={` ${styles.mtsin} relative bg-white `}>
-      <div
-          className={`md:px-28 mt-20  md:mt-0 md:pt-10 md:pb-20 ${styles.bggrayimg}`}
-        >
-          <div className={`container mx-auto flex flex-wrap overflow-hidden`}>
-            <div className="w-full text-center pl-2  overflow-hidden">
-              <Image
-                src={require("@/assets/images/bg/pat1.png")}
-                alt="Aladinn Tech"
-              />
-              <h2> Our Solutions</h2>
+      <div className="md:px-28 md:pt-10 ">
+          <div className="flex flex-wrap md:px-38  overflow-hidden ">
+            <div
+              className={` ${styles.innerpagecon} w-full  pt-6 pl-8 pr-6 overflow-hidden md:w-full `}
+            >
+              <div className={` ${styles.titlesubcontainer} `}>
+                <p className={` ${styles.titlesub} `}> Our Solutions </p>
+
+                <h2 className={` ${styles.titlemain} `}> Education Sector</h2> 
+              </div>             
             </div>
           </div>
+        </div>
+      <div
+          className={`md:px-28 mt-20  md:mt-0 md:pb-20 ${styles.bggrayimg}`}
+        >          
           <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">            
-            <div className={`w-full overflow-hidden px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4"> E-Learning Solutions</h6>
+            <div className={`w-full overflow-hidden px-2 md:px-8  md:w-3/5 `}>
+            <Image
+                src={require("@/assets/images/bg/pat3.png")}
+                alt="Aladinn Tech"
+              /> 
+            <h6> <span>E-Learning</span> Solutions</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
             We develop education web portals with a high level of functionality and interactivity to bridge the learning gap between students and institutions.
             </p>
@@ -104,7 +112,11 @@ export default function Eductionsector() {
                 />
             </div>
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4"> Websites for remote e-learning</h6>
+            <Image
+                src={require("@/assets/images/bg/pat3.png")}
+                alt="Aladinn Tech"
+              /> 
+            <h6> <span>Websites</span> for remote e-learning</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
             Online learning websites allow you to access live streaming and live chats to enhance your learning experience.
             </p>
@@ -168,7 +180,11 @@ export default function Eductionsector() {
           </div>
           <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">            
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Management software for institutions</h6>
+            <Image
+                src={require("@/assets/images/bg/pat3.png")}
+                alt="Aladinn Tech"
+              /> 
+            <h6> <span>Management</span> software for institutions</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
             With a single admin panel, we can help you manage attendance, courses, staff and payrolls all in one place.
             </p>
@@ -244,7 +260,11 @@ export default function Eductionsector() {
                 />
             </div>
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Portals and Web applications</h6>
+            <Image
+                src={require("@/assets/images/bg/pat3.png")}
+                alt="Aladinn Tech"
+              /> 
+            <h6> <span>Portals</span> and Web applications</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
             Our web portal/application development services are highly customised and include many features.
             </p>
@@ -290,7 +310,11 @@ export default function Eductionsector() {
           </div>
           <div className="flex flex-wrap items-center md:py-10 overflow-hidden ">            
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Exam Portal Online</h6>
+            <Image
+                src={require("@/assets/images/bg/pat3.png")}
+                alt="Aladinn Tech"
+              /> 
+            <h6> <span>Exam</span> Portal Online</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
             You can easily maintain and conduct online examinations with built-in security and advanced features.
             </p>
@@ -366,7 +390,11 @@ export default function Eductionsector() {
                 />
             </div>
             <div className={`w-full overflow-hidden py-6 px-2 md:px-14  md:w-3/5 `}>
-            <h6 className="text-gray-900 text-2xl font-extrabold mb-4">Content Management Solutions</h6>
+            <Image
+                src={require("@/assets/images/bg/pat3.png")}
+                alt="Aladinn Tech"
+              /> 
+            <h6> <span>Content</span> Management Solutions</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
             We provide comprehensive content management and study material management services.
             </p>
