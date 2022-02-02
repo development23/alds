@@ -149,9 +149,9 @@ export default function Layout({ children }) {
                         Blogs
                       </a>
 
-                      <a href="">
+                      {/* <a href="">
                         FAQs
-                      </a>
+                      </a> */}
                     </div>
                   </a>
                 </div>
@@ -170,6 +170,7 @@ export default function Layout({ children }) {
                     >
                       <div className="flex">
                         <div className="w-full overflow-hidden">
+                        <a className="text-xl text-gray-600 font-bold">MOBILE DEVELOPMENT</a>
                           <a href="ios-platform">
                            iOS Platform
                           </a>
@@ -212,7 +213,7 @@ export default function Layout({ children }) {
                           <a href="mobile-ui-ux">
                             Mobile UI/UX 
                           </a>
-
+                          <a className="text-xl text-gray-600 font-bold">WEB DEVELOPMENT</a>
                           <a href="javascript">
                             JavaScript
                           </a>
@@ -280,7 +281,7 @@ export default function Layout({ children }) {
                           <a href="">
                            Opencart
                           </a> */}
-
+                          <a className="text-xl text-gray-600 font-bold">CUSTOMISED SOLUTIONS</a>
                           <a href="crm">
                             CRM
                           </a>
@@ -472,14 +473,14 @@ export default function Layout({ children }) {
                               </a>
                             </a>
                           </li>
-                          <li className="border-b hover:bg-gray-100">
+                          {/* <li className="border-b hover:bg-gray-100">
                             <a href="">
                               <a>
                               <ArrowRightIcon />
                                 <span> FAQs </span>
                               </a>
                             </a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="md:w-1/2 overflow-hidden ">
@@ -614,7 +615,7 @@ export default function Layout({ children }) {
                                   value === 1 ? "#efefef " : "transparent",
                               }}
                             />
-                            <Tab
+                            {/* <Tab
                               label="CMS DEVELOPMENT"
                               {...a11yProps(2)}
                               className={` ${styles.depbord}`}
@@ -622,10 +623,10 @@ export default function Layout({ children }) {
                                 backgroundColor:
                                   value === 2 ? "#efefef " : "transparent",
                               }}
-                            />
+                            /> */}
                             <Tab
                               label="CUSTOMISED SOLUTIONS"
-                              {...a11yProps(3)}
+                              {...a11yProps(2)}
                               className={` ${styles.depbord}`}
                               style={{
                                 backgroundColor:
@@ -879,7 +880,7 @@ export default function Layout({ children }) {
                             </div>
                           </div>
                         </TabPanel>
-                        {/* <TabPanel value={value} index={2}>
+                        {/* <TabPanel value={value} index={3}>
                           <div className="flex flex-wrap -mx-1 overflow-hidden">
                             <div className="w-1/2 overflow-hidden">
                               <ul className={`${styles.bottomside1}`}>
@@ -935,7 +936,7 @@ export default function Layout({ children }) {
                             </div>
                           </div>
                         </TabPanel> */}
-                        <TabPanel value={value} index={3}>
+                        <TabPanel value={value} index={2}>
                           <div className="flex flex-wrap -mx-1 overflow-hidden">
                             <div className="w-1/2 overflow-hidden">
                               <ul className={`${styles.bottomside1} `}>
@@ -1203,7 +1204,7 @@ export default function Layout({ children }) {
                 </li> */}
 
                 <li className={styles.dropdown}>
-                  <a href="faqs">
+                  <a href="contact-us">
                     <a
                       className={`${styles.dropbtn} ${styles.deskhide} lg:inline-flex lg:w-auto w-full px-2 py-2 font-bold items-start justify-start md:items-center md:justify-center `}
                     >
@@ -1236,7 +1237,7 @@ export default function Layout({ children }) {
                 rel="noreferrer"
                 className={`${styles.newicon}`}
               >
-                <aedInIcon />
+                <LinkedInIcon />
               </a>
               <a
                 href="https://www.instagram.com/aldsaladinn/?hl=en"
@@ -1309,7 +1310,7 @@ export default function Layout({ children }) {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <aedInIcon style={{ color: "#fff", fontSize: 36 }} />
+                      <LinkedInIcon style={{ color: "#fff", fontSize: 36 }} />
                     </a>
                   </div>
                 </div>
