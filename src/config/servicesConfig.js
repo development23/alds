@@ -39,7 +39,7 @@ export const services = [
     slug: "web-application-development",
     banner: "s4.jpg",
     subtitle: "Website App Development",
-    title: "Web Application Development",
+    title: "Web Application Development", 
     description:
       "Similar to website development, our web application development services provide cutting-edge web solutions that drive business transformation by building dynamic web apps. We utilize the most advanced frameworks, best programming practices, and adhere to the standard coding guidelines to make sure that your business brings in better conversion, optimized, and outcome focussed. The robust technology we use adds value to the client’s business and our end-to-end digital solutions provide the best results in the long run.",
     description1:

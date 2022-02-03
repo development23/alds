@@ -198,7 +198,7 @@ export default function Layout({ children }) {
                             Hybrid 
                           </a>
 
-                          <a href="cross-platform-app-development">
+                          <a href="cross-platform-development">
                             Cross-Platform
                           </a>
 
@@ -487,6 +487,8 @@ export default function Layout({ children }) {
                         <Image
                           src={require("@/assets/images/header/2.jpg")}
                           alt="Aladinn Tech"
+                          width="450"
+                          height="215"
                         />
                       </div>
                     </div>
@@ -585,7 +587,7 @@ export default function Layout({ children }) {
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "center",
-                            height: 250,
+                            height: 200,
                           }}
                         >
                           <Tabs
@@ -721,7 +723,7 @@ export default function Layout({ children }) {
                                   </a>
                                 </li>
                                 <li className="border-b hover:bg-gray-100">
-                                  <a href="cross-platform-app-development">
+                                  <a href="cross-platform-development">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>Cross-Platform</span>
@@ -759,7 +761,7 @@ export default function Layout({ children }) {
                                 src={require("@/assets/images/header/mobile.gif")}
                                 alt="Aladinn Tech"
                                 width="300"
-                                height="260"
+                                height="210"
                               />
                             </div>
                           </div>
@@ -875,7 +877,7 @@ export default function Layout({ children }) {
                                 src={require("@/assets/images/header/2.gif")}
                                 alt="Aladinn Tech"
                                 width="300"
-                                height="260"
+                                height="210"
                               />
                             </div>
                           </div>
@@ -995,7 +997,7 @@ export default function Layout({ children }) {
                                 src={require("@/assets/images/header/frontend.gif")}
                                 alt="Aladinn Tech"
                                 width="300"
-                                height="260"
+                                height="210"
                               />
                             </div>
                           </div>
@@ -1109,7 +1111,7 @@ export default function Layout({ children }) {
                           src={require("@/assets/images/header/services.gif")}
                           alt="Aladinn Tech"
                           width="450"
-                          height="460"
+                          height="350"
                         />
                       </div>
                     </div>
@@ -1336,7 +1338,7 @@ export default function Layout({ children }) {
                   </li>
 
                   <li className="pb-4">
-                    <a href="about-us">
+                    <a href="web-design-development">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
@@ -1346,7 +1348,7 @@ export default function Layout({ children }) {
                     </a>
                   </li>
                   <li className="pb-4">
-                    <a href="other-centers">
+                    <a href="web-application-development">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
@@ -1356,7 +1358,7 @@ export default function Layout({ children }) {
                     </a>
                   </li>
                   <li className="pb-4">
-                    <a href="faq-s">
+                    <a href="cross-platform-app-development">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
@@ -1366,7 +1368,7 @@ export default function Layout({ children }) {
                     </a>
                   </li>
                   <li className="pb-4">
-                    <a href="about-us">
+                    <a href="ai-powered-chatbots">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}
@@ -1376,7 +1378,7 @@ export default function Layout({ children }) {
                     </a>
                   </li>
                   <li className="pb-4">
-                    <a href="privacy-policy">
+                    <a href="customized-app-development">
                       <a>
                         <ArrowForwardIosIcon
                           style={{ color: "#fff", fontSize: 20 }}

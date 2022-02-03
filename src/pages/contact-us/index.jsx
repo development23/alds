@@ -29,6 +29,9 @@ const saveLeadSchema = Yup.object().shape({
   email: Yup.string()
     .required("Email field is required.")
     .email("Must be a valid email address."),
+  subject: Yup.string()
+      .required("Subject is required")
+      .max(500, "Word limit exceeded"),
   message: Yup.string()
     .required("Message is required")
     .max(500, "Word limit exceeded"),
@@ -165,7 +168,11 @@ export default function Contactus() {
                         onBlur={handleBlur("subject")}
                         name="subject"
                         className="w-full mb-1 py-3 px-2 text-black border-gray-300 border"
+                        required
                       />
+                      {errors.subject && touched.subject ? (
+                        <p className="text-red-500">{errors.subject}</p>
+                      ) : null}
                     </div>
 
                     <div className="my-1 px-3 w-full overflow-hidden lg:my-6 lg:px-6 lg:w-1/3 xl:my-4 xl:px-4 xl:w-full">

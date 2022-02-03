@@ -4,20 +4,20 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 
 
-export default function Bankingfinance() { 
+export default function Mediaent() { 
   return (
     <div>
       <div
         className={` ${styles.mts} flex flex-wrap  fixed z-0 overflow-hidden `}
       >
-        <div className="w-full pt-6 pl-8 pr-6 overflow-hidden   xl:w-1/5">
+        <div className="w-full pt-6 pl-8 pr-6 overflow-hidden xl:w-1/5">
           <Sidebar />
         </div>
 
-        <div className={`  ${styles.btp} w-full overflow-hidden    xl:w-4/5 `}>
+        <div className={`  ${styles.btp} w-full overflow-hidden xl:w-4/5 `}>
         <Image
-            src={require("@/assets/images/banner/finance-and-banking.jpg")}
-            alt="Aladinn Tech finance-and-banking"
+            src={require("@/assets/images/banner/media-and-entertainment.jpg")}
+            alt="Aladinn Tech Media & Entertainment"
           />
         </div>
       </div>
@@ -31,9 +31,9 @@ export default function Bankingfinance() {
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}> Our Solutions </p>
 
-                <h2 className={` ${styles.titlemain} `}> Banking & Finance </h2>
+                <h2 className={` ${styles.titlemain} `}> Media & Entertainment</h2>
               </div>             
-              <p className="text-gray-600 text-base">Through the development of advanced digital and data management solutions, we make sure that our clients are using technology effectively for their success. From improving workflow, reducing costs, and streamlining their operations - your institution can benefit from our solutions as well.</p>
+              <p className="text-gray-600 text-base">Developing interactive and end-to-end solutions for Media and Entertainment App business. </p>
             </div>
           </div>
         </div>
@@ -46,83 +46,55 @@ export default function Bankingfinance() {
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
               /> 
-            <h6> <span>Finance</span> Management Software</h6>
+            <h6> <span>Portal</span> for online ticketing</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            With the help of advanced Finance management software development, you can easily access customer information and transaction records.
+            With our e-ticketing portal, we make online ticket booking easy without hassels and avoids lengthy booking processes.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden">
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-44 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-44">
               <Image
                   src={require("@/assets/images/icons/automation.png")}
-                  alt="Customized as per the requirements"
+                  alt="Easy check for seat availabilit"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">	Customized as per the requirements</p>
+                <p className="font-bold text-sm mt-4 mb-4">	Easy check for seat availabilit</p>
               </article>
             </li>            
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
+            <article className="px-4 py-4  h-auto md:h-44">
             <Image
                   src={require("@/assets/images/icons/live-communication.png")}
-                  alt="Multi-lingual software"
+                  alt="Manages complete booking details"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">	Multi-lingual software</p>
+            <p className="font-bold text-sm mt-4 mb-4">	Manages complete booking details</p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
+            <article className="px-4 py-4  h-auto md:h-44">
             <Image
                   src={require("@/assets/images/icons/team-management.png")}
-                  alt="Data Information Management"
+                  alt="Thoughtfully planned interface"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">	Data Information Management</p>
+            <p className="font-bold text-sm mt-4 mb-4">	Thoughtfully planned interface</p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-44 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-44">
               <Image
                   src={require("@/assets/images/icons/global-network.png")}
-                  alt="Interactive Dashboard"
+                  alt="Payment management"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Interactive Dashboard</p>
+                <p className="font-bold text-sm mt-4 mb-4">Payment management </p>
               </article>
-            </li>            
-            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/automation-technology.png")}
-                  alt="Cash Management System"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">	Cash Management System</p>
-            </article>
-            </li>          
-            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/management-information.png")}
-                  alt="Comprehensive Reporting"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">	Comprehensive Reporting</p>
-            </article>
             </li>
-                       
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/automation-technology.png")}
-                  alt="Chatbots for Bank"
+              <article className="px-4 py-4  h-auto md:h-44">
+              <Image
+                  src={require("@/assets/images/icons/global-network.png")}
+                  alt="Enhanced visibility"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">	Chatbots for Bank</p>
-            </article>
-            </li>          
-            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/management-information.png")}
-                  alt="Digital Payment Solution"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">	Digital Payment Solution</p>
-            </article>
+                <p className="font-bold text-sm mt-4 mb-4">Enhanced visibility</p>
+              </article>
             </li>
             </ul>
             </div>
@@ -145,48 +117,65 @@ export default function Bankingfinance() {
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
               /> 
-            <h6><span>Solutions</span> for Customer Management</h6>
+            <h6><span>Software</span> for Real-Time Tracking & Reporting</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            Improve your customer relationship and get a deeper understanding of your customers with advanced and effective customer management solutions.
+            Our web solutions are integrated in a way which allows organizations to maintain a complete track record of individuals who entered or left the premises.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 md:h-[190px] min-h-full">
               <Image
                   src={require("@/assets/images/icons/organize-communication.png")}
-                  alt="Enterprise Software Development"
+                  alt=" Improves decision making ability "
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Enterprise Software Development</p>
+                <p className="font-bold text-sm mt-4 mb-4"> Improves decision making ability </p>
               </article>
+            </li>            
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
+            <article className="px-4 py-4 md:h-[190px] min-h-full">
+            <Image
+                  src={require("@/assets/images/icons/rent-posting.png")}
+                  alt="Reduces the manual labour"
+                />
+            <p className="font-bold text-sm mt-4 mb-4">Reduces the manual labour </p>
+            </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 md:h-[190px] min-h-full">
             <Image
                   src={require("@/assets/images/icons/modifications-document.png")}
-                  alt="Customer Information and Data Management"
+                  alt="Speed up client meetings"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Customer Information and Data Management</p>
-            </article>
-            </li>          
-            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 md:h-[190px] min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/rent-posting.png")}
-                  alt="Maintenance & Support"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">Maintenance & Support</p>
+            <p className="font-bold text-sm mt-4 mb-4">Speed up client meetings </p>
             </article>
             </li>
-            
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 md:h-[190px] min-h-full">
               <Image
                   src={require("@/assets/images/icons/checklists.png")}
-                  alt="Quality Assurance"
+                  alt="Intermediaries can be avoided"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Quality Assurance</p>
+                <p className="font-bold text-sm mt-4 mb-4">Intermediaries can be avoided</p>
+              </article>
+            </li> 
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
+              <article className="px-4 py-4 md:h-[190px] min-h-full">
+              <Image
+                  src={require("@/assets/images/icons/checklists.png")}
+                  alt="Highly effective in multi-department set up"
+                />
+                <p className="font-bold text-sm mt-4 mb-4">Highly effective in multi-department set up</p>
               </article>
             </li>
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
+              <article className="px-4 py-4 md:h-[190px] min-h-full">
+              <Image
+                  src={require("@/assets/images/icons/checklists.png")}
+                  alt="Trust & work transparency can be subsequently impr"
+                />
+                <p className="font-bold text-sm mt-4 mb-4">Trust & work transparency</p>
+              </article>
+            </li> 
             </ul>
             </div>
           </div>  
@@ -196,66 +185,65 @@ export default function Bankingfinance() {
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
               /> 
-            <h6><span>eWallet/Mobile</span> Wallet Applications</h6>
+            <h6><span>Software</span> for Ticket Management </h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            EWallet apps are powerful apps which allow users to switch to a cashless society. Our mobile banking apps ensure security, agility and interactivity.
+            Our solutions help you manage the better integration of the Ticket Management System with the web portal which makes designing and ticket generation easy for events.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-40 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-48">
               <Image
                   src={require("@/assets/images/icons/onboarding-customers.png")}
-                  alt="Easy Registration"
+                  alt="Complete customization as per demand"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Easy Registration</p>
+                <p className="font-bold text-sm mt-4 mb-4">Complete customization as per demand</p>
               </article>
             </li>            
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-40 min-h-full">
+            <article className="px-4 py-4  h-auto md:h-48">
             <Image
                   src={require("@/assets/images/icons/database-listings.png")}
-                  alt="Brand Integration"
+                  alt="Creation of customized ticket pages"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Brand Integration</p>
+            <p className="font-bold text-sm mt-4 mb-4">Creation of customized ticket pages</p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-40 min-h-full">
+            <article className="px-4 py-4  h-auto md:h-48">
             <Image
                   src={require("@/assets/images/icons/sorting.png")}
-                  alt="Payment Gateway"
+                  alt="Manages entire information related to students "
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Payment Gateway</p>
+            <p className="font-bold text-sm mt-4 mb-4">Manages entire information related to students </p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-40 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-44">
               <Image
                   src={require("@/assets/images/icons/descriptions-properties.png")}
-                  alt="Assured Security"
+                  alt="Travel product innovative services"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Assured Security</p>
+                <p className="font-bold text-sm mt-4 mb-4">Multilingual support </p>
               </article>
-            </li>            
-            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-40 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/lead-management.png")}
-                  alt="Digital Payment Solution"
-                />
-            <p className="font-bold text-sm mt-4 mb-4">Digital Payment Solution</p>
-            </article>
             </li> 
-                       
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-40 min-h-full">
-            <Image
-                  src={require("@/assets/images/icons/lead-management.png")}
-                  alt="Information and Data Management"
+              <article className="px-4 py-4  h-auto md:h-44">
+              <Image
+                  src={require("@/assets/images/icons/descriptions-properties.png")}
+                  alt="Better team management "
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Information and Data Management</p>
-            </article>
-            </li>          
+                <p className="font-bold text-sm mt-4 mb-4">Better team management </p>
+              </article>
+            </li>  
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
+              <article className="px-4 py-4  h-auto md:h-44">
+              <Image
+                  src={require("@/assets/images/icons/descriptions-properties.png")}
+                  alt="Access via multiple channels"
+                />
+                <p className="font-bold text-sm mt-4 mb-4">Access via multiple channels</p>
+              </article>
+            </li>           
             </ul>
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
@@ -277,65 +265,65 @@ export default function Bankingfinance() {
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
               /> 
-            <h6><span>Mobile</span> Banking App Development</h6>
+            <h6><span>Retail</span> Billing & POS software</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            You can now be in the pocket of your customers, not just with currency but with a mobile application. We design rock-solid apps for Android and iOS as well.
+            Our POS software solutions help manage diverse business operations effectively, for example, sales, organizing and inventory management. 
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-44 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-48">
               <Image
                   src={require("@/assets/images/icons/login.png")}
-                  alt="Easy Registration"
+                  alt="Managing and improves customer relations"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Easy Registration</p>
+                <p className="font-bold text-sm mt-4 mb-4">Managing and improves customer relations </p>
               </article>
             </li>            
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
+            <article className="px-4 py-4  h-auto md:h-48">
             <Image
                   src={require("@/assets/images/icons/listing.png")}
-                  alt="Brand Integration"
+                  alt="Efficient tracking, monitoring and sales reporting"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Brand Integration</p>
+            <p className="font-bold text-sm mt-4 mb-4">Efficient tracking, monitoring and sales reporting</p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-44 min-h-full">
+            <article className="px-4 py-4  h-auto md:h-48">
             <Image
                   src={require("@/assets/images/icons/various-images.png")}
-                  alt="Payment Gateway"
+                  alt="Processing of orders as well as billing details"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Payment Gateway</p>
+            <p className="font-bold text-sm mt-4 mb-4">Processing of orders as well as billing details</p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-44 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-48">
               <Image
                   src={require("@/assets/images/icons/real-time-system.png")}
-                  alt="Assured Security"
+                  alt="Complete management of employee data"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Assured Security</p>
+                <p className="font-bold text-sm mt-4 mb-4">Complete management of employee data</p>
               </article>
             </li> 
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-44 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-48">
               <Image
                   src={require("@/assets/images/icons/favorite.png")}
-                  alt="Reporting/Data Analysis"
+                  alt="Inventory management"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Reporting/Data Analysis</p>
+                <p className="font-bold text-sm mt-4 mb-4">Inventory management</p>
               </article>
             </li> 
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-44 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-48">
               <Image
                   src={require("@/assets/images/icons/favorite.png")}
-                  alt="Investment Management Solution"
+                  alt="Manages the cross channel returns"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Investment Management Solution</p>
+                <p className="font-bold text-sm mt-4 mb-4">Manages the cross channel returns</p>
               </article>
-            </li>         
+            </li>          
             </ul>
             </div>
           </div>  
@@ -345,45 +333,63 @@ export default function Bankingfinance() {
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
               /> 
-            <h6><span>Portal</span> for Net Banking</h6>
+            <h6><span>Custom</span> CRM Solutions</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            Your customers should be able to access their accounts through a sophisticated portal. We develop highly-secure and technology-enabled online banking portals for your customers.
+            You can scale your business with our custom CRM Solutions which are easy to use & can be implemented within a short span of time.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-40 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-52">
               <Image
                   src={require("@/assets/images/icons/filtering.png")}
-                  alt="Customer Panel"
+                  alt="Management of customer contact details"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Customer Panel</p>
+                <p className="font-bold text-sm mt-4 mb-4">Management of customer contact details</p>
               </article>
             </li>            
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-40 min-h-full">
+            <article className="px-4 py-4  h-auto md:h-52">
             <Image
                   src={require("@/assets/images/icons/filter-price.png")}
-                  alt="e-Bill Platform"
+                  alt="Enhanced functionality through mail integration"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">e-Bill Platform</p>
+            <p className="font-bold text-sm mt-4 mb-4">Enhanced functionality through mail integration</p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-            <article className="px-4 py-4 h-40 min-h-full">
+            <article className="px-4 py-4  h-auto md:h-52">
             <Image
                   src={require("@/assets/images/icons/filter-amenities.png")}
-                  alt="Online Enquiry"
+                  alt="Quick access to customer database"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Online Enquiry</p>
+            <p className="font-bold text-sm mt-4 mb-4">Quick access to customer database </p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
-              <article className="px-4 py-4 h-40 min-h-full">
+              <article className="px-4 py-4  h-auto md:h-48">
               <Image
                   src={require("@/assets/images/icons/listing.png")}
-                  alt="Fund Transfer"
+                  alt="Management of business proposals"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Fund Transfer</p>
+                <p className="font-bold text-sm mt-4 mb-4">Management of business proposals</p>
+              </article>
+            </li>
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
+              <article className="px-4 py-4  h-auto md:h-48">
+              <Image
+                  src={require("@/assets/images/icons/listing.png")}
+                  alt="Efficient Lead Management"
+                />
+                <p className="font-bold text-sm mt-4 mb-4">Efficient Lead Management</p>
+              </article>
+            </li>
+            <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
+              <article className="px-4 py-4  h-auto md:h-48">
+              <Image
+                  src={require("@/assets/images/icons/listing.png")}
+                  alt="Advanced automation features"
+                />
+                <p className="font-bold text-sm mt-4 mb-4">Advanced automation features</p>
               </article>
             </li>
             </ul>
@@ -409,47 +415,47 @@ export default function Bankingfinance() {
                 src={require("@/assets/images/bg/pat3.png")}
                 alt="Aladinn Tech"
               /> 
-            <h6><span>Insurance</span> Management Portal</h6>
+            <h6><span>Web</span> apps & websites for online registration</h6>
             <p className="text-gray-600 text-md mb-4 mt-4"> 
-            Insurance companies use our portal to manage everything. Our portal gives you access to customer data and insurance plans.
+            Our web solutions make online registration possible with the ease of payment and also saves your time.
             </p>
             <ul className="flex flex-wrap items-center overflow-hidden ">
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/notifications.png")}
-                  alt="Customer Registration"
+                  alt="On-spot confirmation"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Customer Registration</p>
+                <p className="font-bold text-sm mt-4 mb-4">On-spot confirmation</p>
               </article>
             </li>            
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/calculator.png")}
-                  alt="Online Enquiry"
+                  alt="Secured payment"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Online Enquiry</p>
+            <p className="font-bold text-sm mt-4 mb-4">Secured payment </p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
             <article className="px-4 py-4 h-44 min-h-full">
             <Image
                   src={require("@/assets/images/icons/calling-direct-messaging.png")}
-                  alt="Banking Transaction"
+                  alt="Real-time update of registrations"
                 />
-            <p className="font-bold text-sm mt-4 mb-4">Banking Transaction</p>
+            <p className="font-bold text-sm mt-4 mb-4">Real-time update of registrations</p>
             </article>
             </li>
             <li className="w-1/2 overflow-hidden md:w-44 bg-white rounded-xl md:mr-4 mb-6 text-center shadow-md">
               <article className="px-4 py-4 h-44 min-h-full">
               <Image
                   src={require("@/assets/images/icons/virtual-reality.png")}
-                  alt="Consumer Data Analysis"
+                  alt="Time saving & quick"
                 />
-                <p className="font-bold text-sm mt-4 mb-4">Consumer Data Analysis</p>
+                <p className="font-bold text-sm mt-4 mb-4"> Time saving & quick</p>
               </article>
-            </li>           
+            </li>          
             </ul>
             </div>
           </div>
@@ -462,9 +468,9 @@ export default function Bankingfinance() {
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}>  Challenges </p>
 
-                <h2 className={` ${styles.titlemain} `}>Banking & Finance </h2>
+                <h2 className={` ${styles.titlemain} `}>Media & Entertainment</h2>
               </div>             
-              <p className="text-gray-600 text-base">Innovative solutions and strategies are capable of delivering massive benefits for the finance industry. This industry, however, faces great challenges due to the unprecedented advancement and ever-growing market demands. As a team of proficient software developers, business strategists, and tech experts, we overcome these challenges and deliver robust solutions.</p>
+              <p className="text-gray-600 text-base">With the influx of technology, the expectations of the public from the media industry has greatly shifted. Video on demand and OTT Development solutions have provided access to live and on-demand coverage. Not just TV, audiences are now consuming media and information on all devices and diverse platforms. Thus, the major challenge for the media industry is to provide on-demand content quickly and effortlessly to enhance the viewership. </p>
             </div>
           </div>
           <div className="flex flex-wrap md:pt-10 overflow-hidden ">            
@@ -474,94 +480,92 @@ export default function Bankingfinance() {
               <article className="flex px-6 py-6 h-auto ">
               <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
                  <Image
-                  src={require("@/assets/images/icons/volatility-market.png")}
-                  alt="Managing data"
-                />
-                </figure> 
-                <figcaption className="w-full">                
-                <h4 className="font-bold text-lg mb-2 text-gray-600">Managing data</h4>  
-                <h5 className="text-gray-600 text-sm">There is no permanent solution to manage the increasing hype of data and its safeguarding with the technology that exists today.</h5>
-                </figcaption> 
-              </article>
-            </li> 
-            <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
-              <article className="flex px-6 py-6 h-auto ">
-              <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
-                 <Image
                   src={require("@/assets/images/icons/lead.png")}
-                  alt="Regulatory framework"
+                  alt="Enhancing User Experience "
                 />
                 </figure> 
                 <figcaption className="w-full">                
-                <h4 className="font-bold text-lg mb-2 text-gray-600">Regulatory framework</h4>  
-                <h5 className="text-gray-600 text-sm">International and national rules and regulations are hardwired into the banking and finance industry; they work under strict guidelines which reduces their agility.</h5>
+                <h4 className="font-bold text-lg mb-2 text-gray-600">Enhancing User Experience </h4>  
+                <h5 className="text-gray-600 text-sm">In the media industry, the user experience depends on a number of factors such as color theme, navigation, the extent of responsiveness, transition as well as other functional properties. Thus, achieving a fine balance among all of these is a real challenge.</h5>
                 </figcaption> 
               </article>
             </li> 
             <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
-                <article className="flex px-6 py-6 h-auto md:h-44">
-                <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
-                  <Image
-                    src={require("@/assets/images/icons/input-costs.png")}
-                    alt="Managing Technology risks"
-                  />
-                  </figure> 
-                  <figcaption className="w-full">               
-                  <h4 className="font-bold text-lg mb-2 text-gray-600">Managing Technology risks</h4>  
-                  <h5 className="text-gray-600 text-sm">In spite of the fact that the finance industry is equipped with the technical tools, it is still prone to cyber attacks, which cause data loss and other losses.</h5>
-                  </figcaption> 
-                </article>
-              </li>                      
-                    
-            </ul>
-            </div>
-            <div className={`w-full overflow-hidden px-2 md:px-4  md:w-1/2`}>
-            <ul className="flex flex-wrap items-center overflow-hidden ">
-            <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
-                <article className="flex px-6 py-6 h-auto">
-                <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
-                  <Image
-                    src={require("@/assets/images/icons/lack-trust.png")}
-                    alt="Lack of trust"
-                  />
-                  </figure> 
-                  <figcaption className="w-full">               
-                  <h4 className="font-bold text-lg mb-2 text-gray-600">Service to Customers</h4>  
-                  <h5 className="text-gray-600 text-sm">Banks and other financial institutions can benefit immensely from improving something as simple as customer experience.</h5>
-                  </figcaption> 
-                </article>
-              </li> 
+              <article className="flex px-6 py-6 h-auto">
+              <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
+                <Image
+                  src={require("@/assets/images/icons/input-costs.png")}
+                  alt="Content monitization"
+                />
+                </figure> 
+                <figcaption className="w-full">               
+                <h4 className="font-bold text-lg mb-2 text-gray-600">Content monitization</h4>  
+                <h5 className="text-gray-600 text-sm">Making the content visible and to receive the needed response from the audience, pitching the right services is of great importance. Converting these responses into qualified leads is also a major challenge faced by the events & entertainment industry. </h5>
+                </figcaption> 
+              </article>
+            </li>   
            <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
               <article className="flex px-6 py-6 h-auto ">
               <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
                  <Image
-                  src={require("@/assets/images/icons/informed-buyers.png")}
-                  alt="Pricing Challenge"
+                  src={require("@/assets/images/icons/volatility-market.png")}
+                  alt="Copyright issues "
                 />
                 </figure> 
                 <figcaption className="w-full">                
-                <h4 className="font-bold text-lg mb-2 text-gray-600">Pricing Challenge</h4>  
-                <h5 className="text-gray-600 text-sm">There is a lot of market volatility as well as competition out there, so banks have to dramatically lower prices to attract new customers.</h5>
+                <h4 className="font-bold text-lg mb-2 text-gray-600">Copyright issues </h4>  
+                <h5 className="text-gray-600 text-sm">Plagiarism is one of the key challenges that impact the industry. With greater digitisation, multiple users can use the same account for viewing content using the password. Piracy and spoofing have become common and users use the existing content to create new one & upload it for generating more revenue.</h5>
                 </figcaption> 
               </article>
-            </li> 
-             
-              
-              
-              <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
-                <article className="flex px-6 py-6 h-auto md:h-44">
+            </li>                            
+                 
+            </ul>
+            </div>
+            <div className={`w-full overflow-hidden px-2 md:px-4  md:w-1/2`}>
+            <ul className="flex flex-wrap items-center overflow-hidden ">
+               <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
+                <article className="flex px-6 py-6 h-auto">
                 <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
                   <Image
                     src={require("@/assets/images/icons/innovations-in-technology.png")}
-                    alt="Information Intelligence"
+                    alt="Growing Competition"
                   />
                   </figure> 
                   <figcaption className="w-full">               
-                  <h4 className="font-bold text-lg mb-2  text-gray-600">Information Intelligence</h4>  
-                  <h5 className="text-gray-600 text-sm">By maintaining data and utilizing it properly to enhance customer experience, you will be able to increase client interaction and your business.</h5>
+                  <h4 className="font-bold text-lg mb-2  text-gray-600">Growing Competition</h4>  
+                  <h5 className="text-gray-600 text-sm">With the rise in Video on Demand & OTT Development, OTT platforms have received immense fame and popularity. Thus, providing high quality video with uninterrupted content at a reasonable price poses a major challenge for the service providers.</h5>
                   </figcaption> 
                 </article>
-              </li>
+              </li>           
+              <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
+              <article className="flex px-6 py-6 h-auto ">
+              <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
+                 <Image
+                  src={require("@/assets/images/icons/informed-buyers.png")}
+                  alt="Multi Platform Integration"
+                />
+                </figure> 
+                <figcaption className="w-full">                
+                <h4 className="font-bold text-lg mb-2 text-gray-600">Multi Platform Integration</h4>  
+                <h5 className="text-gray-600 text-sm">Media consumers in the present times do not devote themselves to a single platform. They constantly switch platforms to experience new options and diversified choices. As different platforms have different coding structures, developing solutions that work with multi-platforms is a significant challenge.</h5>
+                </figcaption> 
+              </article>
+            </li>  
+              <li className="w-full overflow-hidden md:w-full bg-white rounded-xl mx-1 mb-6 hover:shadow-md">
+                <article className="flex px-6 py-6 h-auto md:h-52">
+                <figure className="w-24 h-20 px-6 py-6 mr-4 rounded-xl bg-slate-100 ">
+                  <Image
+                    src={require("@/assets/images/icons/lack-trust.png")}
+                    alt="Customer Retention"
+                  />
+                  </figure> 
+                  <figcaption className="w-full">               
+                  <h4 className="font-bold text-lg mb-2 text-gray-600">Customer Retention</h4>  
+                  <h5 className="text-gray-600 text-sm">Introducing new innovative media not only helps in retaining customers but also fosters their relationship with the brand. But converting the first-time customers into loyal ones is something which requires serious efforts. </h5>
+                  </figcaption> 
+                </article>
+              </li>            
+              
             </ul>
             </div>
           </div>  
@@ -586,7 +590,7 @@ export default function Bankingfinance() {
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}>  What Value We Deliver </p>
 
-                <h2 className={` ${styles.titlemain} `}>Banking & Finance  </h2>
+                <h2 className={` ${styles.titlemain} `}>Media & Entertainment</h2>
               </div> 
             </div>
           </div>  
@@ -596,9 +600,9 @@ export default function Bankingfinance() {
                     <span>1</span>
                   </div>
                   <div className={` ${styles.text} `}>
-                    <h5 className={` ${styles.title} `}>Increasing business efficiency</h5>
+                    <h5 className={` ${styles.title} `}>A Customized Experience</h5>
                     <p>
-                    Automation of business processes can be achieved by using custom software solutions. The use of a well-designed software suite could eliminate human errors and increase productivity.
+                    We craft value propositions that provide exceptional, individualized experiences that meet the needs and expectations of our customers. Rather than just personalizing a segment of the journey, we create solutions that customize the whole journey. 
                     </p>
                   </div>
                 </li>
@@ -608,9 +612,9 @@ export default function Bankingfinance() {
                     <span>2</span>
                   </div>
                   <div className={` ${styles.text} `}>
-                    <h5 className={` ${styles.title} `}>Complete Security</h5>
+                    <h5 className={` ${styles.title} `}>Offering insights</h5>
                     <p>
-                    In the financial services industry, security remains a top concern for both customers and business owners. By implementing the right Fintech development solution, you can eliminate security concerns and focus on your core business.
+                    By leveraging the big data generated online, businesses can gain a competitive advantage. It is our job to create a web/mobile solution that allows customers to see the same seamless booking, check-in, and travelling experience across multiple devices with the same performance. 
                     </p>
                   </div>
                 </li>
@@ -621,10 +625,10 @@ export default function Bankingfinance() {
                   </div>
                   <div className={` ${styles.text} `}>
                     <h5 className={` ${styles.title} `}>
-                    Ensure transparency
+                    Simplifying bookings
                     </h5>
                     <p>
-                    Customers should be empowered to make business transactions in a way that suits them. Scaling up transparency means becoming more tech-dependent. Certainly, trust from customers is an important asset.
+                    ALDS develops interactive booking engines providing customers with the greatest convenience and thus, promoting reliability and security.
                     </p>
                   </div>
                 </li>
@@ -634,10 +638,10 @@ export default function Bankingfinance() {
                   </div>
                   <div className={` ${styles.text} `}>
                     <h5 className={` ${styles.title} `}>
-                    Improve decision-making
+                    Simplifying Destination Search
                     </h5>
                     <p>
-                    You can find effective solutions to business problems with the insights and analysis provided by data analytics & BI solutions. Get desired results by using data-driven decision-making.
+                    With a wide range of web and mobile applications, we make it easy for you to find your destination using a variety of mapping and navigation solutions.
                     </p>
                   </div>
                 </li>

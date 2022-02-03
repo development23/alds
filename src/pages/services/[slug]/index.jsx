@@ -37,7 +37,7 @@ export default function Service({ service }) {
             alt="Aladinn Tech"
           />
         </div>
-      </div>
+      </div> 
 
       <div className={` ${styles.mtsin} relative bg-white pb-8`}>
         <div className="md:px-28 md:pt-10 ">

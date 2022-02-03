@@ -6,7 +6,7 @@ export default function InnerBanner({ src, alt }) {
       src={src}
       layout="responsive"
       objectFit="cover"
-      alt="Mahatma Gandhi Hospital"
+      alt="Aladinn Tech"
     />
   );
 }

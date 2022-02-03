@@ -16,10 +16,11 @@ export default function handler(req, res) {
     to: "development@aladinntech.in",
     subject: `Message From ${req.body.name}`,
     text: req.body.message,
-    html: `<div>name: ${req.body.name}</div>\n
-      <div>name: ${req.body.email}</div>\n
-       <div>name: ${req.body.phone}</div>\n
-      <div>name: ${req.body.message}</div>`,
+    html: `<div>Name: ${req.body.name}</div>\n
+      <div>Email: ${req.body.email}</div>\n
+       <div>Phone: ${req.body.phone}</div>\n
+       <div>Subject: ${req.body.subject}</div>\n
+      <div>Message: ${req.body.message}</div>`,
   };
 
   transporter.sendMail(mailData, function (err, info) {
