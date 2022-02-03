@@ -586,7 +586,7 @@ export default function Bankingfinance() {
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}>  What Value We Deliver </p>
 
-                <h2 className={` ${styles.titlemain} `}>Real Estate and Housing</h2>
+                <h2 className={` ${styles.titlemain} `}>Finance and Banking</h2>
               </div> 
             </div>
           </div>  

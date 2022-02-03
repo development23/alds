@@ -19,7 +19,7 @@ export default function Telemedicine() {
             src={require("@/assets/images/banner/telemedicine.jpg")}
             alt="Aladinn Tech Telemedicine"
           /> 
-        </div>
+        </div> 
       </div> 
 
       <div className={` ${styles.mtsin} relative bg-white `}>
