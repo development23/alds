@@ -128,7 +128,7 @@ export default function Bankingfinance() {
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/1.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -136,7 +136,7 @@ export default function Bankingfinance() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/2.png")}
                   alt="Aladinn Tech"
                 />
             </div>           
@@ -260,7 +260,7 @@ export default function Bankingfinance() {
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/3.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -268,7 +268,7 @@ export default function Bankingfinance() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/4.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -390,7 +390,7 @@ export default function Bankingfinance() {
             </div>
             <div className="w-full overflow-hidden text-center pt-10 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/5.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -400,7 +400,7 @@ export default function Bankingfinance() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/6.png")}
                   alt="Aladinn Tech"
                 />
             </div>

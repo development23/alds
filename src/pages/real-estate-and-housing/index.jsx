@@ -109,7 +109,7 @@ export default function Realestate() {
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/7.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -117,7 +117,7 @@ export default function Realestate() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/8.png")}
                   alt="Aladinn Tech"
                 />
             </div>           
@@ -248,7 +248,7 @@ export default function Realestate() {
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/9.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -256,7 +256,7 @@ export default function Realestate() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/10.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -369,7 +369,7 @@ export default function Realestate() {
             </div>
             <div className="w-full overflow-hidden text-center pt-10 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/11.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -379,7 +379,7 @@ export default function Realestate() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/industries/12.png")}
                   alt="Aladinn Tech"
                 />
             </div>

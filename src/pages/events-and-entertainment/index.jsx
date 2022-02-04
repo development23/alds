@@ -17,7 +17,7 @@ export default function Mediaent() {
         <div className={`  ${styles.btp} w-full overflow-hidden xl:w-4/5 `}>
         <Image
             src={require("@/assets/images/banner/media-and-entertainment.jpg")}
-            alt="Aladinn Tech Media & Entertainment"
+            alt="Aladinn Tech Event & Entertainment"
           />
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Mediaent() {
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}> Our Solutions </p>
 
-                <h2 className={` ${styles.titlemain} `}> Media & Entertainment</h2>
+                <h2 className={` ${styles.titlemain} `}> Event & Entertainment</h2>
               </div>             
               <p className="text-gray-600 text-base">Developing interactive and end-to-end solutions for Media and Entertainment App business. </p>
             </div>
@@ -100,7 +100,7 @@ export default function Mediaent() {
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/media/1.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -108,7 +108,7 @@ export default function Mediaent() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/media/3.png")}
                   alt="Aladinn Tech"
                 />
             </div>           
@@ -248,7 +248,7 @@ export default function Mediaent() {
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/media/7.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -256,7 +256,7 @@ export default function Mediaent() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/media/4.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -396,7 +396,7 @@ export default function Mediaent() {
             </div>
             <div className="w-full overflow-hidden text-center pt-10 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/media/5.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -406,7 +406,7 @@ export default function Mediaent() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/media/6.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -468,7 +468,7 @@ export default function Mediaent() {
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}>  Challenges </p>
 
-                <h2 className={` ${styles.titlemain} `}>Media & Entertainment</h2>
+                <h2 className={` ${styles.titlemain} `}>Event & Entertainment</h2>
               </div>             
               <p className="text-gray-600 text-base">With the influx of technology, the expectations of the public from the media industry has greatly shifted. Video on demand and OTT Development solutions have provided access to live and on-demand coverage. Not just TV, audiences are now consuming media and information on all devices and diverse platforms. Thus, the major challenge for the media industry is to provide on-demand content quickly and effortlessly to enhance the viewership. </p>
             </div>
@@ -590,7 +590,7 @@ export default function Mediaent() {
               <div className={` ${styles.titlesubcontainer} `}>
                 <p className={` ${styles.titlesub} `}>  What Value We Deliver </p>
 
-                <h2 className={` ${styles.titlemain} `}>Media & Entertainment</h2>
+                <h2 className={` ${styles.titlemain} `}>Event & Entertainment</h2>
               </div> 
             </div>
           </div>  

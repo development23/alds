@@ -109,7 +109,7 @@ export default function Eductionsector() {
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/education/1.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -117,7 +117,7 @@ export default function Eductionsector() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/education/2.png")}
                   alt="Aladinn Tech"
                 />
             </div>           
@@ -248,7 +248,7 @@ export default function Eductionsector() {
             </div>
             <div className="w-full overflow-hidden text-center md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/education/3.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -258,7 +258,7 @@ export default function Eductionsector() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/education/4.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -380,7 +380,7 @@ export default function Eductionsector() {
             </div>
             <div className="w-full overflow-hidden text-center pt-10 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/education/5.png")}
                   alt="Aladinn Tech"
                 />
             </div>
@@ -390,7 +390,7 @@ export default function Eductionsector() {
           <div className={`flex flex-wrap items-center overflow-hidden py-4 md:py-10 ${styles.flexdirection}`}>
             <div className="w-full overflow-hidden text-center pb-6 md:pt-0 md:w-2/5">
                 <Image
-                  src={require("@/assets/images/about/our-solution.png")}
+                  src={require("@/assets/images/education/6.png")}
                   alt="Aladinn Tech"
                 />
             </div>

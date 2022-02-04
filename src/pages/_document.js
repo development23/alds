@@ -9,9 +9,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        <meta name="description" content="ALDS empowers businesses with technology that assists companies to achieve their goals. We are a New Age Developers and focused on growth and success. Our experienced Full stack developers are handy with JavaScript frameworks like Angular, React JS, NextJS, Gatsby JS for web designing & development & for Mobile Application React Native, Flutter & Ionic. The PHP framework like Yii, Laravel & CodeIgniter are used for Web Development."></meta>
-        
-        <meta name="title" content="ALDS are a business-oriented Website and App Development Company"></meta>
+        <title> Web Development and App Development Company In Jaipur, Rajasthan | Aladinn Tech </title>
+        <meta name="description" content="Aladinn Tech is a leading  Web Development and App Development Company In Jaipur, Rajasthan having the most qualified and experienced development specialists."  />
           <link
             href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap"
             rel="stylesheet"
