@@ -102,9 +102,9 @@ export default function Careers() {
                 </table>
                 <div className="mt-8 mb-8 bg-blue-900 px-6 py-6">
                   <h5 className="text-lg font-bold text-white">
-                    Apply Now :&nbsp;
-                    <Link className="text-pink-500" href="/">
-                      Click Here
+                    Apply Now : Please send your resume on &nbsp;
+                    <Link className="text-pink-500" href="mailto:operation@aladinntech.in">
+                      operation@aladinntech.in
                     </Link>
                   </h5>
                 </div>

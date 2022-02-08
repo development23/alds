@@ -220,7 +220,7 @@ export default function Layout({ children }) {
                           {/* <a href="mobile-ui-ux">
                             Mobile UI/UX 
                           </a> */}
-                          <a className="text-xl text-gray-600 font-bold">FULL STACK / WEB DEVELOPMENT</a>
+                          <a className="text-xl text-gray-600 font-bold">FULL STACK DEVELOPMENT</a>
                           <a className="text-lg text-gray-600 font-bold"> JAVASCRIPT</a>
                           {/*<a href="javascript">
                             JavaScript
@@ -626,7 +626,7 @@ export default function Layout({ children }) {
                               }}
                             />
                             <Tab
-                              label="FULL STACK / WEB DEVELOPMENT"
+                              label="FULL STACK DEVELOPMENT"
                               {...a11yProps(1)}
                               className={` ${styles.depbord}`}
                               style={{

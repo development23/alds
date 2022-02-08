@@ -203,10 +203,10 @@ background-image: url(../../../src/assets/images/bg/c-map.png);
 }
 .counterimg{
     right: 30%;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    top: 30%;
+    top: 33%;
     background: #ffffff;
     box-shadow: 0 0 35px -5px rgb(84 70 219 / 70%);
     border: 10px solid #d7deff;

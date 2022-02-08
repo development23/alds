@@ -127,11 +127,11 @@ export default function Casestudies() {
                           </div>
                         </div>
 
-                        <div className={` ${styles.caseview}`}>
+                        {/* <div className={` ${styles.caseview}`}>
                           <Link href={item.connect}>
                             <a> Read More </a>
                           </Link>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   )
