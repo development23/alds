@@ -28,7 +28,7 @@ export default function blog1() {
               className={` ${styles.innerpagecon} w-full  pt-6 pl-8 pr-6 overflow-hidden md:w-full `}
             >
               <div className={` ${styles.titlesubcontainer} `}>
-                <p className={` ${styles.titlesub} `}> 25 Feb 2021 </p>
+                <p className={` ${styles.titlesub} `}> 25 Feb 2022 </p>
 
                 <h2 className={` ${styles.titlemain} `}>
                   {" "}
