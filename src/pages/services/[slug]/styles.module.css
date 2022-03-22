@@ -1,0 +1,106 @@
+ 
+.btp{  
+  border-top: 5px solid #0b4577;
+  }
+  
+  .mts{
+    margin-top:-690px;
+  }
+  
+  .mtsin{
+    margin-top:787px;
+  }
+    .floatClear {
+      clear: both;
+    } 
+
+   
+
+    .innerpagecon p{
+      font-size: 17px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      color:  #3d3d3d;
+      font-weight:500;
+      font-family: Roboto, sans-serif;
+    }
+
+
+    .innerpagecon h6{
+      margin-bottom: 11px;
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #262626;
+    }
+
+    .titlesubcontainer .titlesub {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      position: relative;
+      padding-left: 80px;
+  }
+
+  .titlesubcontainer .titlesub::before {
+    background-color: #000;
+    left: 0;
+    width: 5px;
+    height: 5px;
+     border-radius: 50%;
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.titlesubcontainer .titlesub::after {
+  background-color: #bebebe;
+  left: 15px;
+  height: 1px;
+  width: 52px;
+   content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.titlesubcontainer  .titlemain {
+font-size:38px;
+font-weight: 800;
+line-height: 1.2;
+letter-spacing: 0.01em;
+margin-bottom: 30px;
+ 
+color: #0a387e;
+}
+
+.titlesubcontainer  .titlesubmain {
+font-size:28px;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: 0.01em;
+margin-bottom: 30px;
+ 
+color: #0a387e;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .mts{
+    margin-top:-255px;
+  }
+  
+  .mtsin{
+    margin-top:333px;
+  }
+}
