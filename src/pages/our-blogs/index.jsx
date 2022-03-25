@@ -89,7 +89,7 @@ export default function Blogs() {
     },
 
     {
-      id: 2,
+      id: 3,
       image: require("@/assets/images/blogs/card/4.jpg"),
 
       title: "Building a Novel Mobile Application on Flutter with ALDS",
@@ -97,6 +97,28 @@ export default function Blogs() {
       description:
         " A free and open-source mobile UI framework created by Google permitting for creation of a native mobile application with a single codebase      ",
       link: "our-blogs/building-a-novel-mobile-application-on-flutter-with-alds",
+    },
+
+    {
+      id: 4,
+      image: require("@/assets/images/blogs/card/5.jpg"),
+
+      title: "Telemedicine Solutions By Gridstem",
+
+      description:
+        "In recent times, telemedicine has become important, due to increased deployment and development of digital technologies. ",
+      link: "our-blogs/telemedicine-solutions-by-gridstem",
+    },
+
+    {
+      id: 5,
+      image: require("@/assets/images/blogs/card/6.jpg"),
+
+      title: "Telemedicine App for Apex Hospital",
+
+      description:
+        "  Telemedicine by Gridstem includes a broad range of features like HD Audio/Video consultation sessions, Digital Prescriptions, Patient medical Reports, integration.      ",
+      link: "our-blogs/telemedicine-app-for-apex-hospital",
     },
   ];
   return (
