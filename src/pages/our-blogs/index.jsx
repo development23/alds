@@ -155,7 +155,7 @@ export default function Blogs() {
 
             <div className={` pt-8 md:pt-10 md:pb-10   `}>
               <div className="flex flex-wrap overflow-hidden ">
-                {ourvalues.map((item, index) => (
+                {ourvalues.reverse().map((item, index) => (
                   <div
                     className="my-1 px-2 text-center w-full   md:w-1/2 overflow-hidden"
                     key={index}
