@@ -31,7 +31,7 @@ export default function Index() {
   const settings = {
     // className: "center",
     dots: true,
-    centerMode: true,
+    centerMode: false,
     autoplay: true,
     speed: 3000,
     infinite: true,
@@ -72,27 +72,43 @@ export default function Index() {
   const developmentSliderContent = [
     {
       id: 0,
-      image: require("@/assets/images/home/development/a1.png"),
+      image: require("@/assets/images/home/development/a11.png"),
     },
     {
       id: 1,
-      image: require("@/assets/images/home/development/a2.png"),
+      image: require("@/assets/images/home/development/a10.png"),
     },
     {
       id: 2,
-      image: require("@/assets/images/home/development/a3.png"),
+      image: require("@/assets/images/home/development/a9.png"),
     },
 
     {
       id: 3,
-      image: require("@/assets/images/home/development/a5.png"),
+      image: require("@/assets/images/home/development/a8.png"),
     },
+
     {
       id: 4,
-      image: require("@/assets/images/home/development/a6.png"),
+      image: require("@/assets/images/home/development/a2.png"),
     },
+
     {
       id: 5,
+      image: require("@/assets/images/home/development/a3.png"),
+    },
+
+    {
+      id: 6,
+      image: require("@/assets/images/home/development/a1.png"),
+    },
+    {
+      id: 7,
+      image: require("@/assets/images/home/development/a6.png"),
+    },
+
+    {
+      id: 8,
       image: require("@/assets/images/home/development/a7.png"),
     },
   ];
@@ -441,16 +457,9 @@ export default function Index() {
       content:
         "ALDS has developed the website & CRM for Roodraksh on Laravel. Our developers have designed a user-friendly website to deliver the complete crisp of information.",
     },
+
     {
       id: 2,
-      image: require("@/assets/images/home/case/3.jpg"),
-      title: "Orville Business Port",
-      loc: "Pune",
-      content:
-        "A great experience of a company derive with CodeIgniter. We have designed the Orville Business Port website on CodeIgniter for a good experience.",
-    },
-    {
-      id: 3,
       image: require("@/assets/images/home/case/4.jpg"),
       title: "Surya Residency",
       loc: "Jaipur",
@@ -458,7 +467,7 @@ export default function Index() {
         "A website with multiple features and easy to find everything increases the chances of good results. We have designed the website with refer & earn program.",
     },
     {
-      id: 4,
+      id: 3,
       image: require("@/assets/images/home/case/5.jpg"),
       title: "Mahima Group",
       loc: "Jaipur",
@@ -466,7 +475,7 @@ export default function Index() {
         "A refer & earn program gives the best result to a company. A customer-centric approach of our company has given us an idea to design an app on Laravel.",
     },
     {
-      id: 5,
+      id: 4,
       image: require("@/assets/images/home/case/6.jpg"),
       title: "Avalon Networks",
       loc: "Dubai",
@@ -1121,13 +1130,16 @@ export default function Index() {
             <div className="w-full overflow-hidden xl:my-3 xl:px-3 xl:w-1/3">
               <div className={` ${styles.workcard} `}>
                 <Image
-                  src={require("@/assets/images/home/project/mgh.png")}
+                  src={require("@/assets/images/home/project/Propertyweb.png")}
                   alt="Aladinn Tech"
                 />
 
                 <div className={` ${styles.content}  text-center `}>
-                  <span>NEXT.js</span>
-                  <h3>Mahatma Gandhi Hospital</h3>
+                  <div className="bg-[#0c2a48ba] py-4 px-4">
+                    {" "}
+                    <span>NEXT.js</span>
+                    <h3> Propert Check Karo </h3>
+                  </div>{" "}
                 </div>
               </div>
             </div>
@@ -1135,13 +1147,16 @@ export default function Index() {
             <div className="w-full overflow-hidden xl:my-3 xl:px-3 xl:w-1/3">
               <div className={` ${styles.workcard} `}>
                 <Image
-                  src={require("@/assets/images/home/project/aryalanding.png")}
+                  src={require("@/assets/images/home/project/Saranshweb.png")}
                   alt="Aladinn Tech"
                 />
 
                 <div className={` ${styles.content}  text-center `}>
-                  <span>NEXT.js</span>
-                  <h3>Arya Group Of Colleges</h3>
+                  <div className="bg-[#0c2a48ba] py-4 px-4">
+                    {" "}
+                    <span>Laravel</span>
+                    <h3> Saransh E-clinic</h3>
+                  </div>{" "}
                 </div>
               </div>
             </div>
@@ -1149,13 +1164,16 @@ export default function Index() {
             <div className="w-full overflow-hidden xl:my-3 xl:px-3 xl:w-1/3">
               <div className={` ${styles.workcard} `}>
                 <Image
-                  src={require("@/assets/images/home/project/aryawebsite.png")}
+                  src={require("@/assets/images/home/project/Nifluxweb.png")}
                   alt="Aladinn Tech"
                 />
 
                 <div className={` ${styles.content}  text-center `}>
-                  <span>NEXT.js</span>
-                  <h3>Arya Group Of Colleges</h3>
+                  <div className="bg-[#0c2a48ba] py-4 px-4">
+                    {" "}
+                    <span>NEXT.js</span>
+                    <h3> Niflux Led Lights </h3>{" "}
+                  </div>
                 </div>
               </div>
             </div>
