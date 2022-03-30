@@ -82,16 +82,13 @@ export default function Index() {
       id: 2,
       image: require("@/assets/images/home/development/a3.png"),
     },
+
     {
       id: 3,
-      image: require("@/assets/images/home/development/a4.png"),
-    },
-    {
-      id: 4,
       image: require("@/assets/images/home/development/a5.png"),
     },
     {
-      id: 5,
+      id: 4,
       image: require("@/assets/images/home/development/a6.png"),
     },
     {
@@ -142,60 +139,75 @@ export default function Index() {
   const clientsSliderContent = [
     {
       id: 0,
-      image: require("@/assets/images/home/client/1.png"),
+      image: require("@/assets/images/home/client/2.png"),
     },
     {
       id: 1,
-      image: require("@/assets/images/home/client/5.png"),
+      image: require("@/assets/images/home/client/14.png"),
     },
+
     {
       id: 2,
-      image: require("@/assets/images/home/client/6.png"),
+      image: require("@/assets/images/home/client/3.png"),
     },
     {
       id: 3,
-      image: require("@/assets/images/home/client/9.png"),
-    },
-    {
-      id: 4,
-      image: require("@/assets/images/home/client/10.png"),
-    },
-    {
-      id: 5,
-      image: require("@/assets/images/home/client/12.png"),
-    },
-    {
-      id: 6,
       image: require("@/assets/images/home/client/15.png"),
     },
 
     {
-      id: 8,
+      id: 4,
       image: require("@/assets/images/home/client/13.png"),
     },
     {
-      id: 9,
+      id: 5,
       image: require("@/assets/images/home/client/16.png"),
     },
     {
-      id: 10,
+      id: 6,
       image: require("@/assets/images/home/client/7.png"),
     },
     {
-      id: 11,
+      id: 7,
       image: require("@/assets/images/home/client/4.png"),
     },
+
+    {
+      id: 9,
+      image: require("@/assets/images/home/client/6.png"),
+    },
+    {
+      id: 10,
+      image: require("@/assets/images/home/client/9.png"),
+    },
+    {
+      id: 11,
+      image: require("@/assets/images/home/client/10.png"),
+    },
+
     {
       id: 12,
-      image: require("@/assets/images/home/client/11.png"),
+      image: require("@/assets/images/home/client/3.png"),
     },
     {
       id: 13,
-      image: require("@/assets/images/home/client/14.png"),
+      image: require("@/assets/images/home/client/1.png"),
     },
     {
       id: 14,
-      image: require("@/assets/images/home/client/2.png"),
+      image: require("@/assets/images/home/client/20.png"),
+    },
+    {
+      id: 15,
+      image: require("@/assets/images/home/client/17.png"),
+    },
+    {
+      id: 16,
+      image: require("@/assets/images/home/client/18.png"),
+    },
+    {
+      id: 16,
+      image: require("@/assets/images/home/client/19.png"),
     },
   ];
 
@@ -654,7 +666,7 @@ export default function Index() {
 
         <div className="relative md:px-6 pl-4 pr-4 md:pt-6 md:pb-8">
           <Slider {...clientssettings} ref={clientsSliderRef}>
-            {clientsSliderContent.map((item, index) => (
+            {clientsSliderContent.reverse().map((item, index) => (
               <div className={` px-3 `} key={index}>
                 <Link href="">
                   <div className={` ${styles.clientsSliderItemInner} `}>
@@ -673,7 +685,7 @@ export default function Index() {
             <div className={`flex space-x-4  ${styles.buttonc1}`}>
               <IconButton
                 className={``}
-                onClick={() => clientsSliderRef?.current?.slickNext()}
+                onClick={() => clientsSliderRef?.current?.slickPrev()}
               >
                 <ChevronLeftIcon
                   className={`text-slate-700`}
@@ -1070,43 +1082,6 @@ export default function Index() {
                 </div>
               ))}
             </Slider>
-
-            {/* <div className="flex justify-center pt-4  space-x-4">
-            <div className="bg-blue-custom text-white">
-              <IconButton
-                className="text-white"
-                onClick={() => developmentSliderRef?.current?.slickPrev()}
-              >
-                <ChevronLeftIcon
-                  className="text-white"
-                  style={{ fontSize: 36 }}
-                />
-              </IconButton>
-            </div>
-            <div className="bg-blue-custom text-white">
-              <IconButton
-                className="text-white"
-                onClick={() => developmentSliderRef?.current?.slickNext()}
-              >
-                <ChevronRightIcon
-                  className="text-white"
-                  style={{ fontSize: 36 }}
-                />
-              </IconButton>
-            </div>
-          </div> */}
-
-            {/* <div className={`flex space-x-4  ${styles.button1}`}>
-            <IconButton
-              className={`text-white`}
-              onClick={() => developmentSliderRef?.current?.slickPrev()}
-            >
-              <ChevronLeftIcon
-                className="text-white bg-blue-custom"
-                style={{ fontSize: 50 }}
-              />
-            </IconButton>
-          </div> */}
             <div className={`flex space-x-4  ${styles.button2}`}>
               <IconButton
                 className={``}
@@ -1305,28 +1280,28 @@ export default function Index() {
                 src={require("@/assets/images/bg/pat1.png")}
                 alt="Aladinn Tech"
               />
-              <h2> AWARDS & RECOGNITION </h2>              
+              <h2> AWARDS & RECOGNITION </h2>
             </div>
           </div>
 
           <div className="flex flex-wrap px-4 md:pb-20 md:px-28 overflow-hidden xl:-mx-3">
             <div className="w-full overflow-hidden text-center xl:my-3 xl:px-3 xl:w-1/3">
-            <a
+              <a
                 href="https://www.goodfirms.co/company/aladinn-digital-solutions"
                 target="_blank"
                 rel="noreferrer"
               >
-               <Image
+                <Image
                   src={require("@/assets/images/home/clients/app-development.svg")}
                   alt="Aladinn Tech"
                   width="220"
                   height="220"
                 />
-                </a>
+              </a>
             </div>
 
             <div className="w-full overflow-hidden text-center xl:my-3 xl:px-3 xl:w-1/3">
-            <a
+              <a
                 href="https://www.designrush.com/agency/profile/aladinn-tech"
                 target="_blank"
                 rel="noreferrer"
@@ -1335,11 +1310,11 @@ export default function Index() {
                   src={require("@/assets/images/home/clients/designrush.png")}
                   alt="Aladinn Tech"
                 />
-                 </a>
+              </a>
             </div>
 
             <div className="w-full overflow-hidden text-center xl:my-3 xl:px-3 xl:w-1/3">
-            <a
+              <a
                 href="https://www.goodfirms.co/company/aladinn-digital-solutions"
                 target="_blank"
                 rel="noreferrer"
@@ -1348,10 +1323,10 @@ export default function Index() {
                   src={require("@/assets/images/home/clients/telemedicine-software.svg")}
                   alt="Aladinn Tech"
                 />
-                </a>
+              </a>
             </div>
           </div>
-          </div>
+        </div>
         <div className={`relative ${styles.testimonials} pt-16 pb-20 `}>
           <div className={`container mx-auto flex flex-wrap overflow-hidden`}>
             <div className="w-full text-center pl-2  overflow-hidden">
@@ -1411,9 +1386,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        
       </div>
-      
     </div>
   );
 }
