@@ -1148,11 +1148,13 @@ export default function Index() {
                 >
                   <Link href="">
                     <div className={` ${styles.developmentSliderItemInner} `}>
-                      <Image
-                        // className="lg:h-48 md:h-36 w-full object-cover object-center"
-                        src={item.image}
-                        alt="alds"
-                      />
+                      <div className="text-center">
+                        <Image
+                          // className="lg:h-48 md:h-36 w-full object-cover object-center"
+                          src={item.image}
+                          alt="alds"
+                        />
+                      </div>
 
                       <div className={`    text-center py-4 `}>
                         <h6 className="font-bold text-xl tracking-widest uppercase mb-1 text-[#0b4577]">
@@ -1477,6 +1479,68 @@ export default function Index() {
             </div>
             <div className={` ${styles.testview} text-center pt-12`}>
               <a href=" "> See More Testimonials </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap overflow-hidden">
+          <div className="w-1/2 overflow-hidden px-4 pt-5 ">
+            <div className="bg-blue-50 mb-4 px-4 py-4">
+              <p className="mb-4 my-2 px-3 font-normal text-lg   flex flex-wrap text-gray-600 w-full">
+                <div className={`${styles.boxshadow}`}>
+                  <Image
+                    src={require("@/assets/images/logo/usa.png")}
+                    alt="Aladinn Tech"
+                    height={40}
+                    width={40}
+                  />
+                </div>
+                <div className={`${styles.boxstext}`}>
+                  <h3>USA</h3>
+                  <h4>10685-B Hazelhurst Dr. #31618 Houston, TX 77043 USA</h4>
+                  <br />
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4117.5650839164755!2d-95.56348996934953!3d29.796764478472735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c55fbf410fdf%3A0xa90ed1a73a401470!2sALDS%20-%20Web%20and%20Mobile%20App%20Development!5e0!3m2!1sen!2sin!4v1648643554769!5m2!1sen!2sin"
+                  width="100%"
+                  height="450"
+                  loading="lazy"
+                  className="mt-4"
+                ></iframe>
+              </p>
+            </div>
+          </div>
+
+          <div className="w-1/2 overflow-hidden px-4 pt-5">
+            <div className="bg-blue-50 mb-4 px-4 py-4 ">
+              <p className="mb-4 my-2 px-3 font-normal text-lg text-base flex flex-wrap text-gray-600">
+                <div className={`${styles.boxshadow}`}>
+                  <Image
+                    src={require("@/assets/images/logo/india.png")}
+                    alt="Aladinn Tech"
+                    height={40}
+                    width={40}
+                  />
+                </div>
+                <div className={`${styles.boxstext}`}>
+                  <h3>India</h3>
+                  <h4> G-2, Parivahan Marg, Behind Hotel Rajmahal Palace, </h4>
+                  <h4>
+                    {" "}
+                    Shivaji Nagar, C Scheme, Ashok Nagar, Jaipur, Rajasthan
+                    302001
+                  </h4>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.9364064309066!2d75.78847981504475!3d26.90551328313071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db412a7e7b9c3%3A0x9b12e57f66893732!2sALDS!5e0!3m2!1sen!2sin!4v1632456052722!5m2!1sen!2sin"
+                  width="100%"
+                  height="455"
+                  loading="lazy"
+                  className="mt-4"
+                ></iframe>
+              </p>
             </div>
           </div>
         </div>
