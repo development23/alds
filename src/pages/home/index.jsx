@@ -500,7 +500,7 @@ export default function Index() {
     {
       id: 3,
       image: require("@/assets/images/home/case/5.jpg"),
-      title: "Mahima Group",
+      title: "Lotus Dairy",
       loc: "Jaipur",
       content:
         "A refer & earn program gives the best result to a company. A customer-centric approach of our company has given us an idea to design an app on Laravel.",
@@ -1215,8 +1215,11 @@ export default function Index() {
                 <div className={` ${styles.content}  text-center `}>
                   <div className="">
                     {" "}
-                    <span> Property Comparison Portal</span>
-                    <h3> Propert Check Karo </h3>
+                    <span className="font-bold">
+                      {" "}
+                      Property Comparison Portal
+                    </span>
+                    <h3 className="font-bold"> Propert Check Karo </h3>
                   </div>{" "}
                 </div>
               </div>
@@ -1232,8 +1235,11 @@ export default function Index() {
                 <div className={` ${styles.content}  text-center `}>
                   <div className="">
                     {" "}
-                    <span> Rajasthan Telemedicine Portal </span>
-                    <h3> Saransh E-clinic</h3>
+                    <span className="font-bold">
+                      {" "}
+                      Rajasthan Telemedicine Portal{" "}
+                    </span>
+                    <h3 className="font-bold"> Saransh E-clinic</h3>
                   </div>{" "}
                 </div>
               </div>
@@ -1249,8 +1255,8 @@ export default function Index() {
                 <div className={` ${styles.content}  text-center `}>
                   <div className="">
                     {" "}
-                    <span> Employee Tracking Portal</span>
-                    <h3> Niflux Led Lights </h3>{" "}
+                    <span className="font-bold"> Employee Tracking Portal</span>
+                    <h3 className="font-bold"> Niflux Led Lights </h3>{" "}
                   </div>
                 </div>
               </div>
