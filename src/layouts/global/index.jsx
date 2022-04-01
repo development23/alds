@@ -138,16 +138,10 @@ export default function Layout({ children }) {
                       className={`${styles.mobiledropdowncontent}`}
                       onClick={() => setActive(false)}
                     >
-                      <a href="about-us">
-                       Company Profile
-                      </a>
-                      <a href="testimonials">
-                       Testimonials
-                      </a>
+                      <a href="about-us">Company Profile</a>
+                      <a href="testimonials">Testimonials</a>
 
-                      {/* <a href="our-blogs">
-                        Blogs
-                      </a> */}
+                      <a href="casestudies">Case Studies</a>
 
                       {/* <a href="">
                         FAQs
@@ -170,19 +164,17 @@ export default function Layout({ children }) {
                     >
                       <div className="flex">
                         <div className="w-full overflow-hidden">
-                        <a className="text-xl text-gray-600 font-bold">APPLICATION DEVELOPMENT</a>
-                        <a className="text-lg text-gray-600 font-bold">CROSS PLATFORM</a>
-                        
-                        <a href="react-native">
-                            React Native
+                          <a className="text-xl text-gray-600 font-bold">
+                            APPLICATION DEVELOPMENT
                           </a>
-                          <a href="flutter">
-                           Flutter
+                          <a className="text-lg text-gray-600 font-bold">
+                            CROSS PLATFORM
                           </a>
 
-                          <a href="ionic-development">
-                           Ionic
-                          </a>
+                          <a href="react-native">React Native</a>
+                          <a href="flutter">Flutter</a>
+
+                          <a href="ionic-development">Ionic</a>
 
                           {/* <a href="ios-platform">
                            iOS Platform
@@ -210,18 +202,21 @@ export default function Layout({ children }) {
                           <a href="">
                            Wearable
                           </a> */}
-                          <a className="text-lg text-gray-600 font-bold">NATIVE DEVELOPMENT</a>
-                          <a href="android-platform">
-                            Android Development
+                          <a className="text-lg text-gray-600 font-bold">
+                            NATIVE DEVELOPMENT
                           </a>
-                          <a href="ios-platform">
-                           iOS Development
-                          </a>                         
+                          <a href="android-platform">Android Development</a>
+                          <a href="ios-platform">iOS Development</a>
                           {/* <a href="mobile-ui-ux">
                             Mobile UI/UX 
                           </a> */}
-                          <a className="text-xl text-gray-600 font-bold">FULL STACK DEVELOPMENT</a>
-                          <a className="text-lg text-gray-600 font-bold"> JAVASCRIPT</a>
+                          <a className="text-xl text-gray-600 font-bold">
+                            FULL STACK DEVELOPMENT
+                          </a>
+                          <a className="text-lg text-gray-600 font-bold">
+                            {" "}
+                            JAVASCRIPT
+                          </a>
                           {/*<a href="javascript">
                             JavaScript
                           </a>
@@ -230,25 +225,20 @@ export default function Layout({ children }) {
                            Python
                           </a> */}
 
-                          <a href="angular-development">
-                            Angular
-                          </a>
+                          <a href="angular-development">Angular</a>
 
-                          <a href="node-js">
-                            Node.JS
-                          </a>
+                          <a href="node-js">Node.JS</a>
 
-                          <a href="react-development">
-                           React.JS
-                          </a>
+                          <a href="react-development">React.JS</a>
 
                           {/* <a href="">
                            Vue.JS
                           </a> */}
-                          <a className="text-lg text-gray-600 font-bold"> PHP</a>
-                          <a href="laravel">
-                            Laravel
+                          <a className="text-lg text-gray-600 font-bold">
+                            {" "}
+                            PHP
                           </a>
+                          <a href="laravel">Laravel</a>
 
                           {/* <a href="">
                             CodeIgnitor
@@ -291,37 +281,27 @@ export default function Layout({ children }) {
                           <a href="">
                            Opencart
                           </a> */}
-                          <a className="text-xl text-gray-600 font-bold">WEB DESIGNING</a>
-                          <a href="mobile-ui-ux">
-                            Mobile UI/UX 
+                          <a className="text-xl text-gray-600 font-bold">
+                            WEB DESIGNING
                           </a>
-                          <a href="website-ui-ux">
-                           Website UI/UX
+                          <a href="mobile-ui-ux">Mobile UI/UX</a>
+                          <a href="website-ui-ux">Website UI/UX</a>
+                          <a className="text-xl text-gray-600 font-bold">
+                            CUSTOMISED SOLUTIONS
                           </a>
-                          <a className="text-xl text-gray-600 font-bold">CUSTOMISED SOLUTIONS</a>
-                          <a href="crm">
-                          Customer Relationship Management
-                          </a>
+                          <a href="crm">Customer Relationship Management</a>
 
-                          <a href="emr-ehr-pmr">
-                           EMR/EHR/PMR 
-                          </a>
+                          <a href="emr-ehr-pmr">EMR/EHR/PMR</a>
 
-                          <a href="telemedicine">
-                            Telemedicine
-                          </a>
+                          <a href="telemedicine">Telemedicine</a>
 
                           {/* <a href="">
                             B2B, B2C Solutions
                           </a> */}
 
-                          <a href="service-portals">
-                            Service Portals
-                          </a>
+                          <a href="service-portals">Service Portals</a>
 
-                          <a href="ai-based-solutions">
-                            AI Based Solutions
-                          </a>
+                          <a href="ai-based-solutions">AI Based Solutions</a>
                         </div>
                       </div>
                     </div>
@@ -342,17 +322,13 @@ export default function Layout({ children }) {
                       {/* <a href="">
                         Healthcare & Fitness
                       </a> */}
-                      <a href="banking-and-finance">
-                       Banking & Finance
-                      </a>
+                      <a href="banking-and-finance">Banking & Finance</a>
 
                       <a href="real-estate-and-housing">
                         Real Estate & Housing
                       </a>
 
-                      <a href="education-sector">
-                       Education Sector
-                      </a>
+                      <a href="education-sector">Education Sector</a>
 
                       <a href="hospitality-and-tourism">
                         Hospitality & Tourism
@@ -402,7 +378,7 @@ export default function Layout({ children }) {
                   </a>
                 </div>
               </a>
-                      
+
               <a href="contact-us">
                 <div
                   className="border-b px-2 py-2"
@@ -479,7 +455,7 @@ export default function Layout({ children }) {
                           <li className="border-b hover:bg-gray-100">
                             <a href="about-us">
                               <a>
-                              <ArrowRightIcon />
+                                <ArrowRightIcon />
                                 <span> Company Profile </span>
                               </a>
                             </a>
@@ -487,8 +463,17 @@ export default function Layout({ children }) {
                           <li className="border-b hover:bg-gray-100">
                             <a href="testimonials">
                               <a>
-                              <ArrowRightIcon />
+                                <ArrowRightIcon />
                                 <span>Testimonials </span>
+                              </a>
+                            </a>
+                          </li>
+
+                          <li className="border-b hover:bg-gray-100">
+                            <a href="casestudies">
+                              <a>
+                                <ArrowRightIcon />
+                                <span>Case Studies </span>
                               </a>
                             </a>
                           </li>
@@ -653,7 +638,7 @@ export default function Layout({ children }) {
                                 backgroundColor:
                                   value === 2 ? "#efefef " : "transparent",
                               }}
-                            /> 
+                            />
                             <Tab
                               label="CUSTOMISED SOLUTIONS"
                               {...a11yProps(3)}
@@ -680,16 +665,18 @@ export default function Layout({ children }) {
                         <TabPanel value={value} index={0}>
                           <div className="flex flex-wrap -mx-1 overflow-hidden">
                             <div className="w-1/3 overflow-hidden px-4">
-                            <a className="text-xl text-gray-600 font-bold border-b py-2 pt-4 hover:bg-gray-100">CROSS PLATFORM</a>
+                              <a className="text-xl text-gray-600 font-bold border-b py-2 pt-4 hover:bg-gray-100">
+                                CROSS PLATFORM
+                              </a>
                               <ul className={`${styles.bottomside1} `}>
-                              <li className="border-b hover:bg-gray-100">
+                                <li className="border-b hover:bg-gray-100">
                                   <a href="react-native">
                                     <a>
                                       <ArrowRightIcon />
                                       <span>React Native</span>
                                     </a>
                                   </a>
-                                </li>                                
+                                </li>
                                 <li className="border-b hover:bg-gray-100">
                                   <a href="flutter">
                                     <a>
@@ -709,7 +696,9 @@ export default function Layout({ children }) {
                               </ul>
                             </div>
                             <div className="w-1/3 overflow-hidden  px-4">
-                            <a className="text-xl text-gray-600 font-bold border-b py-2 pt-4 hover:bg-gray-100">NATIVE DEVELOPMENT</a>
+                              <a className="text-xl text-gray-600 font-bold border-b py-2 pt-4 hover:bg-gray-100">
+                                NATIVE DEVELOPMENT
+                              </a>
                               <ul className={`${styles.bottomside1} `}>
                                 <li className="border-b hover:bg-gray-100">
                                   <a href="android-platform">
@@ -719,7 +708,7 @@ export default function Layout({ children }) {
                                     </a>
                                   </a>
                                 </li>
-                               
+
                                 <li className="border-b hover:bg-gray-100">
                                   <a href="ios-platform">
                                     <a>
@@ -728,7 +717,7 @@ export default function Layout({ children }) {
                                     </a>
                                   </a>
                                 </li>
-                              {/* <li className="border-b hover:bg-gray-100">
+                                {/* <li className="border-b hover:bg-gray-100">
                                   <a href="">
                                     <a>
                                       <ArrowRightIcon />
@@ -767,9 +756,11 @@ export default function Layout({ children }) {
                         <TabPanel value={value} index={1}>
                           <div className="flex flex-wrap -mx-1 overflow-hidden">
                             <div className="w-1/3 overflow-hidden px-4">
-                            <a className="text-xl text-gray-600 font-bold border-b py-2 pt-4 hover:bg-gray-100">JAVASCRIPT</a>
+                              <a className="text-xl text-gray-600 font-bold border-b py-2 pt-4 hover:bg-gray-100">
+                                JAVASCRIPT
+                              </a>
                               <ul className={`${styles.bottomside1}`}>
-                                 {/*<li className="border-b hover:bg-gray-100">
+                                {/*<li className="border-b hover:bg-gray-100">
                                   <a href="javascript">
                                     <a>
                                       <ArrowRightIcon />
@@ -820,7 +811,9 @@ export default function Layout({ children }) {
                               </ul>
                             </div>
                             <div className="w-1/3 overflow-hidden px-4">
-                            <a className="text-xl text-gray-600 font-bold border-b py-2 pt-4 hover:bg-gray-100">PHP</a>
+                              <a className="text-xl text-gray-600 font-bold border-b py-2 pt-4 hover:bg-gray-100">
+                                PHP
+                              </a>
                               <ul className={`${styles.bottomside1}`}>
                                 <li className="border-b hover:bg-gray-100">
                                   <a href="laravel">
@@ -886,7 +879,7 @@ export default function Layout({ children }) {
                           <div className="flex flex-wrap -mx-1 overflow-hidden">
                             <div className="w-2/5 overflow-hidden pt-2 px-4">
                               <ul className={`${styles.bottomside1}`}>
-                              <li className="border-b hover:bg-gray-100">
+                                <li className="border-b hover:bg-gray-100">
                                   <a href="mobile-ui-ux">
                                     <a>
                                       <ArrowRightIcon />
@@ -946,7 +939,10 @@ export default function Layout({ children }) {
                                   <a href="crm">
                                     <a>
                                       <ArrowRightIcon />
-                                      <span> Customer Relationship Management </span>
+                                      <span>
+                                        {" "}
+                                        Customer Relationship Management{" "}
+                                      </span>
                                     </a>
                                   </a>
                                 </li>
@@ -1328,16 +1324,16 @@ export default function Layout({ children }) {
                   </div>
                 </div>
               </div>
-              <div className="my-3 overflow-hidden w-full">             
-              <a
-                href="https://www.goodfirms.co/company/aladinn-digital-solutions"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Image
-                  src={require("@/assets/images/home/clients/view-profile.svg")}
-                  alt="Aladinn Tech"
-                />
+              <div className="my-3 overflow-hidden w-full">
+                <a
+                  href="https://www.goodfirms.co/company/aladinn-digital-solutions"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src={require("@/assets/images/home/clients/view-profile.svg")}
+                    alt="Aladinn Tech"
+                  />
                 </a>
               </div>
             </div>

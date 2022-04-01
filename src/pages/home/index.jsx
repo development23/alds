@@ -36,7 +36,7 @@ export default function Index() {
     speed: 3000,
     infinite: true,
     centerPadding: 0,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     speed: 500,
     arrows: false,
@@ -46,7 +46,7 @@ export default function Index() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -73,43 +73,70 @@ export default function Index() {
     {
       id: 0,
       image: require("@/assets/images/home/development/a11.png"),
+      name: "Apex Hospitals ",
+      content:
+        "We have created a Telemedicine app for one of the multispeciality hospitals and also released the updated version with features like Bajaj Finserv Digital Health EMI Network Card and Weight Loss Module.  ",
     },
     {
       id: 1,
       image: require("@/assets/images/home/development/a10.png"),
+      name: "Niflux Led Lights",
+      content:
+        "We developed a dynamic mobile app using the Android & iOS platform for tracking of 2000 employees who are in field working. Other features include attendance management, daily schedule updating, leave management etc.",
     },
     {
       id: 2,
       image: require("@/assets/images/home/development/a9.png"),
+      name: "Poddar Healthcare ",
+      content:
+        "We created an online lab test booking module for one of our prestigious clients. Home sample collection, health check up packages and accurate test outcomes brings quality diagnostic care.      ",
     },
 
     {
       id: 3,
       image: require("@/assets/images/home/development/a8.png"),
+      name: "Floret Group ",
+      content:
+        "We developed an E-Commerce website as well as a mobile application using Android and iOS platforms. The client is a B2B wholesale supplier of construction materials and interior products.       ",
     },
 
     {
       id: 4,
       image: require("@/assets/images/home/development/a2.png"),
+      name: "Earning Home       ",
+      content:
+        "We created an online hotel booking app for our hotel based client. The app’s exclusive features include listing the hotel, club membership, assured money back as well as B2B business opportunities. ",
     },
 
     {
       id: 5,
       image: require("@/assets/images/home/development/a3.png"),
+      name: "Babylon Hospital       ",
+      content:
+        "We developed a telemedicine app and helped the hospital connect with patients virtually. The app features include online appointment booking, e-prescription, video consultation, choosing doctor and secured payment options.  ",
     },
 
     {
       id: 6,
       image: require("@/assets/images/home/development/a1.png"),
+      name: "MGH Telehealth      ",
+      content:
+        "We developed a telemedicine app for Rajasthan’s largest private super speciality hospital during the pandemic and helped them connect remote patients. Online appointment scheduling, lab reports, secured payment, log in & log out were major features of the app.",
     },
     {
       id: 7,
       image: require("@/assets/images/home/development/a6.png"),
+      name: "eNIMS ",
+      content:
+        "Online appointment scheduling based on current location, doctor and department selection, easy payment options, video consultation from the safety of home were few features of our telemedicine app developed for top multispecialty hospitals.       ",
     },
 
     {
       id: 8,
       image: require("@/assets/images/home/development/a7.png"),
+      name: "Chirayu Hospital       ",
+      content:
+        "We created a telemedicine app where patients can easily book online appointments with top doctors. Easy Log In & Log Out, location based feature, digital lab reports, e-prescription, video consultation were other features of the app.",
     },
   ];
 
@@ -211,18 +238,22 @@ export default function Index() {
     },
     {
       id: 14,
-      image: require("@/assets/images/home/client/20.png"),
+      image: require("@/assets/images/home/client/17.png"),
     },
     {
       id: 15,
-      image: require("@/assets/images/home/client/17.png"),
+      image: require("@/assets/images/home/client/20.png"),
     },
     {
       id: 16,
       image: require("@/assets/images/home/client/18.png"),
     },
     {
-      id: 16,
+      id: 17,
+      image: require("@/assets/images/home/client/21.png"),
+    },
+    {
+      id: 18,
       image: require("@/assets/images/home/client/19.png"),
     },
   ];
@@ -402,7 +433,7 @@ export default function Index() {
   const portfoliosettings = {
     // className: "center",
     dots: false,
-    centerMode: true,
+    centerMode: false,
     autoplay: true,
     speed: 3000,
     infinite: true,
@@ -481,6 +512,42 @@ export default function Index() {
       loc: "Dubai",
       content:
         "We have developed an E-commerce website on Magento for our Dubai- based client. Our goal was to provide the best result with an easy-to-use acronym.",
+    },
+
+    {
+      id: 5,
+      image: require("@/assets/images/home/case/8.png"),
+      title: "Apex Hospitals",
+      loc: "Jaipur",
+      content:
+        " We have developed a telemedicine application as well as a website for one of our top healthcare clients. The app was highly useful for a virtual consultation, particularly during pandemic times. ",
+    },
+
+    {
+      id: 6,
+      image: require("@/assets/images/home/case/9.png"),
+      title: "Niflux",
+      loc: "India",
+      content:
+        " We have created a dynamic mobile app on both Android and iOS platforms for the complete tracking of employees, particularly for sales force tracking. We have also developed their website. ",
+    },
+
+    {
+      id: 7,
+      image: require("@/assets/images/home/case/10.png"),
+      title: "Floret ",
+      loc: "Jaipur",
+      content:
+        "We developed an E-Commerce website as well as a mobile application on both Android and iOS platforms for one of our B2B clients and engaged in the wholesale supply of construction materials and interior products.",
+    },
+
+    {
+      id: 8,
+      image: require("@/assets/images/home/case/7.png"),
+      title: "Property Check Karo",
+      loc: "Jaipur",
+      content:
+        "We developed a property check portal where multiple builders’ properties can be listed and buyers can make proper comparisons between properties by choosing various filters per their convenience. ",
     },
   ];
 
@@ -1086,6 +1153,17 @@ export default function Index() {
                         src={item.image}
                         alt="alds"
                       />
+
+                      <div className={`    text-center py-4 `}>
+                        <h6 className="font-bold text-xl tracking-widest uppercase mb-1 text-[#0b4577]">
+                          {" "}
+                          {item.name}{" "}
+                        </h6>
+                        <p className="  text-sm text-[#303030]">
+                          {" "}
+                          {item.content}{" "}
+                        </p>
+                      </div>
                     </div>
                   </Link>
                 </div>
@@ -1135,9 +1213,9 @@ export default function Index() {
                 />
 
                 <div className={` ${styles.content}  text-center `}>
-                  <div className="bg-[#0c2a48ba] py-4 px-4">
+                  <div className="">
                     {" "}
-                    <span>NEXT.js</span>
+                    <span> Property Comparison Portal</span>
                     <h3> Propert Check Karo </h3>
                   </div>{" "}
                 </div>
@@ -1152,9 +1230,9 @@ export default function Index() {
                 />
 
                 <div className={` ${styles.content}  text-center `}>
-                  <div className="bg-[#0c2a48ba] py-4 px-4">
+                  <div className="">
                     {" "}
-                    <span>Laravel</span>
+                    <span> Rajasthan Telemedicine Portal </span>
                     <h3> Saransh E-clinic</h3>
                   </div>{" "}
                 </div>
@@ -1169,9 +1247,9 @@ export default function Index() {
                 />
 
                 <div className={` ${styles.content}  text-center `}>
-                  <div className="bg-[#0c2a48ba] py-4 px-4">
+                  <div className="">
                     {" "}
-                    <span>NEXT.js</span>
+                    <span> Employee Tracking Portal</span>
                     <h3> Niflux Led Lights </h3>{" "}
                   </div>
                 </div>
@@ -1245,7 +1323,7 @@ export default function Index() {
               ref={portfolioSliderRef}
               className={`   ${styles.devlopslid} py-3`}
             >
-              {portfolioSliderContent.map((item, index) => (
+              {portfolioSliderContent.reverse().map((item, index) => (
                 <div className={`   `} key={index}>
                   <div
                     className={` container mx-auto flex flex-wrap overflow-hidden`}

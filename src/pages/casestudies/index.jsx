@@ -58,7 +58,7 @@ export default function Casestudies() {
       content:
         "A refer & earn program gives the best result to a company. A customer-centric approach of our company has given us an idea to design an app on Laravel.",
       connect: "casestudies/mahima-group",
-      cases: true,
+      cases: false,
     },
     {
       id: 5,
@@ -68,6 +68,46 @@ export default function Casestudies() {
       content:
         "We have developed an E-commerce website on Magento for our Dubai- based client. Our goal was to provide the best result with an easy-to-use acronym.",
       connect: "casestudies/avalon-networks",
+      cases: true,
+    },
+
+    {
+      id: 6,
+      image: require("@/assets/images/home/case/8.png"),
+      title: "Apex Hospitals",
+      loc: "Jaipur",
+      content:
+        " We have developed a telemedicine application as well as a website for one of our top healthcare clients. The app was highly useful for a virtual consultation, particularly during pandemic times. ",
+      cases: true,
+    },
+
+    {
+      id: 7,
+      image: require("@/assets/images/home/case/9.png"),
+      title: "Niflux",
+      loc: "India",
+      content:
+        " We have created a dynamic mobile app on both Android and iOS platforms for the complete tracking of employees, particularly for sales force tracking. We have also developed their website. ",
+      cases: true,
+    },
+
+    {
+      id: 8,
+      image: require("@/assets/images/home/case/10.png"),
+      title: "Floret ",
+      loc: "Jaipur",
+      content:
+        "We developed an E-Commerce website as well as a mobile application on both Android and iOS platforms for one of our B2B clients and engaged in the wholesale supply of construction materials and interior products.",
+      cases: true,
+    },
+
+    {
+      id: 9,
+      image: require("@/assets/images/home/case/7.png"),
+      title: "Property Check Karo",
+      loc: "Jaipur",
+      content:
+        "We developed a property check portal where multiple builders’ properties can be listed and buyers can make proper comparisons between properties by choosing various filters per their convenience. ",
       cases: true,
     },
   ];
@@ -108,7 +148,7 @@ export default function Casestudies() {
             </div>
 
             <div className="flex flex-wrap pb-8 -mx-3 overflow-hidden">
-              {casestudy.map(
+              {casestudy.reverse().map(
                 (item, index) =>
                   item.cases && (
                     <div
