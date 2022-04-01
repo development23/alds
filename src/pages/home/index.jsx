@@ -1156,12 +1156,10 @@ export default function Index() {
 
                       <div className={`    text-center py-4 `}>
                         <h6 className="font-bold text-xl tracking-widest uppercase mb-1 text-[#0b4577]">
-                          {" "}
-                          {item.name}{" "}
+                          {item.name}
                         </h6>
                         <p className="  text-sm text-[#303030]">
-                          {" "}
-                          {item.content}{" "}
+                          {item.content}
                         </p>
                       </div>
                     </div>
@@ -1192,14 +1190,13 @@ export default function Index() {
               />
               <h2> OUR WEB APPLICATIONS </h2>
               <p>
-                {" "}
                 We are the first company in India to develop a Website and
                 Landing page on NEXT.js for a multi-speciality hospital and an
                 educational institute. Netflix, Ferrari, GitHub, Hulu and many
                 others have preferred NEXT.js for their speedy websites. It is
                 one of the best technologies for a high performance and dynamic
                 website. Don’t be a part of the queue any longer. Kickstart your
-                business with Next.js!{" "}
+                business with Next.js!
               </p>
             </div>
           </div>
@@ -1214,13 +1211,11 @@ export default function Index() {
 
                 <div className={` ${styles.content}  text-center `}>
                   <div className="">
-                    {" "}
                     <span className="font-bold">
-                      {" "}
                       Property Comparison Portal
                     </span>
                     <h3 className="font-bold"> Propert Check Karo </h3>
-                  </div>{" "}
+                  </div>
                 </div>
               </div>
             </div>
@@ -1234,13 +1229,11 @@ export default function Index() {
 
                 <div className={` ${styles.content}  text-center `}>
                   <div className="">
-                    {" "}
                     <span className="font-bold">
-                      {" "}
-                      Rajasthan Telemedicine Portal{" "}
+                      Rajasthan Telemedicine Portal
                     </span>
                     <h3 className="font-bold"> Saransh E-clinic</h3>
-                  </div>{" "}
+                  </div>
                 </div>
               </div>
             </div>
@@ -1254,9 +1247,8 @@ export default function Index() {
 
                 <div className={` ${styles.content}  text-center `}>
                   <div className="">
-                    {" "}
                     <span className="font-bold"> Employee Tracking Portal</span>
-                    <h3 className="font-bold"> Niflux Led Lights </h3>{" "}
+                    <h3 className="font-bold"> Niflux Led Lights </h3>
                   </div>
                 </div>
               </div>
@@ -1434,7 +1426,7 @@ export default function Index() {
             <div className="w-full text-center pl-2  overflow-hidden">
               <h2> Discover What Our Clients Have To Share </h2>
               <h4>
-                <a href=""> Testimonials </a>{" "}
+                <a href=""> Testimonials </a>
               </h4>
             </div>
           </div>
@@ -1484,7 +1476,7 @@ export default function Index() {
               </IconButton>
             </div>
             <div className={` ${styles.testview} text-center pt-12`}>
-              <a href=" "> See More Testimonials </a>{" "}
+              <a href=" "> See More Testimonials </a>
             </div>
           </div>
         </div>
