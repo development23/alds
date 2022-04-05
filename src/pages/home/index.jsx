@@ -1231,9 +1231,7 @@ export default function Index() {
 
                 <div className={` ${styles.content}  text-center `}>
                   <div className="">
-                    <span className="font-bold">
-                      Rajasthan Telemedicine Portal
-                    </span>
+                    <span className="font-bold">Rural Telemedicine Portal</span>
                     <h3 className="font-bold"> Saransh E-clinic</h3>
                   </div>
                 </div>
@@ -1249,7 +1247,10 @@ export default function Index() {
 
                 <div className={` ${styles.content}  text-center `}>
                   <div className="">
-                    <span className="font-bold"> Employee Tracking Portal</span>
+                    <span className="font-bold">
+                      {" "}
+                      Employee Tracking Software
+                    </span>
                     <h3 className="font-bold"> Niflux Led Lights </h3>
                   </div>
                 </div>
