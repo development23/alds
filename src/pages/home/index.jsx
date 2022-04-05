@@ -1485,7 +1485,7 @@ export default function Index() {
         </div>
 
         <div className="flex flex-wrap overflow-hidden">
-          <div className="w-1/2 overflow-hidden px-4 pt-5 ">
+          <div className="w-full md:w-1/2 overflow-hidden px-4 pt-5 ">
             <div className="bg-blue-50 mb-4 px-4 py-4">
               <p className="mb-4 my-2 px-3 font-normal text-lg   flex flex-wrap text-gray-600 w-full">
                 <div className={`${styles.boxshadow}`}>
@@ -1513,7 +1513,7 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="w-1/2 overflow-hidden px-4 pt-5">
+          <div className="w-full md:w-1/2 overflow-hidden px-4 pt-5">
             <div className="bg-blue-50 mb-4 px-4 py-4 ">
               <p className="mb-4 my-2 px-3 font-normal text-lg text-base flex flex-wrap text-gray-600">
                 <div className={`${styles.boxshadow}`}>
